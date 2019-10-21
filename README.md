@@ -11,3 +11,6 @@
 * [Hendrik Valcke]()
 * [Tijs Van Alphen]()
 * [Pierre Franck]()
+
+## Ter info
+Bouwkunde is stom!
