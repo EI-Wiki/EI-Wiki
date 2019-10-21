@@ -1,4 +1,4 @@
-# Datastructuren ([EI-Wiki](..))
+# [EI-Wiki](..)/Datastructuren 
 ## Inhoudsopgave
 
 * Opdrachten

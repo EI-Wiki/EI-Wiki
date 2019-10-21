@@ -1,4 +1,4 @@
-# Digitale Elektronica ([EI-Wiki](..))
+# [EI-Wiki](..)/Digitale Elektronica
 <img src="media/vhdl.png" width="100px"/>
 
 ## Inhoudsopgave
