@@ -1,6 +1,8 @@
 # Datastructuren ([EI-Wiki](..))
 ## Inhoudsopgave
 
+* Opdrachten
+    * [Opgave1](opgave1)
 * [Handige Links](#Handige-Links)
 
 ## Handige Links
