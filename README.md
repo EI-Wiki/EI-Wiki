@@ -9,6 +9,10 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
     * [Analoge Elektronica]()
     * [Object Georienteerd Programmeren]()
 
+* Bachelor 2
+    
+    * [Datastructuren](Datastructuren/Home) 
+
 ## Onderhouders
 * [Mathias Maes](https://github.com/WatcherWhale)
 * [Hendrik Valcke](https://github.com/Hendrik-Valcke)
