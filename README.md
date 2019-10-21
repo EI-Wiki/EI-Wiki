@@ -5,7 +5,7 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
 ## Vakken
 * Bachelor 1
 
-    * [Digitale Elektronica](https://watcherwhale.github.io/EI-Wiki/DigitaleElektronica/Home)
+    * [Digitale Elektronica](DigitaleElektronica/Home)
     * [Analoge Elektronica]()
     * [Object Georienteerd Programmeren]()
 
