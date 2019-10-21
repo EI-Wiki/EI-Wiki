@@ -5,13 +5,18 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
 ## Vakken
 * Bachelor 1
 
+    * [Analoge Elektronica 1]()
+    * [Computer Netwerken]()
     * [Digitale Elektronica](DigitaleElektronica/Home)
-    * [Analoge Elektronica]()
+    * [Informatica]()
     * [Object Georienteerd Programmeren]()
 
 * Bachelor 2
     
-    * [Datastructuren](Datastructuren/Home) 
+    * [Analoge Elektronica 2]()
+    * [Datastructuren](Datastructuren/Home)
+    * [Digitale Elektronica](DigitaleElektronica/Home)
+    * [Netwerk Architectuur]()
 
 ## Onderhouders
 * [Mathias Maes](https://github.com/WatcherWhale)
