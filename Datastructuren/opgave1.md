@@ -1,4 +1,4 @@
-# [EI-Wiki](..)/[Datastructuren](Datastructuren/Home)/Opgave 1
+# [EI-Wiki](..)/[Datastructuren](Home)/Opgave 1
 1. Bereken de Big O voor beide algoritmes
     * Bereken de tijdscomplexiteit voor elke instructie
 
@@ -10,7 +10,7 @@
 
 2. Implementeer de pseudo code in java
     * Arrays worden als volgt aangemaakt
-    
+
 ```java
 // Maak een nieuwe int array aan met lengte 'n'
 int[] intArr = new int[n];
