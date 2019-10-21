@@ -10,10 +10,10 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
     * [Object Georienteerd Programmeren]()
 
 ## Onderhouders
-* [Mathias Maes]()
-* [Hendrik Valcke]()
-* [Tijs Van Alphen]()
-* [Pierre Franck]()
+* [Mathias Maes](https://github.com/WatcherWhale)
+* [Hendrik Valcke](https://github.com/Hendrik-Valcke)
+* [Tijs Van Alphen](https://github.com/TissieVA)
+* [Pierre Franck](https://github.com/pixar02)
 
 ## Zelf meewerken?
 Dit kan heel simpel:
