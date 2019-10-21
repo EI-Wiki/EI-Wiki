@@ -1,5 +1,4 @@
-# Datastructuren
-[terug](../..)
+# Datastructuren ([EI-Wiki](..))
 ## Inhoudsopgave
 
 * [Handige Links](#Handige-Links)
