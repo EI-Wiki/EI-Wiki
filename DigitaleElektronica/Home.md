@@ -3,8 +3,8 @@
 
 ## Inhoudsopgave
 * [Regels](Regels)
-* [Syntax]()
-* [Types]()
-    * [Type Conversies]()
+* [Syntax](Syntax)
+* [Types](Types)
+    * [Type Conversies](Type-Conversies)
 
 ## Handige Links
