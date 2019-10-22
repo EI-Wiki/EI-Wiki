@@ -1,0 +1,1 @@
+# [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Syntax

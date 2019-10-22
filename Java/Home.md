@@ -1,14 +1,18 @@
 # [EI-Wiki](..)/Object Georiënteerd Programmeren
 ## Introductie
-Java is een programeer taal, alles wordt stap voor stap uitgevoerd. 
+Java is een object georienteerde programmeertaal.
 
-De bestand extenties van java zijn: `.java, .class, .jar`
+Java wordt niet traditioneel gecompiled. Alle code wordt gecompiled tot bytecode die leesbaar is voor de Java Virtual Machine (JVM). Zo hoef je maar 1 keer te compilen en kan het programma overal worden uitgevoerd.
 
 ## Inhoudsopgave
 
-* Opdrachten
-    * [temp]()
-* []()
+* Java
+    * [Syntax](Syntax)
+    * [Klasses](Klasses)
 
 ## Handige Links
 * [W3schools](https://www.w3schools.com/java/)
+* [Google](https://www.google.com) of [DuckDuckGo](https://www.duckduckgo.com)
+
+## Bronnen
+* [Wikipedia](https://en.wikipedia.org/wiki/Java_%28programming_language%29)
