@@ -1,7 +1,7 @@
 # [EI-Wiki](..)/[Digitale Elektronica](Home)/Syntax
 ## Operators (Operatoren)
 ### Waarde Toekenning
-Om waardes toe te kennen in vhdl gebruiken we **niet** de standaard `=` zoals we gewoon zijn bij programeertalen. In vhdl zijn er hier 3 operatoren voor, namelijk : `<=`, `:=`, `=>`.
+Om waardes toe te kennen in vhdl gebruiken we **niet** de standaard `=` zoals we gewoon zijn bij andere programeertalen. In vhdl zijn er hier 3 operatoren voor, namelijk : `<=`, `:=`, `=>`.
 
 `<=` wordt enkel gebruikt als we een waarde toekennen terwijl we in een proces zitten. Dit komt omdat deze waarde dan wordt gezet bij de volgende time step.
 
@@ -37,7 +37,7 @@ Zo zal de operator `'0'` (of `false`) geval als resultaat als twee waarden aan e
 
 ## Conditionals (Voorwaardelijken)
 ### If (als)
-Een if statement runt de code in zijn scope als de conditie van de if waar (`true` of `'1'`) is.
+Een if statement runt de code in zijn scope als de conditie van de if waar (`true` of `'1'`) is. Bij VHDL wordt er altijd het woord `then` geschreven na de conditie van je if-statement.
 
 ```vhdl
 if (A = B)
@@ -59,7 +59,7 @@ end if;
 ```
 
 ### elsif (else if, anders als)
-Een elsif komt zoals een else ook altijd gepaard met een voorgaande if statement of een andere elsif statement. De code in de scope van de elsif runt enkel als alle voorgaande if of elsif statements vals(`false` of `'1'`) zijn.
+Een elsif komt zoals een else ook altijd gepaard met een voorgaande if statement of een andere elsif statement. De code in de scope van de elsif runt enkel als alle voorgaande if of elsif statements vals(`false` of `'0'`) zijn.
 
 ```vhdl
 if (A = B)
@@ -95,7 +95,7 @@ end loop;
 ```
 
 ### While loop
-Een while loop is een lus die blijft herhalen todat een conditie vals(`false` of `'1'`) bewezen is.
+Een while loop is een lus die blijft herhalen todat een conditie vals(`false` of `'0'`) bewezen is.
 
 ```vhdl
 while A /= '1'

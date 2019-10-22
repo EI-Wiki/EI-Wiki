@@ -8,7 +8,7 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
     * [Analoge Elektronica 1]()
     * [Computer Netwerken]()
     * [Digitale Elektronica](DigitaleElektronica/Home)
-    * [Informatica]()
+    * [Informatica](Informatica/Home)
     * [Object Georienteerd Programmeren]()
 
 * Bachelor 2
