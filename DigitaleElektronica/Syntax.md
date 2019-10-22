@@ -10,7 +10,7 @@ Om waardes toe te kennen in vhdl gebruiken we **niet** de standaard `=` zoals we
 `=>` wordt enkel gebruikt om een signaal toe te kennen aan een poort van een component. Dit wordt gedaan in de Port map.
 
 ### +, -, *, /
-De operatoren `+`, `-`, `*`, `/` doen exact hetzelfde in vhdl als in programeertalen.
+De operatoren `+`, `-`, `*`, `/` doen exact hetzelfde in vhdl als in programmeertalen.
 * `+`: Telt 2 waardes bij elkaar op.
 * `-`: Trekt 2 waardes van elkaar af.
 * `*`: Vermenigvuldigt 2 waardes.
