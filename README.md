@@ -23,6 +23,7 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
 * [Hendrik Valcke](https://github.com/Hendrik-Valcke)
 * [Tijs Van Alphen](https://github.com/TissieVA)
 * [Pierre Franck](https://github.com/pixar02)
+* [Wout Van Uytsel](https://github.com/Wocco)
 
 ## Zelf meewerken?
 Dit kan heel simpel:
@@ -35,4 +36,4 @@ Dit kan heel simpel:
 Als je een kleine opmerking hebt of een spel fout vond, kan je ook altijd een [issue](https://github.com/WatcherWhale/EI-Wiki/issues) openen.
 
 ## Ter info
-Bouwkunde is stom!
+Bouwkunde is stom! 
