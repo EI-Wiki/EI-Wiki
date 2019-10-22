@@ -32,3 +32,19 @@ end process pNaam;
 2. De sensitivity list van dat proces moet exact bevatten:
    * Het kloksignaal
    * Alle asynchrone ingangen (set, reset, clock enable)
+
+Voorbeeld:
+
+```vhdl
+pFlipFlop : process(clk)
+begin
+  if rising_edge(clk)
+  then
+    -- Hier komen Synchrone signalen
+    A <= B;
+  end if;
+
+  -- Hier komen assynchrone signalen
+
+end process;
+```
