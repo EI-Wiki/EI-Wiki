@@ -16,7 +16,7 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
     * [Analoge Elektronica 2]()
     * [Datastructuren](Datastructuren/Home)
     * [Digitale Elektronica](DigitaleElektronica/Home)
-    * [Netwerk Architectuur]()
+    * [Netwerk Architectuur](Netwerk-Architectuur/Home)
 
 ## Onderhouders
 * [Mathias Maes](https://github.com/WatcherWhale)
