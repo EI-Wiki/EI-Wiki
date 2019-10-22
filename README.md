@@ -9,7 +9,7 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
     * [Computer Netwerken](Computer-Netwerken/Home)
     * [Digitale Elektronica](DigitaleElektronica/Home)
     * [Informatica](Informatica/Home)
-    * [Java (Object Georiënteerd Programmeren)](Java/Home)
+    * [Object Georiënteerd Programmeren](Java/Home)
 
 * Bachelor 2
     
