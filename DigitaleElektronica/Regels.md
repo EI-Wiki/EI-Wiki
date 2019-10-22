@@ -3,23 +3,32 @@
 1. Alle signalen die gelezen worden, moeten in de sensitivity list staan  
   voorbeeld:
 ```vhdl
-pNaam: process (A,B,C,D) --Deze signalen moeten in de sensitivity list staan want ze worden gelezen/bewerkt in dit proces
+--Deze signalen (A, B, C, D) moeten in de sensitivity list staan,
+-- want ze worden gelezen in dit proces.
+pNaam: process (A, B, C, D) 
 begin 
-  F<= D or C;
-  D<= A and B;
+  E <= A and B;
+  F <= D or C;
 end process pNaam; 
 ```
 
 2. Alle signalen die een waarde krijgen, moeten altijd een waarde krijgen  
   voorbeeld:
 ```vhdl
+    -- Altijd een waarde vooraf toekennen aan signalen
+    -- om latches te vermijden
+    -- Ook bij if-else statements (deze waardes worden later overschreden)
+    output1 <= '0';
+
     if input1 = '1' then 
       output1 <= '1'; 
     else 
-      output1 <= '0'; -- bij if-statements altijd een else voor andere gevallen includeren
+      output1 <= '0';
     end if; 
 ``` 
 
 ## Regels voor Flip Flops
-1. __
-2. __
+1. Flip flops worden beschreven met een synchroon proces.
+2. De sensitivity list van dat proces moet exact bevatten:
+   * Het kloksignaal
+   * Alle asynchrone ingangen (set, reset, clock enable)
