@@ -35,6 +35,22 @@ Zo zal de operator `'0'` (of `false`) geval als resultaat als twee waarden aan e
 
 `>=`: Kleiner dan of gelijk aan
 
+### Concatenate (&)
+Om twee signalen achter elkaar te plakken gebruik je een `&`.
+
+voorbeeld:
+```vhdl
+signal A : std_logic_vector(7 downto 0);
+signal B : std_logic_Vector(3 downto 0) := "1001";
+signal C : std_logic_Vector(3 downto 0) := "0110";
+
+pConcat : process(B, C)
+begin
+    -- We zetten nu de waarde van A op "10010110"
+    A <= B & C;
+end process;
+```
+
 ## Conditionals (Voorwaardelijken)
 ### If (als)
 Een if statement runt de code in zijn scope als de conditie van de if waar (`true` of `'1'`) is. Bij VHDL wordt er altijd het woord `then` geschreven na de conditie van je if-statement.
