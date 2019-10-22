@@ -1,4 +1,4 @@
-# [EI-Wiki](..)/Java (Object Georiënteerd Programmeren) 
+# [EI-Wiki](..)/Object Georiënteerd Programmeren
 ## Introductie
 Java is een programeer taal, alles wordt stap voor stap uitgevoerd. 
 
