@@ -3,6 +3,7 @@
 
 ## Inhoudsopgave
 * [Regels](Regels)
+* [Valkuilen](Valkuilen)
 * [Vivado](Vivado)
 * [Syntax](Syntax)
 * [Types](Types)
