@@ -6,10 +6,10 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
 * Bachelor 1
 
     * [Analoge Elektronica 1]()
-    * [Computer Netwerken]()
+    * [Computer Netwerken](Computer-Netwerken/Home)
     * [Digitale Elektronica](DigitaleElektronica/Home)
     * [Informatica](Informatica/Home)
-    * [Object Georiënteerd Programmeren]()
+    * [Object Georiënteerd Programmeren](Java/Home)
 
 * Bachelor 2
     
