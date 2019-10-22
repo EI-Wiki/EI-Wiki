@@ -37,7 +37,7 @@ Zo zal de operator `'0'` (of `false`) geval als resultaat als twee waarden aan e
 
 ## Conditionals (Voorwaardelijken)
 ### If (als)
-Een if statement runt de code in zijn scope als de conditie van de if waar (`true` of `'1'`) is.
+Een if statement runt de code in zijn scope als de conditie van de if waar (`true` of `'1'`) is. Bij VHDL wordt er altijd het woord `then` geschreven na de conditie van je if-statement.
 
 ```vhdl
 if (A = B)
