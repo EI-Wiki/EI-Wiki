@@ -1,4 +1,4 @@
-# [EI-Wiki](..)/Netwerkarhitectuur
+# [EI-Wiki](..)/Netwerk Arhitectuur
 ## Inhoudsopgave
 * Linux
     * [Mappen & Bestanden]()
