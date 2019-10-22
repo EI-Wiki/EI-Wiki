@@ -2,11 +2,11 @@
 1. Bereken de Big O voor beide algoritmes
     * Bereken de tijdscomplexiteit voor elke instructie
 
-    <img height="200px" src="media/opgave1/numalgo.png">
+    <img height="200px" src="media/opgave1/numalgo.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
     * Daarna tel en vermenigvuldig je correct
 
-    <img width="500px" src="media/opgave1/funcalgo.png">
+    <img width="500px" src="media/opgave1/funcalgo.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 2. Implementeer de pseudo code in java
     * Arrays worden als volgt aangemaakt
