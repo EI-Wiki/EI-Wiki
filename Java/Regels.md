@@ -1,4 +1,4 @@
-# [EI-Wiki](..)/[Java (Object Georiënteerd Programmeren](Home)/Regels
+# [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Regels
 ## Algemene regels in Java:
 1. Naam van een klasse:
   De naam van een klasse in Java moet altijd met een hoofdletter beginnen.
