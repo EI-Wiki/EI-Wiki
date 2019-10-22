@@ -62,7 +62,8 @@ Een array is een type dat meerdere elementen bevat van een ander type. Een array
 -- Dit is een array van het type integer met een lengte van 4.
 type tArray is array(0 to 3) of integer;
 
--- Dit is een signaal met het type de array die we hierboven gedefinieerd hebben.
+-- Dit is een signaal met het type de array 
+-- die we hierboven gedefinieerd hebben.
 signal arr : tArray := (0, 1, 2, 3);
 
 pReadArrayValue : process(index)
