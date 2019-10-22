@@ -1,6 +1,6 @@
 # [EI-Wiki](..)/[Digitale Elektronica](Home)/Types
 ## std_logic
-`std_logic` is een type dat 1 bit bevat (`1` or `0`).
+`std_logic` is een type dat 1 bit (`1` or `0`) bevat .
 
 Om een waarde te geven aan een `std_logic` heb je een `'` nodig.
 
@@ -23,7 +23,7 @@ Om een waarde aan een `std_logic_vector` toe te kennen gebruik je een `"`.
 
 Een `std_logic_vector` heeft ook altijd een grootte nodig:
 
-`<Upper Bound> downto <Lower Bound>` or `<Lower bound> to <Upper Bound>`
+`<Upper Bound> downto <Lower Bound>` or `<Lower Bound> to <Upper Bound>`
 
 In digitale elektronica gebruiken we voornamelijk `downto`. Pas zeker op met het door elkaar gebruiken van `to` en `downto`, dit kan namelijk voor zeer irritante bugs zorgen.
 
