@@ -59,7 +59,7 @@ end if;
 ```
 
 ### elsif (else if, anders als)
-Een elsif komt zoals een else ook altijd gepaard met een voorgaande if statement of een andere elsif statement. De code in de scope van de elsif runt enkel als alle voorgaande if of elsif statements vals(`false` of `'1'`) zijn.
+Een elsif komt zoals een else ook altijd gepaard met een voorgaande if statement of een andere elsif statement. De code in de scope van de elsif runt enkel als alle voorgaande if of elsif statements vals(`false` of `'0'`) zijn.
 
 ```vhdl
 if (A = B)
@@ -95,7 +95,7 @@ end loop;
 ```
 
 ### While loop
-Een while loop is een lus die blijft herhalen todat een conditie vals(`false` of `'1'`) bewezen is.
+Een while loop is een lus die blijft herhalen todat een conditie vals(`false` of `'0'`) bewezen is.
 
 ```vhdl
 while A /= '1'
