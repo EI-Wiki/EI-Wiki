@@ -12,7 +12,7 @@ begin
 end process pNaam; 
 ```
 
-2. Alle signalen die een waarde krijgen, moeten altijd een waarde krijgen  
+2. Alle signalen die een waarde krijgen, **moeten altijd** een waarde krijgen  
   voorbeeld:
 ```vhdl
     -- Altijd een waarde vooraf toekennen aan signalen
