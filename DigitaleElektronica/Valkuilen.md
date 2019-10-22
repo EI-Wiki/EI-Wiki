@@ -62,3 +62,8 @@ of korter zonder een omliggend proces:
 
 Output <= outp;
 ```
+
+## Valkuil 4: foute target language
+Zorg dat je target language in Vivado zeker op VHDL staat in niet op Verilog.
+
+
