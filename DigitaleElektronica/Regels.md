@@ -17,7 +17,7 @@ end process pNaam;
 ```vhdl
     -- Altijd een waarde vooraf toekennen aan signalen
     -- om latches te vermijden
-    -- Ook bij if-else statements (deze waardes worden later overschreden)
+    -- Ook bij if-else statements is dit aangeraden, maar niet verplicht.
     output1 <= '0';
 
     if input1 = '1' then 
