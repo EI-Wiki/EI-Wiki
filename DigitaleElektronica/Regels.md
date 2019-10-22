@@ -3,7 +3,7 @@
 1. Alle signalen die gelezen worden, moeten in de sensitivity list staan  
   voorbeeld:
 ```vhdl
---Deze signalen (A, B, C, D) moeten in de sensitivity list staan,
+-- Deze signalen (A, B, C, D) moeten in de sensitivity list staan,
 -- want ze worden gelezen in dit proces.
 pNaam: process (A, B, C, D) 
 begin 
