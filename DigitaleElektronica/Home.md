@@ -3,6 +3,7 @@
 
 ## Inhoudsopgave
 * [Regels](Regels)
+* [Vivado](Vivado)
 * [Syntax](Syntax)
 * [Types](Types)
     * [Type Conversies](Type-Conversies)
