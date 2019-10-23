@@ -38,7 +38,7 @@ Dit kan heel simpel:
 3. Als je klaar bent kan je een [pull request](https://github.com/WatcherWhale/EI-Wiki/pulls) maken.
 4. Wij bekijken hem zo snel mogelijk.
 
-Als je een kleine opmerking hebt of een spel fout vond, kan je ook altijd een [issue](https://github.com/WatcherWhale/EI-Wiki/issues) openen.
+Als je een kleine opmerking hebt of een spelfout vond, kan je ook altijd een [issue](https://github.com/WatcherWhale/EI-Wiki/issues) openen.
 
 ## Ter info
 Bouwkunde is stom! 
