@@ -22,10 +22,10 @@ int[] intArr = new int[n];
 Random rand = new Random();
 
 // Genereer een eerste random getal
-int r1 = rand.nexInt();
+int r1 = rand.nextInt();
 
 // Genereer een tweede random getal
-int r2 = rand.nexInt();
+int r2 = rand.nextInt();
 ```
 
 4. Bepaal de nodige tijd om het algoritme uit te voeren. Met één van de methodes `System.nanoTime()` of `System.currentTimeMillis()`. Gebruik hiervoor volgende formule: `dt=t1-t0`.

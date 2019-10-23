@@ -108,6 +108,29 @@ public <type> getFieldName()
 }
 ```
 
+### Method overloading
+
+Method overloading is een techniek om met dezelfde methode naam met andere code uit te voeren. Om een method overload aan te maken heb je verschillende parameter types nodig. Natuurlijk gebruik je dit enkel als de twee(of meer) methods ongeveer dezelfde functionaliteit hebben.
+
+Voorbeeld:
+
+```java
+public void method(int i)
+{
+    System.out.println(i);
+}
+
+public void method(String str)
+{
+    System.out.println(str);
+}
+
+public int method(int a, int b)
+{
+    return a  + b;
+}
+```
+
 ## Constructor
 Een constructor (*/kənˈstrʌktə/ - [con'struc·tor]*) is een soort method (of methode) die de klasse initialiseerd. Hier krijgen de fields vaak een initiele waarde toegekent. De constructor kent geen return type omdat deze de klasse soort van returned.
 
