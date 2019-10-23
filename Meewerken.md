@@ -1,4 +1,4 @@
-# [EI-Wiki](..)/Meewerken
+# [EI-Wiki](/EI-Wiki)/Meewerken
 ## Fouten melden
 Fouten melden kan zeer simpel in de [issues pagina](https://github.com/WatcherWhale/EI-Wiki/issues).
 Uw issue wordt nagekeken en daarna verwerkt door de onderhouders.
