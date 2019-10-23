@@ -78,6 +78,16 @@ private int multiply(int a, int b)
 }
 ```
 
+**Voorbeeld aanroeping**:
+```java
+classObj.printHello();
+classObj.printString("Print me!");
+
+int factorA = 1;
+int factorB = 2;
+int mult = classObj.multiply(factorA, factorB);
+```
+
 ### Getters and Setters
 
 Getters en stters zijn speciale methoden die waardes van fields veranderen of returnen.
