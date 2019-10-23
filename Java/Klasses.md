@@ -1,6 +1,8 @@
 # [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Klasses
-## Klasse structuur
+## Klasse(class) structuur
 Elke java klasses bevat de volgende structuur
+
+De conventie is dat klasse namen in java altijd met een hoofdletter beginnen.
 
 ```java
 class ClassName
@@ -43,8 +45,58 @@ In java is de eerste letter van een field nooit een hoofdletter. Echter is dit n
 
 ## Methods
 ### Methods
+Methods zijn functies die specifiek tot een bepaalde klasse horen. Ze kunnen dus enkel op geroepen worden in de context cand klasse waar ze toe behoren.
+
+De conventie in java is dat de eerste letter van een method naam een kleine letter is. In andere talen kan dit soms verschillen (bv. C# gebruikt hoofdletters). Dit is natuurlijk compleet aan jou om te beslissen.
+
+De structuur van een method ziet er als volgt uit:
+```java
+<modifiers> <returnType> methodName(<parameters>)
+{
+    // Code here
+}
+```
+Het return type is enn type van de waarde die de method terug geeft. Dit kan natuurlijk ook niets zijn en dan gebruiken we het type `void`. Om een waarde te returnen gebruik je het keyword `return`.
+
+Parameters zijn waarden die meegeven worden aan de method. Deze kan ook niets zijn, we laten de parameters dan leeg.  
+
+**Voorbeeld methods:**:
+```java
+private void printHello()
+{
+    System.out.println("Hello World!");
+}
+
+public void printString(String str)
+{
+    System.out.println(str);
+}
+
+private int multiply(int a, int b)
+{
+    return a * b;
+}
+```
 
 ### Getters and Setters
+
+Getters en stters zijn speciale methoden die waardes van fields veranderen of returnen.
+
+**Setters** zijn methodes die waardes van fields zetten/veranderen, hun signatuur ziet er zo uit:
+```java
+public void setFieldName(<type> newValue)
+{
+    this._fieldName = newValue;
+}
+```
+
+**Getters** zijn methodes die de waarde van een field returnen. Hun signatuur is:
+```java
+public <type> getFieldName()
+{
+    return this._fieldName;
+}
+```
 
 ## Constructor
 Een constructor (*/kənˈstrʌktə/ - [con'struc·tor]*) is een soort method (of methode) die de klasse initialiseerd. Hier krijgen de fields vaak een initiele waarde toegekent. De constructor kent geen return type omdat deze de klasse soort van returned.
@@ -77,6 +129,15 @@ public class ClassName
     }
 }
 ```
+
+### Creëeren van klassen
+Om een klasse object te maken gebruik je de volgende structuur:
+
+```java
+ClassName classObject = new ClassName(<parameters>);
+```
+
+De parameters zijn deze van de constructor die je wilt gebruiken.
 
 ## Voorbeeld klasse:
 ```java
@@ -111,7 +172,7 @@ public class Student
         this._isGraduated = false;
     }
 
-    public void Study(int years)
+    public void study(int years)
     {
         this._yearsStudied += years
 
