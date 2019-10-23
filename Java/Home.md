@@ -1,6 +1,6 @@
 # [EI-Wiki](..)/Object Georiënteerd Programmeren
 ## Introductie
-Java is een object georienteerde programmeertaal.
+Java is een object georiënteerde programmeertaal.
 
 Java wordt niet traditioneel gecompiled. Alle code wordt gecompiled tot bytecode die leesbaar is voor de Java Virtual Machine (JVM). Zo hoef je maar 1 keer te compilen en kan het programma overal worden uitgevoerd.
 
