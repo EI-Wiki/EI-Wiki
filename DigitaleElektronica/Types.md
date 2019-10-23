@@ -73,7 +73,7 @@ begin
 end process;
 ```
 
-## Type-Conversies
+## Type Conversies
 ### std_logic_vector -> unsigned
 ```vhdl
 signal std : std_logic_vector(3 downto 0);
