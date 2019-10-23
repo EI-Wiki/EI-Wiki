@@ -1,4 +1,6 @@
 # [EI-Wiki](..)/Datastructuren 
+## Uitleg
+Bij vragen over java ga naar de pagina [Object Georiënteerd Programmeren (java)](../Java/Home).
 ## Inhoudsopgave
 
 * Opdrachten
@@ -6,4 +8,5 @@
 * [Handige Links](#Handige-Links)
 
 ## Handige Links
+* [Object Georiënteerd Programmeren (java)](../Java/Home)
 * [Mathias' repo](https://github.com/WatcherWhale/DataStructures)
