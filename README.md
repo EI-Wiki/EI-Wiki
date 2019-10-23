@@ -18,6 +18,10 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
     * [Digitale Elektronica (vhdl)](DigitaleElektronica/Home)
     * [Netwerk Architectuur (linux)](Netwerk-Architectuur/Home)
 
+* Bachelor 3
+
+    * [AI](AI/Home)
+
 ## Onderhouders
 * [Mathias Maes](https://github.com/WatcherWhale)
 * [Hendrik Valcke](https://github.com/Hendrik-Valcke)
