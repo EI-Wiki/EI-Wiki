@@ -6,21 +6,21 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
 ### Bachelor 1
 
 * [Analoge Elektronica 1]()
-* [Computer Netwerken (windows)](Computer-Netwerken/Home)
-* [Digitale Elektronica (vhdl)](DigitaleElektronica/Home)
-* [Informatica (python)](Informatica/Home)
-* [Object Georiënteerd Programmeren (java)](Java/Home)
+* [Computer Netwerken (Windows)](Computer-Netwerken/Home)
+* [Digitale Elektronica (Vhdl)](DigitaleElektronica/Home)
+* [Informatica (Python)](Informatica/Home)
+* [Object Georiënteerd Programmeren (Java)](Java/Home)
 
 ### Bachelor 2
     
 * [Analoge Elektronica 2]()
-* [Datastructuren (java)](Datastructuren/Home)
+* [Datastructuren (Java)](Datastructuren/Home)
 * [Digitale Elektronica (vhdl)](DigitaleElektronica/Home)
-* [Netwerk Architectuur (linux)](Netwerk-Architectuur/Home)
+* [Netwerk Architectuur (Linux)](Netwerk-Architectuur/Home)
 
 ### Bachelor 3
 
-* [AI](AI/Home)
+* [AI (Python 3.7)](AI/Home)
 
 ## Onderhouders
 * [Mathias Maes](https://github.com/WatcherWhale)
