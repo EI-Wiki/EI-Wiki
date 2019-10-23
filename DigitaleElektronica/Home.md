@@ -7,7 +7,7 @@
 * [Vivado](Vivado)
 * [Syntax](Syntax)
 * [Types](Types)
-    * [Type Conversies](Type-Conversies)
+    * [Type Conversies](Types#type-conversies)
 
 ## Handige Links
 * [Hendrik Valcke zijn projecten](https://github.com/Hendrik-Valcke/1-Digitale-Elektronica)

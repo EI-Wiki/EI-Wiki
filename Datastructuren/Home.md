@@ -3,6 +3,9 @@
 Bij vragen over java ga naar de pagina [Object Georiënteerd Programmeren (java)](../Java/Home).
 ## Inhoudsopgave
 
+* Java
+    * [Interfaces]()
+    * [Random generator]()
 * Opdrachten
     * [Opgave1](opgave1)
 * [Handige Links](#Handige-Links)
