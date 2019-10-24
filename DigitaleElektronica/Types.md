@@ -39,6 +39,7 @@ end process;
 ```
 
 ## unsigned & signed
+*Package: `IEEE.NUMERIC_STD.ALL`*
 
 In de informatica (dus niet enkel in de digitale elektronica) spreken we vaak over 2 'signed numbers' en 'unsigned numbers'. Het verschil is zeer simpel maar op bit niveau wat ingewikkelder.
 
@@ -53,6 +54,8 @@ Hoe signed getallen worden gevormd met 2's complement. Hieronder vind je een paa
 * [2's Complement (NL)](https://nl.wikipedia.org/wiki/Two%27s_complement)
 
 ## integer
+*Package: `IEEE.NUMERIC_STD.ALL`*
+
 Een integer is een signed getal met een bit-lengte van 32. Dit betekent dus dat een integer 31 bits nodig heeft om 1 getal te vormen en een extra bit gebruikt om het teken te vormen.
 
 ## Array
