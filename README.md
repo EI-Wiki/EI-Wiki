@@ -7,7 +7,7 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
 
 * [Analoge Elektronica 1]()
 * [Computer Netwerken (Windows)](Computer-Netwerken/Home)
-* [Digitale Elektronica (Vhdl)](DigitaleElektronica/Home)
+* [Digitale Elektronica (vhdl)](DigitaleElektronica/Home)
 * [Informatica (Python)](Informatica/Home)
 * [Object Georiënteerd Programmeren (Java)](Java/Home)
 
