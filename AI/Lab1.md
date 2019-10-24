@@ -23,7 +23,7 @@ Optie | Alternatief | Uitleg | Mogelijke waardes | Default
 -q | --quietTextGraphics | De output zal minimaal zijn, zonder graphics | / | / 
 -z ZOOM | --zoom ZOOM | Hoe hard het bord in- of uitgezoomd is, vooral gebruik bij grote borden | >0 | 1
 -a AGENTARGS | --agentArgs AGENTARGS | Agrumenten die de agent moet weten, hier enkel gebruikt bij SearchAgent om mee te geven welke functie deze moet gebruiken | fn=bfs, fn=dfs, fn=ucs, fn=astar | /
-| | --frameTime FRAMETIME | Hoeveel tijd er tussen de frames zit, als je niet te veel wil wachten kan je FRAMETIME=0 nemen | >= 0 is de tijd in secondes, < 0 zorgt ervoor dat je het met je toetsenbord verandert | 0.1
+ --frameTime FRAMETIME | | Hoeveel tijd er tussen de frames zit, als je niet te veel wil wachten kan je FRAMETIME=0 nemen | >= 0 is de tijd in secondes, < 0 zorgt ervoor dat je het met je toetsenbord verandert | 0.1
 
 ## Opgave 1
 
