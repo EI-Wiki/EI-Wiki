@@ -5,6 +5,8 @@ Elke java klasses bevat de volgende structuur
 De conventie is dat klasse namen in java altijd met een hoofdletter beginnen.
 
 ```java
+//Library
+
 class ClassName
 {
     // Fields
@@ -171,6 +173,16 @@ ClassName classObject = new ClassName(<parameters>);
 ```
 
 De parameters zijn deze van de constructor die je wilt gebruiken.
+
+## Library
+In de library vind je alle packages die je in je code gebruikt hebt. Als het programma dat je gebruikt dit niet uit zichzelf doet, moet je dit er zelf in zetten. Een van de meeste gebruikte package is java.util, om alles in deze package te gebruiken doe je het volgend:
+```java
+import java.util.*
+```
+Het nadeel aan het een volledige package te gebruiken is dat er veel dingen niet gebruikt worden. Als je nu specifiek de ArrayList klasse wilt gebruiken gebruik je een specifieke package:
+```java
+import java.util.ArrayList
+```
 
 ## Voorbeeld klasse:
 ```java
