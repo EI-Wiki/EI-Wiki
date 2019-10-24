@@ -8,6 +8,7 @@
 * [Syntax](Syntax)
 * [Types](Types)
     * [Type Conversies](Types#type-conversies)
+* [Testbenches](Testbenches)
 
 ## Handige Links
 * [Hendrik Valcke zijn projecten](https://github.com/Hendrik-Valcke/1-Digitale-Elektronica)
