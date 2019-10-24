@@ -5,6 +5,8 @@ Dit deel van de wiki gaat over de opdrachten van lab 1 (practicumsessies 1 & 2).
 
 [Opgave](https://inst.eecs.berkeley.edu/~cs188/fa18/project1.html)
 
+[//]: # (TODO: we of je? + theorie)
+
 We gaan proberen om een algoritme Pacman te laten spelen adhv zoekalgoritmes.
 
 ## Commando's
@@ -21,23 +23,34 @@ Optie | Alternatief | Uitleg | Mogelijke waardes | Default
 -q | --quietTextGraphics | De output zal minimaal zijn, zonder graphics | / | / 
 -z ZOOM | --zoom ZOOM | Hoe hard het bord in- of uitgezoomd is, vooral gebruik bij grote borden | >0 | 1
 -a AGENTARGS | --agentArgs AGENTARGS | Agrumenten die de agent moet weten, hier enkel gebruikt bij SearchAgent om mee te geven welke functie deze moet gebruiken | fn=bfs, fn=dfs, fn=ucs, fn=astar | /
-| | --frameTime FRAMETIME | Hoeveel tijd er tussen de frames zit | >= 0 is de tijd in secondes, < 0 zorgt ervoor dat je het met je toetsenbord verandert | 0.1
+| | --frameTime FRAMETIME | Hoeveel tijd er tussen de frames zit, als je niet te veel wil wachten kan je FRAMETIME=0 nemen | >= 0 is de tijd in secondes, < 0 zorgt ervoor dat je het met je toetsenbord verandert | 0.1
 
 ## Opgave 1
 
-In deze opgave moet je depthFirstSearch implementeren in `search.py`.
+In deze opgave moet je `depthFirstSearch` implementeren in `search.py`.
 
 Meer info over depthFirstSearch vind je [hier]().
+
+[//]: # (TODO: add link)
 
 Hier zijn een aantal puntjes met wat onze functie moet doen:
 * Door alle vakjes gaan tot we ons doel bereikt hebben
 * Bijhouden waar we al geweest zijn zodat we niet in een oneindige loop vast komen te zitten
 
+### Commando's om te zien of alles werkt
+
+```
+python pacman.py -l tinyMaze -p SearchAgent
+python pacman.py -l mediumMaze -p SearchAgent
+python pacman.py -l bigMaze -z .5 -p SearchAgent
+python autograder.py -q q1
+```
+
 ### Een aantal tips
 
 #### Problem
 
-Je krijgt `problem` mee in de functie. Deze variabele is van de klasse `PositionSearchProblem` in `searchAgents.py` regel 136 - 227. Daar staan de functie die je kan toepassen op `problem`. Als je niet naar de achterliggende code wil kijken, dan kan je ook onderstaande tabel gebruiken.
+Je krijgt `problem` mee in de functie. Deze variabele is van de klasse `SearchProblem`. De functies die je kan toepassen op `problem` staan bovenaan in `search.py`. Voor de gemakkelijkheid heb ik de uitleg ook hier gezet, zo kan je onderstaande tabel ook gebruiken.
 
 Functie | Input | Returnt | Uitleg
 --- | --- | --- | ---
@@ -52,4 +65,113 @@ Op het einde van je functie, als je de goal gevonden hebt, zal je een array van 
 
 Om het niet te moeilijk te maken moet je eens denken over hoe een Stack werkt en wat je naast de state op de stack kan zetten...
 
-## Opdracht 2
+## Opgave 2
+
+In de plaats van `depthFirstSearch` gaan we nu `breadthFirstSearch` doen.
+
+Meer info over breadthFirstSearch vind je [hier]().
+
+[//]: # (TODO: add link)
+
+### Commando's om te zien of alles werkt
+
+```
+python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
+python eightpuzzle.py
+pyhton autograder.py -q q2
+```
+
+### Een aantal tips
+
+#### Vrij gelijkaardig
+
+Als je een beetje van de theorie weet, zie je dat DFS en BFS eigenlijk heel hard op elkaar lijken, met één groot verschil. Je kan hier dus een groot deel van je code van opgave 1 hergebruiken en een paar aanpassingen maken...
+
+## Opgave 3
+
+Nu gaan we `uniformCostSearch` aanpassen zodat we kunnen definiëren wat voor ons het "beste" pad is door een kostfunctie te gebruiken. Een kostfunctie zelf definiëren is niet simpel, daarom gaan wij gewoon proberen om het pad met de kleinste totale kost te vinden.
+
+Meer info over uniformCostSearch vind je [hier]().
+
+[//]: # (TODO: add link)
+
+###  Commando's om te zien of alles werkt
+
+```
+python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
+python pacman.py -l mediumDottedMaze -p StayEastSearchAgent
+python pacman.py -l mediumScaryMaze -p StayWestSearchAgent
+python autograder.py -q q3
+```
+
+### Een aantal tips
+
+#### Opnieuw vrij gelijkaardig
+
+Ook hier zien we dat de functies redelijk hard op elkaar lijken. Het verschil is een andere datastructuur, maar bij deze moet je dan nog iets extra meegeven rekening houdend met ons doel...
+
+## Opgave 4
+
+Het laatste zoekalgoritme dat we gaan implementeren is A*. A* houdt rekening met een heuristiek om zo sneller en efficënter een goe pad te vinden.
+
+Meer info over A* vind je [hier]().
+
+[//]: # (TODO: add link)
+
+###  Commando's om te zien of alles werkt
+
+```
+python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+python autograder.py -q q4
+```
+
+### Een aantal tips
+
+#### Heuristiek krijgen
+
+Om de heuristiek voor een bepaalde state te krijgen, gebruik je het commando `heuristic(state, problem)`.
+
+#### Wat een verrassing, het is weer vrij gelijkaardig!
+
+A* lijkt redelijk hard op UCS, het enige verschil is dat je nu óók rekening houd met de heuristiek van de state...
+
+## Opgave 5
+
+In de vorige vragen was ons doel steeds om al het eten op te eten, nu hebben we een ander doel: de 4 hoeken bereiken. Om dit te doen gaan we in `searchAgent.py` de klasse `CornerProblem` (regel 269 - 344) afwerken. Bekijk `FoodSearchProblem` in `searchAgents.py` (regel 371 - 420) eens en probeer te snappen wat er gebeurt.
+
+Je zal aanpassingen moeten maken in:
+```python
+__init__(self, startingGamestate)
+getStartSate(self)
+isGoalState(self, state)
+getSuccessors(self, state)
+```
+
+###  Commando's om te zien of alles werkt
+
+```
+python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
+python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
+python autograder.py -q q5
+```
+
+### Een aantal tips
+
+#### State
+
+De variabele `state` is de enige variabele die doorgegven wordt. Deze zal dus niet enkel de coördinaten bevatten van pacman.
+
+Als we in `FoodSearchProblem` kijken zien we dat `state` = `(pacmanPosition, foodGrid)` met:
+* `pacmanPosition` = `(x, y)`
+* `foodGrid` = een Grid (matrix) de grootte van de map en `True` of `False` als er al dan niet eten op die coördinaat is
+
+Voor deze opgave is de foodGrid niet belangrijk, dus we zullen moeten kijken wat er voor ons bijgehouden moet worden.
+Tip: in `__init__` wordt `self.corners` bijgehouden, misschien zijn we daar iets mee...
+
+#### Recycling
+
+Je kan het grootste deel van `getSartState`, `isGoalState` en `getSuccessors` uit `FoodSearchProblem` hergebruiken met een aantal aanpassingen om zo ons doel te verwezelijken.
+
+## Opgave 6
+
