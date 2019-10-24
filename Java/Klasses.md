@@ -5,6 +5,8 @@ Elke java klasses bevat de volgende structuur
 De conventie is dat klasse namen in java altijd met een hoofdletter beginnen.
 
 ```java
+//Library
+
 class ClassName
 {
     // Fields
@@ -40,8 +42,8 @@ De keywords `private`, `public` en `protected` worden hiervoor gebruikt.
 
 ## Fields
 Fields zijn een soort variablen die voor heel de klasse scope gedefinieerd zijn.
-Ze hebben vaak de modifier `private`. 
-In java is de eerste letter van een field nooit een hoofdletter. Echter is dit niet verplicht. Ook zal je vaak field namen zien beginnen met een `_`, dit duidt gewoon op het feit dat het veld private is.
+Ze hebben bijna altijd de modifier `private`. 
+In java is de eerste letter van een field nooit een hoofdletter. Echter is dit niet verplicht. Als je in anderen programmeertalen hebt geschreven gebruikt men vaak een bepaald character om aan te duiden wat type of welke toegang die variabele heeft. In java hoeft dit niet, soms kan je wel eens een `_` tegenkomen, om aan te duiden dat het een privaat field is.
 
 ## Methods
 ### Methods
@@ -171,6 +173,16 @@ ClassName classObject = new ClassName(<parameters>);
 ```
 
 De parameters zijn deze van de constructor die je wilt gebruiken.
+
+## Library
+In de library vind je alle packages die je in je code gebruikt hebt. Als het programma dat je gebruikt dit niet uit zichzelf doet, moet je dit er zelf in zetten. Een van de meeste gebruikte package is java.util, om alles in deze package te gebruiken doe je het volgend:
+```java
+import java.util.*
+```
+Het nadeel aan het een volledige package te gebruiken is dat er veel dingen niet gebruikt worden. Als je nu specifiek de ArrayList klasse wilt gebruiken gebruik je een specifieke package:
+```java
+import java.util.ArrayList
+```
 
 ## Voorbeeld klasse:
 ```java

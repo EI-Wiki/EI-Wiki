@@ -2,13 +2,15 @@
 
 ## Introductie
 
-Deze wiki is vooral bedoeld om jullie te helpen met het maken van de practica. Onder theorie staat de theorie benodigd om de labo's te voltooien en onder practicum staan de opgaves beter (volgens ons) uitgelegd.
+Deze wiki is vooral bedoeld om jullie te helpen met het maken van de practica. Onder theorie staat de theorie benodigd om de labo's te voltooien en onder practicum staan de opgaves (volgens ons) beter uitgelegd samen met een beetje hulp om je op weg te helpen.
 
 ## Inhoudsopgave
-* Theorie
-    * [...]()
+### Theorie
 
-* Practicum
-    * [Extra info](Extra)
-    * [Lab 1 - Searching](Lab1)
-    * [Lab 2 - Reinforcement Learning](Lab2)
+* [Zoekalgoritmes]()
+
+### Practicum
+
+* [Extra info](Extra)
+* [Lab 1 - Searching](Lab1)
+* [Lab 2 - Reinforcement Learning](Lab2)
