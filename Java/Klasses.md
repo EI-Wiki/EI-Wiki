@@ -40,8 +40,8 @@ De keywords `private`, `public` en `protected` worden hiervoor gebruikt.
 
 ## Fields
 Fields zijn een soort variablen die voor heel de klasse scope gedefinieerd zijn.
-Ze hebben vaak de modifier `private`. 
-In java is de eerste letter van een field nooit een hoofdletter. Echter is dit niet verplicht. Ook zal je vaak field namen zien beginnen met een `_`, dit duidt gewoon op het feit dat het veld private is.
+Ze hebben bijna altijd de modifier `private`. 
+In java is de eerste letter van een field nooit een hoofdletter. Echter is dit niet verplicht. Als je in anderen programmeertalen hebt geschreven gebruikt men vaak een bepaald character om aan te duiden wat type of welke toegang die variabele heeft. In java hoeft dit niet, soms kan je wel eens een `_` tegenkomen, om aan te duiden dat het een privaat field is.
 
 ## Methods
 ### Methods
