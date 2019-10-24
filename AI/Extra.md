@@ -7,15 +7,16 @@ De autograder zal een aantal verschillende situaties testen om te zien hoe goed 
 
 Weet ook dat voor de meeste gevallen je enkel 0 of 100% van de punten kan hebben. In deze gevallen moet elke situatie correct behandeld worden voor je punten krijgt op deze vraag.
 
-Commando's
+### Commando's
+
+Dit commando zal de autograder voor alle vragen laten runnen.
 ```
 python autograder.py
 ```
 
-Dit commando zal de autograder voor alle vragen.
-
+Dit commando gebruik je als je één vraag wil testen. Met x het nummer van de vraag die je wil testen.
 ```
 python autograder.py -q qx
 ```
-Met x het nummer van de vraag die je wil testen.
+
 
