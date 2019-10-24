@@ -5,7 +5,7 @@ Elke java klasses bevat de volgende structuur
 De conventie is dat klasse namen in java altijd met een hoofdletter beginnen.
 
 ```java
-//Library
+// Library
 
 class ClassName
 {
@@ -43,7 +43,7 @@ De keywords `private`, `public` en `protected` worden hiervoor gebruikt.
 ## Fields
 Fields zijn een soort variablen die voor heel de klasse scope gedefinieerd zijn.
 Ze hebben bijna altijd de modifier `private`. 
-In java is de eerste letter van een field nooit een hoofdletter. Echter is dit niet verplicht. Als je in anderen programmeertalen hebt geschreven gebruikt men vaak een bepaald character om aan te duiden wat type of welke toegang die variabele heeft. In java hoeft dit niet, soms kan je wel eens een `_` tegenkomen, om aan te duiden dat het een privaat field is.
+In java is de eerste letter van een field nooit een hoofdletter. Echter is dit niet verplicht. Als je in anderen programmeertalen hebt geschreven gebruikt men vaak een bepaald character om aan te duiden wat type of welke toegang een field heeft. In java hoeft dit niet, soms kan je wel eens een `_` tegenkomen, om aan te duiden dat het een privaat veld is.
 
 ## Methods
 ### Methods
