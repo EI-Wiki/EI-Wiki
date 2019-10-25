@@ -5,7 +5,7 @@ Dit deel van de wiki gaat over de opdrachten van lab 1 (practicumsessies 1 & 2).
 
 [Opgave](https://inst.eecs.berkeley.edu/~cs188/fa18/project1.html)
 
-[//]: # (TODO: we of je? + theorie)
+[//]: # (TODO: theorie)
 
 We gaan proberen om een algoritme Pacman te laten spelen adhv zoekalgoritmes.
 
@@ -67,7 +67,7 @@ Om het niet te moeilijk te maken moet je eens denken over hoe een Stack werkt en
 
 ## Opgave 2
 
-In de plaats van `depthFirstSearch` gaan we nu `breadthFirstSearch` doen.
+In de plaats van `depthFirstSearch` ga je nu `breadthFirstSearch` doen.
 
 Meer info over breadthFirstSearch vind je [hier]().
 
@@ -90,7 +90,7 @@ Als je een beetje van de theorie weet, zie je dat DFS en BFS eigenlijk heel hard
 
 ## Opgave 3
 
-Nu gaan we `uniformCostSearch` aanpassen zodat we kunnen definiëren wat voor ons het "beste" pad is door een kostfunctie te gebruiken. Een kostfunctie zelf definiëren is niet simpel, daarom gaan wij gewoon proberen om het pad met de kleinste totale kost te vinden.
+Nu moet `uniformCostSearch` aangepast worden zodat je het "beste" pad kan definiëren door een kostfunctie te gebruiken. Een kostfunctie zelf definiëren is niet simpel, daarom moet je gewoon proberen om het pad met de kleinste totale kost te vinden.
 
 Meer info over uniformCostSearch vind je [hier]().
 
@@ -109,11 +109,11 @@ python autograder.py -q q3
 
 #### Opnieuw vrij gelijkaardig
 
-Ook hier zien we dat de functies redelijk hard op elkaar lijken. Het verschil is een andere datastructuur, maar bij deze moet je dan nog iets extra meegeven rekening houdend met ons doel...
+Ook hier zal je zien dat de functies redelijk hard op elkaar lijken. Het verschil is dat er gebruikt gemaakt wordt van een andere datastructuur, maar bij deze moet je dan nog iets extra meegeven rekening houdend met het doel van UCS...
 
 ## Opgave 4
 
-Het laatste zoekalgoritme dat we gaan implementeren is A*. A* houdt rekening met een heuristiek om zo sneller en efficënter een goe pad te vinden.
+Het laatste zoekalgoritme dat je gaat implementeren is A*. Dit algoritme houdt rekening met een heuristiek om zo sneller en efficënter een goed pad te vinden.
 
 Meer info over A* vind je [hier]().
 
@@ -134,11 +134,11 @@ Om de heuristiek voor een bepaalde state te krijgen, gebruik je het commando `he
 
 #### Wat een verrassing, het is weer vrij gelijkaardig!
 
-A* lijkt redelijk hard op UCS, het enige verschil is dat je nu óók rekening houd met de heuristiek van de state...
+A* lijkt redelijk hard op UCS, het enige verschil is dat je nu óók rekening moet houden met de heuristiek van de state...
 
 ## Opgave 5
 
-In de vorige vragen was ons doel steeds om al het eten op te eten, nu hebben we een ander doel: de 4 hoeken bereiken. Om dit te doen gaan we in `searchAgent.py` de klasse `CornerProblem` (regel 269 - 344) afwerken. Bekijk `FoodSearchProblem` in `searchAgents.py` (regel 371 - 420) eens en probeer te snappen wat er gebeurt.
+In de vorige vragen was het doel om steeds al het eten op te eten, nu hebben we een ander doel: de 4 hoeken bereiken. Om dit te doen zal je in `searchAgent.py` de klasse `CornerProblem` (regel 269 - 344) afwerken.
 
 Je zal aanpassingen moeten maken in:
 ```python
@@ -158,16 +158,20 @@ python autograder.py -q q5
 
 ### Een aantal tips
 
+#### Andere problemen
+
+Bekijk `FoodSearchProblem` in `searchAgents.py` (regel 371 - 420) eens en probeer te snappen wat er gebeurt. Dit probleem is opgesteld zodat al het eten opgegeten wordt, maar als je snapt waarom sommige dingen gedaan worden, kan je dit gebruiken in jouw code.
+
 #### State
 
 De variabele `state` is de enige variabele die doorgegven wordt. Deze zal dus niet enkel de coördinaten bevatten van pacman.
 
-Als we in `FoodSearchProblem` kijken zien we dat `state` = `(pacmanPosition, foodGrid)` met:
+Als je in `FoodSearchProblem` kijkt zie je dat `state` = `(pacmanPosition, foodGrid)` met:
 * `pacmanPosition` = `(x, y)`
 * `foodGrid` = een Grid (matrix) de grootte van de map en `True` of `False` als er al dan niet eten op die coördinaat is
 
-Voor deze opgave is de foodGrid niet belangrijk, dus we zullen moeten kijken wat er voor ons bijgehouden moet worden.
-Tip: in `__init__` wordt `self.corners` bijgehouden, misschien zijn we daar iets mee...
+Voor deze opgave is de foodGrid niet belangrijk, dus er zal gekeken moeten worden naar wat bijgehouden moet worden.
+Tip: in `__init__` wordt `self.corners` bijgehouden, misschien ben je daar iets mee...
 
 #### Recycling
 
