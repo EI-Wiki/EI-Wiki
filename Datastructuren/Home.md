@@ -8,6 +8,7 @@ Bij vragen over java ga naar de pagina [Object Georiënteerd Programmeren (java)
     * [Random generator]()
 * Opdrachten
     * [Opgave1](opgave1)
+    * [Opgave2](opgave2)
 * [Handige Links](#Handige-Links)
 
 ## Handige Links
