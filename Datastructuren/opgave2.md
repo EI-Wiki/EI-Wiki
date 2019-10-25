@@ -6,7 +6,7 @@ In IntelliJ maak een nieuw project an gebruik als template (2de pagina) een 'Con
 Nu kan je de bestanden toevoegen in je project. Dit kan door ze gewoon in  de prject folder te slepen in de bestands verkenner (file explorer).
 
 Deze bestanden gaan een hoop errors throwen. Dit komt omdat ze niet in de zelfde package zitten als je main class. Je kan de projecten toeveoegen aan de package door de lijn bovenaan in je main class te kopieeren naar de andere klasses. Deze lijn ziet er ongeveer als volgt uit:
-```vhdl
+```java
 package com.company;
 ```
 
