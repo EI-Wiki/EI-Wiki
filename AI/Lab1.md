@@ -175,3 +175,19 @@ Je kan het grootste deel van `getSartState`, `isGoalState` en `getSuccessors` ui
 
 ## Opgave 6
 
+Nu ga je een heuristiek moeten schrijven voor het `CornersProblem` in `cornersHeuristic`.
+
+Meer info over heuristieken vind je [hier]().
+
+[//]: # (TODO: add link)
+
+### Commando's om te zien of alles werkt
+
+```
+python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
+python autograder.py -q q6
+```
+
+### Een aantal tips
+
+[//]: # (TODO: add tips)
