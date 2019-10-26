@@ -7,7 +7,9 @@ Dit deel van de wiki gaat over de opdrachten van lab 1 (practicumsessies 1 & 2).
 
 [//]: # (TODO: theorie)
 
-We gaan proberen om een algoritme Pacman te laten spelen adhv zoekalgoritmes.
+We gaan proberen om een algoritme Pacman te laten spelen adhv zoekalgoritmes. **Pacman zal in dit lab nog geen rekeing houden met de ghosts, dat is voor latere sessies.**
+
+Gelieve de opgaven steeds in volgorde uit te voeren, aangezien deze soms gebruikmaken van vorige opgaven.
 
 ## Commando's
 
@@ -24,6 +26,56 @@ Optie | Alternatief | Uitleg | Mogelijke waardes | Default
 -z ZOOM | --zoom ZOOM | Hoe hard het bord in- of uitgezoomd is, vooral gebruik bij grote borden | >0 | 1
 -a AGENTARGS | --agentArgs AGENTARGS | Agrumenten die de agent moet weten, hier enkel gebruikt bij SearchAgent om mee te geven welke functie deze moet gebruiken | fn=bfs, fn=dfs, fn=ucs, fn=astar | /
  --frameTime FRAMETIME | | Hoeveel tijd er tussen de frames zit, als je niet te veel wil wachten kan je FRAMETIME=0 nemen | >= 0 is de tijd in secondes, < 0 zorgt ervoor dat je het met je toetsenbord verandert | 0.1
+
+ ## Type variabelen
+
+In deze opdracht wordt er gebruik gemaakt van een aantal variabelen, specifiek voor deze opdarchten. Hieronder de meest gebruikte
+
+### Stack, Queue en PriorityQueue
+
+Deze datastructuren worden in `util.py` gedefinieerd en doen exact wat je van ze zou verwachten.
+
+Alle drie hebben de volgende functies:
+* `push(item)` / `push(item, priority)`
+    * Duw `item` op de stack, bij een priorityqueue moet je ook de pioriteit meegeven
+* `pop()`
+    * Return het volgende item
+* `isEmpty()`
+    * Spreekt voor zich; True als de datastructuur leeg is, False als er items in zitten
+
+### Counter
+
+Een counter (ook uit `util.py`) gedraagt zich zoals een dictionary en maakt dus gebruik van een key/value pair. Deze counter is specifiek gemaakt om ints/floats te hebben als value, maar dat hoeft niet specifiek.
+
+Functies:
+* `incrementAll(keys, count)`
+    * Zal `count` optellen bij alle values van `keys`
+* `argMax()`
+    * Returnt de key die de grootste value heeft
+* `sortedKey()`
+    * Returnt een lijst van keys gesorteerd op value
+* `totalCount()`
+    * Returnt de som van alle values
+* `normalize()`
+    * Zorgt ervoor dat de som van alle values gelijk is aan 1 terwijl de verhoudingen hetzelfde blijven
+* `divideAll(divisor)`
+    * Deel alle values door `divisor`
+* `copy()`
+    * Returnt een kopie van de counter
+
+### Grid
+
+Een tweedimensionale array, geïmplementeerd als lijsten in een lijst. De grid is gedefinieerd in `game.py`
+
+Functies:
+* `copy()` = `deepCopy()`
+    * Returnt een kopie van de grid
+* `count(item=ITEM)`
+    * Returnt hoeveel waarden in de grid gelijk zijn aan `ITEM`.
+* `asList(key=KEY)`
+    * Returnt een lijst met tuples van coördinaten waar de waarde gelijk is aan `KEY`
+
+[//]: # (TODO: add shallowCopy and packBits)
 
 ## Opgave 1
 
@@ -104,6 +156,8 @@ python pacman.py -l mediumDottedMaze -p StayEastSearchAgent
 python pacman.py -l mediumScaryMaze -p StayWestSearchAgent
 python autograder.py -q q3
 ```
+
+De `StayEastSearchAgent` en `StayWestSearchAgent` hebben een kostfunctie die hun zo oostelijk/westelijk op het bord wil houden. Het zal er op lijken dat bij de `StayWestAgent` pacman de ghosts negeert, maar dat is gewoon omdat hij zo west (rechts) mogelijk op het bord wil zijn.
 
 ### Een aantal tips
 
@@ -192,6 +246,54 @@ python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
 python autograder.py -q q6
 ```
 
+De hoeveelheid punten die je krijgt van de autograder hangen af van hoe efficiënt het zoekalgoritme werkt met je heuristiek.
+
 ### Een aantal tips
 
+...
+
 [//]: # (TODO: add tips)
+
+## Opgave 7
+
+In deze opgave moet je weer een heuristiek schrijven, maar dit keer voor `FoodSearchProblem` in `foodHeuristic`
+
+### Commando's om te zien of alles werkt
+
+```
+python pacman.py -l trickySearch -p AStarFoodSearchAgent
+python autograder.py -q q7
+```
+
+### Een aantal tips
+
+...
+
+[//]: # (TODO: add tips)
+
+## Opgave 8
+
+Opgave 8 verwacht dat je een greedy algoritme schrijft dat steeds het dichtstbijzijnde eten zal opeten in `findPathToClosestDot`.
+
+Je zal eerst nog `isGoalState` in `AnyFoodSearchProblem` moeten aanvullen.
+
+### Commando's om te zien of alles werkt
+
+```
+python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5
+python autograder.py -q q8
+```
+
+### Een aantal tips
+
+#### isGoalState
+
+Je hebt in `CornersProblem` deze functie al eens moeten aanvullen, misschien kan je daar war van hegebruiken...
+
+#### Dichtsbijzijnd eten?
+
+Als eerste stap in je algoritme zal je de coördinaten van het dichtstbijzijnde eten moeten zoeken. Je zal iets moeten zoeken zoals `manhattanDistance` dat rekening houdt met muren. Misschien moet je dit zelf niet eens schrijven en staat er zo iets in `searchAgents.py`...
+
+#### Pad zoeken
+
+Als je het dichtsijzijnde eten gevonden hebt, moet je nog zien hoe je daar geraakt. Als je in de vorige tip de juiste functie gevonden hebt, moet je eens kijken wat deze methode doet en hoe deze dat doet. De oplossing staat er bijna letterlijk in...
