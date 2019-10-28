@@ -21,6 +21,7 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
 ### Bachelor 3
 
 * [AI (Python 3.7)](AI/Home)
+* [Netwerkinfrastructuur en beveiliging](Infrastructuur/Home)
 
 ## Onderhouders
 * [Mathias Maes](https://github.com/WatcherWhale)
