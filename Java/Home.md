@@ -12,7 +12,7 @@ Java wordt niet traditioneel gecompiled. Alle code wordt gecompiled tot bytecode
 
 ## Handige Links
 * [W3schools](https://www.w3schools.com/java/)
-* [Google](https://www.hoehel.be/) of [DuckDuckGo](https://theuselessweb.site/ducksarethebest.com/)
+* [Google](https://www.google.com/) of [DuckDuckGo](https://www.duckduckgo.com)
 
 ## Bronnen
 * [Wikipedia](https://en.wikipedia.org/wiki/Java_%28programming_language%29)
