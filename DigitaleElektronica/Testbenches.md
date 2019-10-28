@@ -1,6 +1,6 @@
 # [EI-Wiki](..)/[Digitale Elektronica](Home)/Testbenches
 ## Het nut van simuleren
-Simuleren lijkt in de ogen van veel studenten volstrekt nutteloos, maar kan soms echt goed van pas komen. Hier zijn enkele redenen waarom we beter simuleren an implementeren:
+Simuleren lijkt in de ogen van veel studenten volstrekt nutteloos, maar kan soms echt goed van pas komen. Hier zijn enkele redenen waarom we beter simuleren dan implementeren:
 
 <!--TODO: Voeg meer uitleg bij de puntjes toe-->
 * **Het duurt veel minder lang**
@@ -11,9 +11,9 @@ Simuleren lijkt in de ogen van veel studenten volstrekt nutteloos, maar kan soms
 Niet van toepassing, doe zo zot mogelijk.
 
 ## Starten van een proces bij start simulatie
-Als je een proces wil laten starten bij de start van de simulatie kan je dit simpel doen door de sensitivity list leeg te maken.
+Als je een proces wilt laten starten bij de start van de simulatie kan je dit simpel doen door de sensitivity list leeg te maken.
 
-Volgend proces zal een klok genereren met periode 20ns genereren:
+Volgend proces zal een klok genereren met periode 20ns:
 
 ```vhdl
 signal clock : std_logic := '0';
@@ -30,11 +30,11 @@ De `wait for <time>;` regel is nodig om signalen te doen updaten.
 ## Zelftestende Testbenches (Digitale Elektronica 2)
 Zelftestende testbenches kunnen we vergelijken met unit tests uit de programmeerwereld. Ze kijken of onze programma's werken.
 
-Een zelftestende testbench wordt in het vak Digitale Elektronica 2 gegeven. De opdrachten bevatten tekstbestanden met daarin op voorhand gegenereerde correcte waardes. Bij elke opdracht wordt uitgelegd hoe dit bestand eruitziet.
+Een zelftestende testbench wordt in het vak Digitale Elektronica 2 gegeven. De opdrachten bevatten tekstbestanden met daarin op voorhand gegenereerde correcte waardes. Bij elke opdracht wordt uitgelegd hoe dit bestand er uitziet.
 
 ### Lezen van bestanden
 #### Toevoegen van een test bestand
-Als we een test bestand gekregen hebben moeten we deze eerst in de correcte folder plaatsen. Deze folder bevindt zich hier: `<project folder>/<project naam>.sim/sim_1/behav/xsim`.
+Als we een testbestand gekregen hebben moeten we deze eerst in de correcte folder plaatsen. Deze folder bevindt zich hier: `<project folder>/<project naam>.sim/sim_1/behav/xsim`.
 
 #### Packages toevoegen
 Om een bestand te kunnen lezen moeten we eerst de juiste package(s) gebruiken. Dit kan door volgende regels toe te voegen aan je project:
@@ -68,7 +68,7 @@ begin
 end process;
 ```
 
-Als we dan deze lijn willen lezen gebruiken we deze code:
+Als we dan deze lijn willen lezen, gebruiken we deze code:
 
 ```vhdl
 pRead : process
@@ -130,12 +130,12 @@ Als onze conditie vals(false) is zal er een log bericht komen in de TCL Console 
 
 ```vhdl
 -- Als data niet gelijk is aan expectedData zal
--- de tekst "This data is wrong" worden gelogd
+-- de tekst "This data is wrong" worden gelogd met ernstigheid: warning
 assert data = expectedData report "This data is wrong" severity warning; 
 ```
 
 #### Data naar tekst
-Als je data wil toevoegen aa de gelogde tekst kan dit. De voornamelijkste structuur is de deze:
+Als je data wil toevoegen aan de gelogde tekst kan dit. De voornamelijkste structuur is de deze:
 
 ```vhdl
 "Front text " & <type>'image(data) & " Back text!"
