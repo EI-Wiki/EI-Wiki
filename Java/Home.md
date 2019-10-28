@@ -9,10 +9,10 @@ Java wordt niet traditioneel gecompiled. Alle code wordt gecompiled tot bytecode
 * Java
     * [Syntax](Syntax)
     * [Klasses](Klasses)
-    * [Klasses Extras](KlassesExtras)
-        * [Inheritance](KlassesExtras#Inheritance)
-        * [Abstract Methods](KlassesExtras#Abstract-Methods)
-        * [Interfaces](KlassesExtras#Interfaces)
+    * [Klasse Extras](KlasseExtras)
+        * [Inheritance](KlasseExtras#Inheritance)
+        * [Abstract Methods](KlasseExtras#Abstract-Methods)
+        * [Interfaces](KlasseExtras#Interfaces)
 
 ## Handige Links
 * [W3schools](https://www.w3schools.com/java/)
