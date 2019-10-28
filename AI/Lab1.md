@@ -288,7 +288,7 @@ python autograder.py -q q8
 
 #### isGoalState
 
-Je hebt in `CornersProblem` deze functie al eens moeten aanvullen, misschien kan je daar war van hegebruiken...
+Je hebt in `CornersProblem` deze functie al eens moeten aanvullen, misschien kan je daar wat van hegebruiken...
 
 #### Dichtsbijzijnd eten?
 
