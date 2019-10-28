@@ -4,7 +4,6 @@ Bij vragen over java ga naar de pagina [Object Georiënteerd Programmeren (java)
 ## Inhoudsopgave
 
 * Java
-    * [Interfaces]()
     * [Random generator]()
 * Opdrachten
     * [Opgave1](opgave1)
