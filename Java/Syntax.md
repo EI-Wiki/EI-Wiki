@@ -31,7 +31,7 @@ if (age > 16) {
 }
 ```
 
-### Swtich statement
+### Switch statement
 Als je een veriabele hebt die meerdere waardes heeft en je wilt voor elke waarde iets doen, kan je gebruik maken van een `Switch` statement. Als je nu wilt kijken of een persoon 8 jaar, 12 jaar, 16, jaar, 21 jaar is en iets wilt doen bij elk van deze waardes. Je kan dit ook doen met een if statement en voor elke waarde een else if maken. 
 Wat kan gebeuren in een switch statement is dat er geen juist antwoord is, om dit op te lossen heeft men een ``default`` mogelijkheid. hier kan je bijvoorbeeld zeggen dat er niks moet gebeuren.
 
