@@ -1,6 +1,6 @@
 # [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Syntax
 
-## Conditions (Voorwaardelijken)
+## Conditions
 ### if statement
 De `if` statement wordt gebruikt op te kijken of iets waar is. Als je wilt kijken of iemand ouder is als 16 jaar, doe dan dit... Kan je dat met een if statement doen.
 ```java
@@ -55,7 +55,7 @@ switch (age){
 }
 ```
 
-## Loops (Lussen) 
+## Loops 
 ### For loop
 Een ``for`` loop kan op verschillende manieren gebruikt worden:
 - als een loop die een beperkt aantal keren iets doet. (normal use)
@@ -91,7 +91,7 @@ do {
 ```
 
 
-## Commentaar
+## Comments
 Om comentaar bij een functie of tussen je code wilt hebben kan je gebruik maken van ``//`` (voor 1 enkele lijn van comentaar).
 
 ```java
