@@ -1,3 +1,5 @@
+{% include head.html %}
+
 # [EI-Wiki](..)/AI
 
 ## Introductie

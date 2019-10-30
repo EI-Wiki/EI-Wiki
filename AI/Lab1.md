@@ -1,3 +1,5 @@
+{% include head.html %}
+
 # [EI-Wiki](..)/[AI](Home)/Lab 1 - Searching
 
 ## Inhoudstafel
@@ -45,7 +47,7 @@ Optie | Alternatief | Uitleg | Mogelijke waardes | Default
 
 ## Type variabelen
 
-In deze opdracht wordt er gebruik gemaakt van een aantal variabelen, specifiek voor deze opdarchten. Hieronder de meest gebruikte
+In deze opdracht wordt er gebruik gemaakt van een aantal variabelen, specifiek voor deze opdrachten. Hieronder de meest gebruikte
 
 ### Stack, Queue en PriorityQueue
 
@@ -245,7 +247,7 @@ Tip: in `__init__` wordt `self.corners` bijgehouden, misschien ben je daar iets 
 
 #### Recycling
 
-Je kan het grootste deel van `getSartState`, `isGoalState` en `getSuccessors` uit `FoodSearchProblem` hergebruiken met een aantal aanpassingen om zo ons doel te verwezelijken.
+Je kan het grootste deel van `getStartState`, `isGoalState` en `getSuccessors` uit `FoodSearchProblem` hergebruiken met een aantal aanpassingen om zo ons doel te verwezelijken.
 
 ## Opgave 6
 
@@ -304,7 +306,7 @@ python autograder.py -q q8
 
 #### isGoalState
 
-Je hebt in `CornersProblem` deze functie al eens moeten aanvullen, misschien kan je daar wat van hegebruiken...
+Je hebt in `CornersProblem` deze functie al eens moeten aanvullen, misschien kan je daar wat van hergebruiken...
 
 #### Dichtsbijzijnd eten?
 
@@ -312,4 +314,4 @@ Als eerste stap in je algoritme zal je de coördinaten van het dichtstbijzijnde 
 
 #### Pad zoeken
 
-Als je het dichtsijzijnde eten gevonden hebt, moet je nog zien hoe je daar geraakt. Als je in de vorige tip de juiste functie gevonden hebt, moet je eens kijken wat deze methode doet en hoe deze dat doet. De oplossing staat er bijna letterlijk in...
+Als je het dichtsbijzijnde eten gevonden hebt, moet je nog zien hoe je daar geraakt. Als je in de vorige tip de juiste functie gevonden hebt, moet je eens kijken wat deze methode doet en hoe deze dat doet. De oplossing staat er bijna letterlijk in...
