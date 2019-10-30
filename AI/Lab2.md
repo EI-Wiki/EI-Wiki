@@ -60,11 +60,11 @@ ALs dat in orde is, moet je nog twee functies afwerken:
 
 De volgende commando's zullen 3 schermen tonen waar je tussen kan switchen door op een toets te duwen.
 
-<img height="200px" src="Media/Lab2/Values.jpg" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="400px" src="Media/Lab2/Values.jpg" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 Hier kan je de values zien per vakje. De pijltjes zijn het resultaat van de `computeActionFromValues`
 
-<img height="200px" src="Media/Lab2/QVal.jpg" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="400px" src="Media/Lab2/QVal.jpg" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 Als je dan op een toets duwt, krijg je de Q-waarden.
 
