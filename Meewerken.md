@@ -11,3 +11,5 @@ Nu kan je je eigen aanpassingen op je geforkte repo zetten. Dit zal niet automat
 Als al je aanpassingen gemaakt zijn kan je een pull request doen. Dit doe je door op pull requests te drukken in je fork. Maak een nieuwe pull request aan.
 Geef de pull request een zinnege naam en wij bekijken hem zo snel mogelijk, bij goedkeuring zetten we al jouw aanpassingen op de wiki.
 Kijk wel goed na of maintainers(onderhouders) toegang hebben om de pull request aan te passen.
+
+## Latex Typen
