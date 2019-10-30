@@ -91,7 +91,7 @@ do {
 ```
 
 
-## Comentaar
+## Commentaar
 Om comentaar bij een functie of tussen je code wilt hebben kan je gebruik maken van ``//`` (voor 1 enkele lijn van comentaar).
 
 ```java
