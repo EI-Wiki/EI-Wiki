@@ -7,7 +7,9 @@
 
     * Daarna tel en vermenigvuldig je correct
 
-    $\sum_{1}^{2}$
+    {% raw %}
+        $$a^2 + b^2 = c^2$$
+    {% endraw %}
 
     <img width="500px" src="media/opgave1/funcalgo.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
