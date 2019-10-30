@@ -1,3 +1,4 @@
+{% include math.html %}
 # [EI-Wiki](/EI-Wiki)/Meewerken
 ## Fouten melden
 Fouten melden kan zeer simpel in de [issues pagina](https://github.com/WatcherWhale/EI-Wiki/issues).
@@ -13,7 +14,10 @@ Geef de pull request een zinnege naam en wij bekijken hem zo snel mogelijk, bij 
 Kijk wel goed na of maintainers(onderhouders) toegang hebben om de pull request aan te passen.
 
 ## Latex Typen
-Als je een wiskundige vergelijking of formule wil noteren, kan je dit doen door middel van \\(\LaTeX\\). Om inlne LaTex te typen gebruik je de volgend karakter om de latex formule te starten `\(` en om de formule eidigen `\)`.
-
-Voor een grote formule `$$` om te starten en te stoppen.
+Als je een wiskundige vergelijking of formule wil noteren, kan je dit doen door middel van \(\LaTeX\). 
+Je doet dit door eerst de volgende lijn bovenaan in je bestand te zetten:
+```
+{% include math.html %}
+```
+Om inlne LaTex te typen gebruik je de volgend karakter om de latex formule te starten `\(` en om de formule eidigen `\)`. Voor een grote formule `$$` om te starten en te stoppen.
 $$Grote_{Formule}$$
