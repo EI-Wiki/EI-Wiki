@@ -1,3 +1,4 @@
+{% include head.html %}
 # [EI-Wiki](..)/[Digitale Elektronica](Home)/Valkuilen
 
 ## Valkuil 1: VHDL heeft GEEN variabelen

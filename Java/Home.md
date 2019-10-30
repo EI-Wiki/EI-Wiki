@@ -1,3 +1,4 @@
+{% include head.html %}
 # [EI-Wiki](..)/Object Georiënteerd Programmeren
 ## Introductie
 Java is een object georiënteerde programmeertaal.
@@ -8,9 +9,9 @@ Java wordt niet traditioneel gecompiled. Alle code wordt gecompiled tot bytecode
 
 * Java
     * [Syntax](Syntax)
-         * [Contitions](Syntax#Conditions)
-         * [Loops](Syntax#Loops)
-         * [Comments](Syntax#Comments)
+         * [Contitions](Syntax#conditions)
+         * [Loops](Syntax#loops)
+         * [Comments](Syntax#comments)
     * [Klasses](Klasses)
     * [Klasse Extras](KlasseExtras)
         * [Inheritance](KlasseExtras#inheritance)

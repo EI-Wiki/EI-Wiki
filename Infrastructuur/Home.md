@@ -1,5 +1,4 @@
 {% include head.html %}
-
 # [EI-Wiki](..)/Infrastructuur en beveiliging
 
 ## Inleiding

@@ -1,3 +1,4 @@
+{% include head.html %}
 # [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Klasse Extras
 ## Woord vooraf
 Dit is een uitbereiding op de [Klasses](Klasses) pagina.

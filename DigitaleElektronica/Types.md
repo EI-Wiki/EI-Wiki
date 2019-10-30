@@ -1,3 +1,4 @@
+{% include head.html %}
 # [EI-Wiki](..)/[Digitale Elektronica](Home)/Types
 ## std_logic
 `std_logic` is een type dat 1 bit (`1` or `0`) bevat .

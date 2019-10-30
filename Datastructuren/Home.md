@@ -1,3 +1,4 @@
+{% include head.html %}
 # [EI-Wiki](..)/Datastructuren 
 ## Java probleem?
 Bij vragen over java ga naar de pagina [Object Georiënteerd Programmeren (java)](../Java/Home).

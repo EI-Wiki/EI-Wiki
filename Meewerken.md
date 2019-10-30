@@ -1,3 +1,4 @@
+{% include head.html %}
 {% include math.html %}
 # [EI-Wiki](/EI-Wiki)/Meewerken
 ## Fouten melden
