@@ -7,10 +7,7 @@
 
     * Daarna tel en vermenigvuldig je correct
 
-    $\sum_{1}^{2}$
-    $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-
-    <img width="500px" src="media/opgave1/funcalgo.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    $$O_{1}\left(n\right)=1+n\cdot\left(1+n\cdot2+3\right)=2n^{2} + 4n + 1$$
 
 2. Implementeer de pseudo code in java
     * Arrays worden als volgt aangemaakt
