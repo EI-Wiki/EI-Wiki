@@ -1,3 +1,4 @@
+{% include head.html %}
 # EI-Wiki
 ## Introductie
 <img src="favicon.png" width="100px" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);"/>Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten besloten om een wiki te maken. De wiki waarop u zich nu bevindt. Hier kan je alles vinden over onze specifieke vakken.
