@@ -1,4 +1,4 @@
-{% include footer.html %}
+{% include math.html %}
 # [EI-Wiki](..)/[Datastructuren](Home)/Opgave 1
 1. Bereken de Big O voor beide algoritmes
     * Bereken de tijdscomplexiteit voor elke instructie
