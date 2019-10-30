@@ -18,3 +18,5 @@ Als je een wiskundige vergelijking of formule wil noteren, kan je dit doen door 
 Om inlne LaTex te typen gebruik je de volgend karakter om de latex formule te starten `\(` en om de formule eidigen `\)`. Voor een grote formule `$$` om te starten en te stoppen.
 
 $$Grote_{Formule}$$
+
+Je zal ook een include moeten gebruiken die je op de eerste lijn van de [source code](https://github.com/WatcherWhale/EI-Wiki/blob/master/Meewerken.md) van deze pagina kan vinden.
