@@ -1,5 +1,6 @@
-# [EI-Wiki](..)/[Infrastructuur](Home)/Lab 1
+{% include head.html %}
 
+# [EI-Wiki](..)/[Infrastructuur](Home)/Lab 1
 
 ## Voor te bereiden
 
