@@ -1,3 +1,4 @@
+{% include head.html %}
 # [EI-Wiki](..)/[Digitale Elektronica](Home)/Syntax
 ## Operators (Operatoren)
 ### Waarde Toekenning
@@ -95,6 +96,9 @@ else
     -- Condities vals(false of '0') zijn
 end if;
 ```
+
+### Switch
+
 
 ## Loops (lussen)
 ### Loop

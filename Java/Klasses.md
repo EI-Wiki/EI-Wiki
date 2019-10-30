@@ -1,3 +1,4 @@
+{% include head.html %}
 # [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Klasses
 ## Klasse(class) structuur
 Elke java klasses bevat de volgende structuur

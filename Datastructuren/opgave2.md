@@ -1,3 +1,4 @@
+{% include head.html %}
 # [EI-Wiki](..)/[Datastructuren](Home)/Opgave 2
 
 ## 0. Project aanmaken

@@ -1,3 +1,4 @@
+{% include head.html %}
 # [EI-Wiki](..)/Netwerk Arhitectuur
 ## Inhoudsopgave
 * Linux

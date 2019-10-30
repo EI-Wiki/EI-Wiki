@@ -1,3 +1,4 @@
+{% include head.html %}
 {% include math.html %}
 # [EI-Wiki](..)/[Datastructuren](Home)/Opgave 1
 1. Bereken de Big O voor beide algoritmes

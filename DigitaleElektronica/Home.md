@@ -1,3 +1,4 @@
+{% include head.html %}
 # [EI-Wiki](..)/Digitale Elektronica
 <img src="media/vhdl.png" width="100px" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);"/>
 

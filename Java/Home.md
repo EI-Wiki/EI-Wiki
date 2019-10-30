@@ -1,3 +1,4 @@
+{% include head.html %}
 # [EI-Wiki](..)/Object Georiënteerd Programmeren
 ## Introductie
 Java is een object georiënteerde programmeertaal.
