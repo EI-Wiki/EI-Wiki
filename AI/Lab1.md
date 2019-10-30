@@ -1,4 +1,19 @@
 # [EI-Wiki](..)/[AI](Home)/Lab 1 - Searching
+
+## Inhoudstafel
+
+* [Intro](#introductie)
+* [Commando's](#commandos)
+* [Type variabelen](#type-variabelen)
+* [Opgave 1](#opgave-1)
+* [Opgave 2](#opgave-2)
+* [Opgave 3](#opgave-3)
+* [Opgave 4](#opgave-4)
+* [Opgave 5](#opgave-5)
+* [Opgave 6](#opgave-6)
+* [Opgave 7](#opgave-7)
+* [Opgave 8](#opgave-8)
+
 ## Introductie
 
 Dit deel van de wiki gaat over de opdrachten van lab 1 (practicumsessies 1 & 2).
@@ -27,7 +42,8 @@ Optie | Alternatief | Uitleg | Mogelijke waardes | Default
 -a AGENTARGS | --agentArgs AGENTARGS | Agrumenten die de agent moet weten, hier enkel gebruikt bij SearchAgent om mee te geven welke functie deze moet gebruiken | fn=bfs, fn=dfs, fn=ucs, fn=astar | /
  --frameTime FRAMETIME | | Hoeveel tijd er tussen de frames zit, als je niet te veel wil wachten kan je FRAMETIME=0 nemen | >= 0 is de tijd in secondes, < 0 zorgt ervoor dat je het met je toetsenbord verandert | 0.1
 
- ## Type variabelen
+
+## Type variabelen
 
 In deze opdracht wordt er gebruik gemaakt van een aantal variabelen, specifiek voor deze opdarchten. Hieronder de meest gebruikte
 

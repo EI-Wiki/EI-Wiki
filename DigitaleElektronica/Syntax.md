@@ -122,19 +122,19 @@ end loop;
 
 ## Ports & Generics
 ### Ports
-Ports zijn de in en outputs van je component.
+Ports zijn de in- en outputs van je component.
 
 ```vhdl
 Port(
-    stdInt : in std_logic_vector(3 downto 0);
+    stdIn : in std_logic_vector(3 downto 0);
     stdOut : out std_logic_vector(3 downto 0));
 ```
 
 ### Generics
 
-Generics zijn gelijkaardig aan ports enkel zijn het constante waarde die voor compilatie gezet worden. Generics moeten **altijd** een standaard waarde krijgen.
+Generics zijn gelijkaardig aan ports. Enkel zijn het constante waarden die voor compilatie gezet worden. Generics moeten **altijd** een standaardwaarde krijgen.
 
 ```vhdl
 Generic(
-    stgGeneric : std_logic_vector(3 downto 0) := "1111");
+    stdGeneric : std_logic_vector(3 downto 0) := "1111");
 ```

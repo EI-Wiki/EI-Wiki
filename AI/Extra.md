@@ -1,7 +1,7 @@
 # [EI-Wiki](..)/[AI](Home)/Extra
 ## Autograder
 
-De Berkley projecten dat je gaat gebruiken bevatten een handig bestand, de autograder. Dit programma wordt gebruikt om te bepalen of je opdrachten goed geschreven zijn.
+De Berkley projecten die je gaat gebruiken bevatten een handig bestand, de autograder. Dit programma wordt gebruikt om te bepalen of je opdrachten goed geschreven zijn.
 
 De autograder zal een aantal verschillende situaties testen om te zien hoe goed je code geschreven is. Het kan zijn dat de test die jij doet perfect lukt, maar dat je ergens een speciale case vergeten bent en de autograder zal dit dan merken. Bij de meeste vragen (als je een fout hebt) kan je naar boven scrollen in de teminal om feedback te zien over waarom je die fout gemaakt hebt.
 
