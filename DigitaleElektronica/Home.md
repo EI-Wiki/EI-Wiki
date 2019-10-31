@@ -10,6 +10,8 @@
 * [Types](Types)
     * [Type Conversies](Types#type-conversies)
 * [Testbenches](Testbenches)
+    * [Zelftestende Testbenches](Testbenches#zelftestende-testbenches-digitale-elektronica-2)
+* [Packages](Packages)
 
 ## Handige Links
 * [Hendrik Valcke zijn projecten](https://github.com/Hendrik-Valcke/1-Digitale-Elektronica)
