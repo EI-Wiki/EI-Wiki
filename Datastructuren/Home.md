@@ -9,6 +9,7 @@ Bij vragen over java ga naar de pagina [Object Georiënteerd Programmeren (java)
 * Opdrachten
     * [Opgave1](opgave1)
     * [Opgave2](opgave2)
+    * [Opgave3](opgave3)
 * [Handige Links](#Handige-Links)
 
 ## Handige Links
