@@ -39,6 +39,23 @@ end process;
 
 ```
 
+Het is ook mogelijk om bepaalde getallen uit de std_logic_vector te gebruiken.
+
+```vhdl
+signal sequence: std_logic_vecor(5 downto 0):="011101";
+signal change: std_logic_vecor(5 downto 0):="101011";
+
+signal a: std_logic:='0';
+
+pChangeSeq: process
+begin
+
+    a<= sequence(2); --a zal nu 1 worden
+
+    sequence(3 downto 1)<= change(4 downto 2); -- sequence zal nu "010101" worden
+end process;
+```
+
 ## unsigned & signed
 *Package: `IEEE.NUMERIC_STD.ALL`*
 
