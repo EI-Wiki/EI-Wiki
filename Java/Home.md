@@ -15,7 +15,10 @@ Java wordt niet traditioneel gecompiled. Alle code wordt gecompiled tot bytecode
     * [Klasses](Klasses)
     * [Klasse Extras](KlasseExtras)
         * [Inheritance](KlasseExtras#inheritance)
-        * [Abstract Methods](KlasseExtras#abstract-methods)
+        * [Abstract Classes](KlasseExtras#abstract-classes)
+            * [Abstract Fields](KlasseExtras#abstract-fields)
+            * [Abstract Methods](KlasseExtras#abstract-methods)
+            * [Voorbeeld](KlasseExtras#voorbeeld)
         * [Interfaces](KlasseExtras#interfaces)
 
 ## Handige Links
