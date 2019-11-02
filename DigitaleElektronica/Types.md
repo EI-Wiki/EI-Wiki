@@ -39,20 +39,24 @@ end process;
 
 ```
 
-Het is ook mogelijk om bepaalde getallen uit de std_logic_vector te gebruiken.
+Het is ook mogelijk om bepaalde bits uit een `std_logic_vector` te gebruiken. Dit gebeurt met ronde haakjes `()` en een index of range.
 
 ```vhdl
-signal sequence: std_logic_vecor(5 downto 0):="011101";
-signal change: std_logic_vecor(5 downto 0):="101011";
+signal sequence : std_logic_vecor(5 downto 0):="011101";
+signal change : std_logic_vecor(5 downto 0):="101011";
+signal a : std_logic:='0';
 
-signal a: std_logic:='0';
-
-pChangeSeq: process
+pChangeSeq: process(sequence, change)
 begin
 
-    a<= sequence(2); --a zal nu 1 worden
+    -- Index voorbeeld
+    -- a zal hier de waarde van de bit op positie 2 van sequence krijgen
+    a <= sequence(2);
 
-    sequence(3 downto 1)<= change(4 downto 2); -- sequence zal nu "010101" worden
+    -- Range voorbeeld
+    -- De waardes van sequence op posities 1 tot 3
+    -- Krijgen de waardes van change op positie 2 tot 4.
+    sequence(3 downto 1) <= change(4 downto 2);
 end process;
 ```
 
@@ -78,6 +82,9 @@ Een integer is een signed getal met een bit-lengte van 32. Dit betekent dus dat 
 
 ## Array
 Een array is een type dat meerdere elementen bevat van een ander type. Een array heeft altijd een op voorhand gespecifieerde lengte.
+
+
+We kunnen ook zoals bij de `st_logic_vector` waardes selecteren uit een array. Dit gebeurt ook met ronde haakjes en een index.
 
 ```vhdl
 -- Dit is een array van het type integer met een lengte van 4.
