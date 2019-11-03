@@ -1,10 +1,10 @@
 {% include head.html %}
 # [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Klasse Extras
 ## Woord vooraf
-Dit is een uitbereiding op de [Klasses](Klasses) pagina.
+Dit is een uitbreiding op de [Klasses](Klasses) pagina.
 
 ## Inheritance
-Inheritance of overerving is een techniek in programmeren om functionaliteit over te erven van een andere klasse(parent) en deze te gaan uitbereiden of veranderen.
+Inheritance of overerving is een techniek in programmeren om functionaliteit over te erven van een andere klasse(parent) en deze te gaan uitbreiden of veranderen.
 
 Om functionaliteit over te erven van een klasse gebruiken we het keyword `extends` in java.
 ```java
