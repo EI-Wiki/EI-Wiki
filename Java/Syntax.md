@@ -17,7 +17,7 @@ int age = (
 ```
 
 ### Methods
-Methods zijn functies die je kan aanroepen, stel je moet verschillende keren dezelfde stukjes code uitvoeren, dan kan je daar een method voor maken. Afhankelijk van gebruik kunnen methodes `public`, `private` of `protected` zijn, meer info vind je terug in [Klasses](Klasses#methods)
+Methods zijn functies die je kan aanroepen, stel je moet verschillende keren dezelfde stukjes code uitvoeren, dan kan je daar een method voor maken. Afhankelijk van gebruik kunnen methodes `public`, `private` of `protected` zijn, meer info vind je terug in [Klasses](Klasses#methods).
 
 ```java 
 public void toString(){
@@ -100,6 +100,28 @@ switch (age){
         ...
         break;
     case 21:
+        ...
+        break;
+    default:
+        ...
+        break;
+}
+```
+
+Als je meerdere condities in 1 case statement wilt plaatsen (om bijvoorbeeld duplicate code te vermijden), kan je dit doen als volgt:
+
+```java
+switch (age){
+    case 8:
+        ...
+        break;
+    case 12:
+        ....
+        break;
+    case 16:
+        ...
+        break;
+    case 21: case 22:
         ...
         break;
     default:
