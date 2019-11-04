@@ -55,14 +55,14 @@ public Integer calculate(int A, int B){
 
 ## Conditions
 ### if statement
-De `if` statement wordt gebruikt op te kijken of iets waar is. Als je wilt kijken of iemand ouder is als 16 jaar, doe dan dit... Kan je dat met een if statement doen.
+De `if` statement wordt gebruikt op te kijken of iets waar is. Als je wilt kijken of iemand ouder is dan 16 jaar, doe dan dit... Kan je dat met een if statement doen.
 ```java
 if (age > 16) {
 ...
 }
 ```
 
-Als je ook iets wilt doen als de statement niet waar is, op die zelfde if statement gebruik je `else`. Als de persoon dus niet ouder is als 16 jaar, doe dan dit...
+Als je ook iets wilt doen als de statement niet waar is, op die zelfde if statement gebruik je `else`. Als de persoon dus niet ouder is dan 16 jaar, doe dan dit...
 
 ```java
 if (age > 16) {
@@ -85,8 +85,8 @@ if (age > 16) {
 ```
 
 ### Switch statement
-Als je een veriabele hebt die meerdere waardes heeft en je wilt voor elke waarde iets doen, kan je gebruik maken van een `Switch` statement. Als je nu wilt kijken of een persoon 8 jaar, 12 jaar, 16, jaar, 21 jaar is en iets wilt doen bij elk van deze waardes. Je kan dit ook doen met een if statement en voor elke waarde een else if maken. 
-Wat kan gebeuren in een switch statement is dat er geen juist antwoord is, om dit op te lossen heeft men een ``default`` mogelijkheid. hier kan je bijvoorbeeld zeggen dat er niks moet gebeuren.
+Als je een veriabele hebt die meerdere waardes heeft en je wilt voor elke waarde iets doen, kan je gebruik maken van een `switch` statement. Als je nu wilt kijken of een persoon 8 jaar, 12 jaar, 16, jaar, 21 jaar is en iets wilt doen bij elk van deze waardes. Je kan dit ook doen met een if statement en voor elke waarde een else if maken. 
+Wat kan gebeuren in een switch statement is dat er geen juist antwoord is, om dit op te lossen heeft men een `default` mogelijkheid. hier kan je bijvoorbeeld zeggen dat er niks moet gebeuren.
 
 ```java
 switch (age){
@@ -115,7 +115,7 @@ Een ``for`` loop kan op verschillende manieren gebruikt worden:
 - als een loop die voor elke waarde iets te doet (for each loop)
 
 ```java
-for (int i=0; i < 10 ; i++) {
+for (int i=0; i < 10; i++) {
 ...
 }
 ```
@@ -140,12 +140,12 @@ De while loop heeft ook een speciale versie, `de Do-While` loop, deze loop doet 
 ```java
 do {
 ...
-} while (i < 10) ;
+} while (i < 10);
 ```
 
 
 ## Comments
-Om comentaar bij een functie of tussen je code wilt hebben kan je gebruik maken van ``//`` (voor 1 enkele lijn van comentaar).
+Om comentaar in je code te plaatsen kan je gebruik maken van `//` (voor 1 enkele lijn van comentaar).
 
 ```java
 //This is a single comment line
@@ -173,16 +173,16 @@ JavaDoc is ook een soort commentaar. JavaDoc wordt alleen in het begin van een m
 
 JavaDoc wordt meestal ook online gezet, hierdoor kan men makkelijk begrijpen wat de code doet zonder naar de source code te gaan kijken.
 In JavaDoc zijn er heel wat elementen die je er in kan gebruiken, je zult ze nooit allemaal moeten gebruiken, maar hier zijn ze:
-- `@author`: programmeur van de code.
-- `@deprecated`: als de methode veroudert is (eigenlijk niet meer gebruikt wordt).
-- `@exception`: 
-- `@param`: definieert een parameter van een methode. Verplicht voor iedere parameter.
-- `@return`: definieert een teruggegeven waarde (niet verplicht bij type void).
-- `@returns`: zelfde als @return.
-- `@see`: verwijst naar een andere method/klasse.
-- `@since`: geeft aan wanneer een methode is toegevoegd in de klasse.
-- `@throws`: zelfde als exception.
-- `@version`: versie van de methode of klasse.
+- `@author`: Programmeur/Auteur van de code.
+- `@deprecated`: Als de methode veroudert is en niet meer gebruikt wordt.
+- `@exception`: <!--TODO-->
+- `@param`: Definieert een parameter van een methode. Verplicht voor iedere parameter.
+- `@return`: Definieert een teruggegeven waarde (niet verplicht bij het type `void`).
+- `@returns`: Zelfde als `@return`.
+- `@see`: Verwijst naar een andere method/klasse.
+- `@since`: Geeft aan wanneer een methode is toegevoegd in de klasse.
+- `@throws`: Zelfde als exception.
+- `@version`: Versie van de methode of klasse.
 
 ```java
 /**
