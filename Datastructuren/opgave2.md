@@ -4,7 +4,7 @@
 ## 0. Project aanmaken
 In IntelliJ maak een nieuw project an gebruik als template (2de pagina) een 'Console Application'.
 
-Nu kan je de bestanden toevoegen in je project. Dit kan door ze gewoon in  de prject folder te slepen in de bestands verkenner (file explorer).
+Nu kan je de bestanden toevoegen in je project. Dit kan door ze gewoon in  de project folder te slepen in de bestands verkenner (file explorer).
 
 Deze bestanden gaan een hoop errors throwen. Dit komt omdat ze niet in de zelfde package zitten als je main class. Je kan de projecten toeveoegen aan de package door de lijn bovenaan in je main class te kopieeren naar de andere klasses. Deze lijn ziet er ongeveer als volgt uit:
 ```java
@@ -27,7 +27,7 @@ We hebben de linked list `<1 3>` met als current positie `0`. Dus als we hier ee
 
 Herschrijf hiervoor de code.
 
-## 3.2 Remove
+### 3.2 Remove
 Nu moeten we de remove ook aanpassen zodat ze dezelfde functionaliteit heeft. Dus op positie `0` wordt het eerste element verwijderd etc.
 
 ## Conclusie
