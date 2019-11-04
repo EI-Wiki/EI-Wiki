@@ -1,6 +1,58 @@
 {% include head.html %}
 # [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Syntax
 
+## Code syntax
+Java heeft een specifieke manier van van code schrijven. In vergelijking met Python, moet je na elke lijn van code een `;` schrijven. Dit doe je om een lijn van code te beëindigen. Als je dit niet doet zullen de meeste IDE's daar een error geven.
+```java
+System.out.println("Hello World!");
+```
+
+Zoals in alle andere programeer talen moet je alle haakjes die je open doet ook terug sluiten. Het maakt niet uit waar je een haakje sluit, zolang je het maar doet. Natuurlijk maakt het wel uit waar, zoals bij wiskunde zorgen de haakjes voor een volgorde.
+```java
+int age = (
+            25 - 5
+                + 10 
+                    );
+
+```
+
+### Methods
+Methods zijn functies die je kan aanroepen, stel je moet verschillende keren dezelfde stukjes code uitvoeren, dan kan je daar een method voor maken. Afhankelijk van gebruik kunnen methodes `public`, `private` of `protected` zijn, meer info vind je terug in [Klasses](Klasses#methods)
+
+```java 
+public void toString(){
+    ....
+}
+
+```
+
+#### Methode parameters
+Als je methode afhankelijk is van een bepaalde waarde kan je die meegeven. Dit noemen we parameters, je kan ook meerdere parameters meegeven.
+```java
+private void printInfo(String name, int age){
+    ...
+}
+
+```
+
+#### Methode returns
+Je kan ook eem methode maken om een waarde te krijgen. Een methode kan maar 1 waarde terug geven. Maar omdat Java een Objectgeoriënteerd taal is kan je dus wel een object terug geven. (als er geen waarde wordt terug geven scrhijven we void)
+```java
+public String getName(){
+    return .... ;
+}
+
+```
+
+#### Voorbeeld
+
+```java
+public Integer calculate(int A, int B){
+    return A+B;
+}
+
+```
+
 ## Conditions
 ### if statement
 De `if` statement wordt gebruikt op te kijken of iets waar is. Als je wilt kijken of iemand ouder is als 16 jaar, doe dan dit... Kan je dat met een if statement doen.
@@ -156,8 +208,23 @@ public Person (String name, int age){...}
  * @since 0.1, 29/10/2019
  */
 public Integer getAge(){...}
-
-
+    ...
 }
 ```
+
+## Zelfstandig Java programma
+Wil je nu je code kunnen uitvoeren zonder dat je jouw IDE moet gebruiken? Dan heb je een `Main method` nodig, deze bevind zich in je hoofd klasse. Ook in je main method kan je parameters of een return statement gebruiken (in het geval dat je programma een programma aanroept of werd aangeroepen door een ander programma).
+
+In je main method maak je al je instances en objecten aan.
+
+```java
+public static void main(){
+    ...
+}
+```
+
+Nadat je deze method er in hebt staan moet je de code nog exporteren, hierdoor krijg je 1 file die de file extensie ``.jar`` heeft.
+
+Wil je nu je programma uitvoeren, dan doe je je console of terminal open en geef je het commando:
+``java -jar <path/jarname>.jar``
 
