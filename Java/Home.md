@@ -9,9 +9,11 @@ Java wordt niet traditioneel gecompiled. Alle code wordt gecompiled tot bytecode
 
 * Java
     * [Syntax](Syntax)
+         * [Code syntax](Syntax##code-syntax)
          * [Contitions](Syntax#conditions)
          * [Loops](Syntax#loops)
          * [Comments](Syntax#comments)
+         * [Zelfstandig Java programma](Syntax##zelfstandig-java-programma)
     * [Klasses](Klasses)
     * [Klasse Extras](KlasseExtras)
         * [Inheritance](KlasseExtras#inheritance)
