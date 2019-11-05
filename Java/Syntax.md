@@ -165,6 +165,38 @@ do {
 } while (i < 10);
 ```
 
+## Jump statements
+Als je in een loop of conditionele statement zit en je wilt de code beëindigen, kan je gebruik maken van een jump statement. Een goed voorbeeld is de switch statement, na elke `case` moet je de code breken door `break` te gebruiken. Dit kan ook gebruikt worden in andere loops als je een loop volledig wilt breken. Als je `break` gebruikt dan zal je loop of conditie niet meer verder gaan.
+```java
+for (int i = 0; i < 10; i++) {
+    while (true) {
+        break; //stopt de while lus
+    }
+    ...
+}
+```
+
+Je kan ook een enkele iteratie van een loop overslaan door `continue` te gebruiken. Als je bijvoorbeeld kijkt of een lijst een lege entry heeft, kan je deze overslaan door `continue` te gebruiken.
+```java
+int ch;
+while (ch == getChar()) {
+    if (ch == ' ') {
+        continue; // Skip de rest
+    }
+    ...
+}
+```
+
+Als je in een methode zit en je wilt deze stoppen, kan je `return` gebruiken. Als de methode een waarde terug verwacht dan moet je een waarde terug geven (dit kan ook een null waarde zijn).
+```java
+void calculate(int A, int B) {
+    // If streamClosed is true, execution is stopped
+    if (A <0 || B<0) {
+        return;
+    }
+    ...
+}
+```
 
 ## Comments
 Om comentaar in je code te plaatsen kan je gebruik maken van `//` (voor 1 enkele lijn van comentaar).
