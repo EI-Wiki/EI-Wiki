@@ -17,3 +17,5 @@
 * [Hendrik Valcke zijn projecten](https://github.com/Hendrik-Valcke/1-Digitale-Elektronica)
 
 * [Mathias Maes zijn projecten](https://github.com/WatcherWhale/DigitalElectronics)
+
+* [Tijs Van Alphen zijn projecten](https://github.com/TissieVA/DigitaleElektronica-sem1-2)
