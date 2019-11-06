@@ -1,7 +1,7 @@
 {% include head.html %}
 # EI-Wiki
 ## EI-Wiki 4 Teamtrees
-<img src="teamtrees.jpg">
+<img src="teamtrees.jpg" height="100px">
 
 ## Introductie
 Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten besloten om een wiki te maken. De wiki waarop u zich nu bevindt. Hier kan je alles vinden over onze specifieke vakken.
