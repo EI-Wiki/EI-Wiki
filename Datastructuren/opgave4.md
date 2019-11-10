@@ -11,9 +11,9 @@ Alle opdrachten moeten gemaakt worden met een iterator en NIET standaard for lus
 Lees het gegeven bestand in uw programma in. Maak daarna een ArrayList van dit bestand door middel van een zelfgemaakte klasse `Persoon`.
 
 ## 2. Afdrukken alle personen
-We schrijven nu een method om alle personen af te drukken. We doen dit door gebruik te maken van een iterator (zie [0.2]()). De afdruk moet er uit zien als volgt:
+We schrijven nu een method om alle personen af te drukken. We doen dit door gebruik te maken van een iterator (zie [0.2](#02-opgepast)). De afdruk moet er uit zien als volgt:
 
-<img height="200px" src="media/opgave4/allepersonen.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="250px" src="media/opgave4/allepersonen.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 ## 3. Afdrukken personen met voornaam XXX
 Druk nu alle personen in de list af die de voornaam 'Albert' hebben of een andere. We kunnen dit doen door een argument mee te geven met de method.
@@ -29,4 +29,4 @@ Druk alle personen af met een achternaam die begint met de letter 'M' (argument)
 Maak een lijst aan met de indices van alle personen die in 'Antwerpen' (argument) wonen.
 Vervolgens loop je door deze nieuwe list en gebruik je de get methode van de oude list om de persoon af te drukken.
 
-<img height="200px" src="media/opgave4/antwerpen.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="125px" src="media/opgave4/antwerpen.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
