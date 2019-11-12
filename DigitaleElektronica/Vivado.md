@@ -14,9 +14,9 @@ Er worden 3 soorten sources gebruikt:
 
 ## Hoe voeg ik IP-Blokken(xci bestanden) toe?
 Om IP-Blokken toe te voegen aan je project volg de volgende stappen:
-1. Creeer een apparte folder voor ELK ip-blok.
+1. Creëer een aparte folder voor ELK IP-blok.
 	* Je kan deze best in je project plaatsen!
 
-2. Voeg elk ip-blok (xci bestand) toe in je design sources.
+2. Voeg elk IP-blok (.xci bestand) toe in je design sources.
 
-3. Druk rechter muisknop op elk van de ip-blokken en kies 'Upgrade IP'.
+3. Druk rechtermuisknop op elk van de ip-blokken en kies 'Upgrade IP'.
