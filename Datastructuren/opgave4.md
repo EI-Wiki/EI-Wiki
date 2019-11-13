@@ -2,7 +2,7 @@
 # [EI-Wiki](..)/[Datastructuren](Home)/Opgave 4
 ## 0. Extra info
 ### 0.1 Project aanmaken
-In IntelliJ maak een nieuw project an gebruik als template (2de pagina) een 'Console Application'.
+In IntelliJ, maak een nieuw project aan en gebruik als template (2de pagina) een 'Console Application'.
 
 ### 0.2 Opgepast!
 Alle opdrachten moeten gemaakt worden met een **ListIterator** en NIET standaard for lussen.
