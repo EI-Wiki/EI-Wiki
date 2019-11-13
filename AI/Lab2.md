@@ -23,14 +23,9 @@ Dit deel van de wiki gaat over de opdrachten van lab 2 (practicumsessies 3 & 4).
 
 Gelieve de opgaven steeds in volgorde uit te voeren, aangezien deze soms gebruikmaken van vorige opgaven.
 
-In gridworld zal de agent niet altijd de move doen die aan de agent gezegd is. Het kan zijn dat hij 80% van de tijd wél doet wa hij moet doen en 20% van de tijd de verkeerde kant opgaat. Hier zal dus ook rekening mee gehouden moeten in het algoritme.
-
 ### MDP
 
-MDP staat voor Markov Decision Process 
-
-MDP komt overeen met `problem` van lab1
-<!--TODO: Wat is MDP?--->
+MDP staat voor Markov Decision Process en komt overeen met `problem` van lab1. Het enige verschil is dat de agent niet altijd de move doet die hem gegeven is. Het kan zijn dat hij 80% van de tijd wél doet wa hij moet doen en 20% van de tijd de verkeerde kant opgaat. Hier zal dus ook rekening mee gehouden moeten in het algoritme.
 
 Handige functies:
 * mdp.getStates()
@@ -38,7 +33,7 @@ Handige functies:
 * mdp.getPossibleActions(state)
     * Returnt alle mogelijke acties die kunnen uitgevoerd worden door de actor in `state`
 * mdp.getTransitionStatesAndProbs(state, action)
-    * Returnt een lijst van tuples met de nieuwe state en de kans dat je in die state komt
+    * Returnt een lijst van tuples met de nieuwe state en de kans dat je in die state komt als je `action` wou uitvoeren vanuit `state`
 * mdp.getReward(state, action, nextState)
     * Geeft de reward van de actie
 * mdp.isTerminal()
@@ -54,7 +49,7 @@ In deze opgave moet je `ValueIterationAgent()` afwerken, zodat de values worden 
 
 Je kan best beginnen bij `runValueIteration()`, daar moet je bovenstaande formule implementeren.
 
-ALs dat in orde is, moet je nog twee functies afwerken: 
+Als dat in orde is, moet je nog twee functies afwerken: 
 * `computeActionFromValues(state)`: bepaalt de te nemen actie op basis van values
 * `computeQValueFromValues(state, action)`: returnt de Q-waarde adhv de values
 
@@ -83,4 +78,24 @@ python autograder.py -q q1
 #### Volg de formule
 
 Voor `runValueIteration()` moet je gewoon de formule implementeren. Hieronder staat deze in pseudocode:
+
+```
+We doen iets self.iterations keer
+
+    We kijken in alle states
+        Voor elke mogelijke move gaan we de som maken van alle states en transities waar we in geraken
+
+        Stel het maximum van voorgaande sommen gelijk aan de state waar we mee bezig zijn in een tijdelijke counter
+    
+    Zet de tijdelijke Counter gelijk aan self.values
+```
+
+#### Qvalue
+
+Om de Q-value te bepalen vanuit de values, kan je gebruik maken van volgende formule:
+$$
+Q\left(s,a\right)= \sum_{s'}{P\left(s'|s,a\right)\left[R\left(s,a, s'\right) + \gamma V\left(s'\right)\right]}
+$$
+
+## Opgave 2
 
