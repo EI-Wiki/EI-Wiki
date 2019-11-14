@@ -1,5 +1,5 @@
 {% include head.html %}
-# [EI-Wiki](..)/Object Georiënteerd Programmeren
+# [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Collections
 ## Arrays
 ### Definieren
 Een array is een verzameling van elementen van het zelfde type. Zo kunnen we arrays maken van ints, strings en van eender welk type. 
