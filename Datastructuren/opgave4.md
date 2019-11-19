@@ -11,7 +11,7 @@ Alle opdrachten moeten gemaakt worden met een **ListIterator** en NIET standaard
 Lees het gegeven bestand in uw programma in. Maak daarna een ArrayList van dit bestand door middel van een zelfgemaakte klasse `Persoon`.
 
 ## 2. Afdrukken alle personen
-We schrijven nu een method om alle personen af te drukken. We doen dit door gebruik te maken van een listiterator (zie [0.2](#02-opgepast)). De afdruk moet er uit zien als volgt:
+We schrijven nu een method om alle personen af te drukken. We doen dit door gebruik te maken van een ListIterator (zie [0.2](#02-opgepast)). De afdruk moet er uitzien als volgt:
 
 <img height="250px" src="media/opgave4/allepersonen.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
