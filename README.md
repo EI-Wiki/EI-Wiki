@@ -38,7 +38,7 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
 ## Zelf meewerken?
 Als je een kleine opmerking hebt of een spelfout vond, kan je altijd een [issue](https://github.com/WatcherWhale/EI-Wiki/issues) openen.
 
-Fouten mogen ook altijd vermeld worden op de EI wiki [discord server](https://discord.gg/c2JYe4H).
+Fouten mogen ook altijd vermeld worden via de EI wiki [discord server](https://discord.gg/c2JYe4H).
 
 Voor meer uitleg ga naar de [Meewerken](Meewerken) pagina.
 
