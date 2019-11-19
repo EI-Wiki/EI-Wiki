@@ -2,13 +2,13 @@
 # [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Syntax
 
 ## Code syntax
-Java heeft een specifieke manier van van code schrijven. In vergelijking met Python, moet je na elke lijn van code een `;` schrijven. Dit doe je om een lijn van code te beëindigen. Als je dit niet doet zullen de meeste IDE's daar een error geven.
+Java heeft een specifieke manier van code schrijven. In vergelijking met Python, moet je na elke lijn van code een `;` schrijven. Dit doe je om een lijn van code te beëindigen. Als je dit niet doet, zullen de meeste IDE's daar een error geven.
 ```java
 System.out.println("Hello World!");
 ```
 
-Zoals in alle andere programeer talen moet je alle haakjes die je open doet ook terug sluiten. Het maakt niet uit waar je een haakje sluit, zolang je het maar doet. Natuurlijk maakt het wel uit waar, zoals bij wiskunde zorgen de haakjes voor een volgorde.
-```java
+Zoals in alle andere programmeertalen moet je alle haakjes die je open doet uiteindelijk ook terug sluiten. De functie van de haakjes is zoals bij wiskunde. Dingen in de haakjes zullen samengenomen/uitgewerkt worden.
+```
 int age = (
             25 - 5
                 + 10 
