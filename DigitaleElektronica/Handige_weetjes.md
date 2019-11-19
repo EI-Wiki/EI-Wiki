@@ -7,17 +7,19 @@ Als er in een opgave iets gezegt wordt over Synchrone of Assynchrone, moet je ze
 Als het assynchrone moet zijn maakt het niet uit waar het staat, zolang het in hetzelfde process staat en niet tussen de rising_edge.
 
 ```vhdl
-pFlipFlop : process(clk, reset)
+pFlipFlop : process(clk)
 begin
-  if (reset = '1') then
-    --reset
-  elsif rising_edge(clk) then
-    -- Hier komen Synchrone code
-    A <= B;
+  if rising_edge(clk) then
+    if (reset = '1') then
+      --reset
+    else
+      -- Hier komen Synchrone code
+      A <= B;
+    end if;
   end if;
 
   -- Hier komen Assynchrone code
-
+  
 end process;
 ```
 
