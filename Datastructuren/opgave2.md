@@ -6,10 +6,11 @@ In IntelliJ maak een nieuw project an gebruik als template (2de pagina) een 'Con
 
 Nu kan je de bestanden toevoegen in je project. Dit kan door ze gewoon in  de project folder te slepen in de bestands verkenner (file explorer).
 
-Deze bestanden gaan een hoop errors throwen. Dit komt omdat ze niet in de zelfde package zitten als je main class. Je kan de projecten toeveoegen aan de package door de lijn bovenaan in je main class te kopieeren naar de andere klasses. Deze lijn ziet er ongeveer als volgt uit:
+Deze bestanden gaan een hoop errors throwen. Dit komt omdat ze niet in de zelfde package zitten als je main class. Je kan de projecten toevoegen aan de package door de lijn bovenaan in je main class te kopieeren naar de andere klasses. Deze lijn ziet er ongeveer als volgt uit:
 ```java
 package com.company;
 ```
+Als er al een package instaat, dan moet deze lijn verwijderd worden.
 
 Het bestand `ListTest.java` moet niet toegevoegd worden aan het project. Deze klasse is een unit test voor de LList klasse. Je kan hier wel inspiratie halen voor de opdrachten.
 
