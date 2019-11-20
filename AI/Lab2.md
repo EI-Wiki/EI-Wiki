@@ -9,11 +9,11 @@
 * [Opgave 1](#opgave-1)
 * [Opgave 2](#opgave-2)
 * [Opgave 3](#opgave-3)
-* [Opgave 4](#opgave-4)
-* [Opgave 5](#opgave-5)
 * [Opgave 6](#opgave-6)
 * [Opgave 7](#opgave-7)
 * [Opgave 8](#opgave-8)
+* [Opgave 9](#opgave-9)
+* [Opgave 10](#opgave-10)
 
 ## Introductie
 
@@ -24,6 +24,8 @@ Dit deel van de wiki gaat over de opdrachten van lab 2 (practicumsessies 3 & 4).
 Gelieve de opgaven steeds in volgorde uit te voeren, aangezien deze soms gebruikmaken van vorige opgaven.
 
 ### MDP
+
+<!---Geen idee of dit goed is, inhoud ook zeker nakijken aub--->
 
 MDP staat voor Markov Decision Process en komt overeen met `problem` van lab1. Het enige verschil is dat de agent niet altijd de move doet die hem gegeven is. Het kan zijn dat hij 80% van de tijd wél doet wa hij moet doen en 20% van de tijd de verkeerde kant opgaat. Hier zal dus ook rekening mee gehouden moeten in het algoritme.
 
@@ -99,3 +101,37 @@ $$
 
 ## Opgave 2
 
+<img src="Media/Lab2/Bridge.jpg" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+
+Dit is een brug, de eindwaarden 1 en 10 zijn de uiteindes, de -100 zijn de afgrond en 0 is de brug zelf. De bedoeling is nu om je netgeschreven functies te gebruiken om de agent over de brug te sturen door één van deze twee waardes aan te passen (discount of noise).
+
+De uiteindelijke waarde moet je in `question2()` in `analasys.py` zetten zodat de autograder deze kan gebruiken.
+
+Even opfrissen:
+* Discount: hoeveel elke stap minder waard wordt over tijd
+* Noise: hoe groot de kans is dat de agent niet in de richting gaat waarin hij wou gaan
+
+### Commando's om te zien of alles werkt
+
+```
+python gridworld.py -a value -i 100 -g BridgeGrid --discount 0.9 --noise 0.2
+python autograder.py -q q2
+```
+
+## Opgave 3
+
+<img src="Media/Lab2/discountgrid.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+
+Ook hier zal je waarden moeten aanpassen om de agent te overtuigen om bepaalde routes te nemen. Dit zal je ook in `analasys.py` moeten doen. Hier kan je naast diiscount en noise ook livingreward aanpassen (de agent krijgt deze punten voor elke stap dat deze in leven is)
+1. De agent gaat naar de dichte uitgang, langs de klif.
+2. De agent gaat naar de dichte uitgang, maar niet langs de klif.
+3. De agent gaat naar de verre uitgang, langs de klif.
+4. De agent gaat naar de veere uitgang, maar niet langs de klif.
+5. Blijft voor altijd bovenaan in het bord rondgaan.
+
+### Commando's om te zien of alles werkt
+
+```
+
+python autograder.py -q q3
+```
