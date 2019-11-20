@@ -65,5 +65,31 @@ System.out.println(stringList.get(0)); // Output = "Test456"
 ```
 
 ## Hashmaps
+Een Hashmap kan je vergelijken als een lokker kast (voor elke lokker dus een sleutel). Een hashmap werkt ook met sleutels (``Keys``) en achter elke sleutel zit een waarde (of een object, ``value``). de Keys en values kunnen van eender welk type zijn. 
 
-<!--TODO: Add hashmap uitleg-->
+Om een HashMap te defineren gebruiken we de volgende syntax:
+```java
+HashMap<String, Integer> map = new HashMap<String, Integer>(); ////moet in java versie 6 en ouder
+//Of Korter en aangeraden manier
+HashMap<String, Integer> map = new HashMap<>();
+```
+Zoals bij de arraylist werkt de hashmap ook met methodes om values en keys te bewaren, te verkrijgen, te verwijderen.
+
+```java
+HashMap<String, Integer> map = new HashMap<>();
+
+// Voeg een element toe
+map.put("Leo", 123);
+map.put("Twix", 456);
+map.put("Ole", 789);
+
+// volledige entry verwijderen
+map.remove("Leo", 123);
+
+// De waarde uit de map verwijderen (Key blijft bestaan)
+map.remove(456); 
+
+// krijg de waarde die achter ole staate
+System.out.println(map.get("Ole")); // Output = "789"
+```
+
