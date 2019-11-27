@@ -1,7 +1,7 @@
 {% include head.html %}
 {% include math.html %}
 
-# [EI-Wiki](..)/[AI](Home)/Lab 2 - Reinforcement Learning
+# [EI-Wiki](..)/[AI](home)/Lab 2 - Reinforcement Learning
 
 ## Inhoudstafel
 
@@ -57,11 +57,11 @@ Als dat in orde is, moet je nog twee functies afwerken:
 
 De volgende commando's zullen 3 schermen tonen waar je tussen kan switchen door op een toets te duwen.
 
-<img height="400px" src="Media/Lab2/Values.jpg" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="400px" src="media/lab2/values.jpg" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 Hier kan je de values zien per vakje. De pijltjes zijn het resultaat van de `computeActionFromValues`
 
-<img height="400px" src="Media/Lab2/QVal.jpg" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="400px" src="media/lab2/qval.jpg" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 Als je dan op een toets duwt, krijg je de Q-waarden.
 
@@ -101,7 +101,9 @@ $$
 
 ## Opgave 2
 
-<img src="Media/Lab2/Bridge.jpg" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+Voor je aan deze opgave begint, moet opgave 1 werken.
+
+<img src="media/lab2/bridge.jpg" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 Dit is een brug, de eindwaarden 1 en 10 zijn de uiteindes, de -100 zijn de afgrond en 0 is de brug zelf. De bedoeling is nu om je netgeschreven functies te gebruiken om de agent over de brug te sturen door één van deze twee waardes aan te passen (discount of noise).
 
@@ -120,7 +122,9 @@ python autograder.py -q q2
 
 ## Opgave 3
 
-<img src="Media/Lab2/discountgrid.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+Voor je aan deze opgave begint, moet opgave 1 werken.
+
+<img src="media/lab2/discountgrid.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 Ook hier zal je waarden moeten aanpassen om de agent te overtuigen om bepaalde routes te nemen. Dit zal je ook in `analasys.py` moeten doen. Hier kan je naast diiscount en noise ook livingreward aanpassen (de agent krijgt deze punten voor elke stap dat deze in leven is)
 1. De agent gaat naar de dichte uitgang, langs de klif.
@@ -132,6 +136,14 @@ Ook hier zal je waarden moeten aanpassen om de agent te overtuigen om bepaalde r
 ### Commando's om te zien of alles werkt
 
 ```
-
 python autograder.py -q q3
 ```
+
+De autograder is het enige commando dat gebruikt kan worden om te testen of je oplossing juist is. Als alles in orde is, zal dit er staan met x de vraag die in orde is.
+
+`*** PASS: test_cases\q3\1-question-3.x.test`
+
+Indien er iets niet in orde is, zal er gezegd worden wat er fout gaat en welk pad de agent neemt.
+
+## Opgave 6
+
