@@ -19,3 +19,5 @@
 * [Mathias Maes zijn projecten](https://github.com/WatcherWhale/DigitalElectronics)
 
 * [Tijs Van Alphen zijn projecten](https://github.com/TissieVA/DigitaleElektronica-sem1-2)
+
+* [Willem Van der Elst](https://github.com/n00bhax/Digitiale-Elektronica)
