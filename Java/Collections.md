@@ -45,8 +45,8 @@ Een arraylist is vergelijkbaar met een array het is ook een collectie van een sp
 
 Om een arraylist van het type `int` te definieeren gebruiken we volgende syntax:
 ```java
-ArrayList<Integer> intList = new ArrayList<Integer>(); //moet in java versie 6 en ouder
-// Of Korter en aangeraden manier
+ArrayList<Integer> intList = new ArrayList<Integer>(); 
+// Of orter en aangeraden manier
 ArrayList<Integer> intList = new ArrayList<>();
 ```
 Om een element toe te voegen aan de list gebruik je de methode `add` en voor elementen te verwijderen gebruik je `remove`. We kunnen ook de waarde opvragen van een bepaald element, dit doen we met de `get` methode. Bijvoorbeeld:
@@ -65,12 +65,12 @@ System.out.println(stringList.get(0)); // Output = "Test456"
 ```
 
 ## Hashmaps
-Een Hashmap kan je vergelijken als een lokker kast (voor elke lokker dus een sleutel). Een hashmap werkt ook met sleutels (``Keys``) en achter elke sleutel zit een waarde (of een object, ``value``). de Keys en values kunnen van eender welk type zijn. 
+Een Hashmap kan je vergelijken als een lokker kast (voor elke lokker dus een sleutel). Een hashmap werkt ook met sleutels (``Keys``) en achter elke sleutel zit een waarde (of een object, ``value``). De Keys en values kunnen van eender welk type zijn. 
 
 Om een HashMap te defineren gebruiken we de volgende syntax:
 ```java
-HashMap<String, Integer> map = new HashMap<String, Integer>(); ////moet in java versie 6 en ouder
-//Of Korter en aangeraden manier
+HashMap<String, Integer> map = new HashMap<String, Integer>(); 
+//Of korter en aangeraden manier
 HashMap<String, Integer> map = new HashMap<>();
 ```
 Zoals bij de arraylist werkt de hashmap ook met methodes om values en keys te bewaren, te verkrijgen, te verwijderen.
