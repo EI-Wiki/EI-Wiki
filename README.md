@@ -12,6 +12,12 @@ Alvast bedankt, voor jullie begrip en het gebruiken van de EI-Wiki 😄
 ## Introductie
 Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten besloten om een wiki te maken. De wiki waarop u zich nu bevindt. Hier kan je alles vinden over onze specifieke vakken.
 
+Natuurlijk ga je hier niet de oplossingen voorgekauwd krijgen. Je zal dus nooit de oplossing krijgen, maar enkel een antwoord op je vraag.
+Op de EI-Wiki is enkel informatie beschikbaar over dingen die we kunnen googlen of vinden op ons opgave blad.
+We doen dit zodat je niet verdwaald in de over gecompliceerde antwoorden die op het internet te vinden vallen.
+
+## Meedewerkers Gezocht
+De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel jij je geschikt om mee te werken aarzel dan niet om iemand van de onderhouders aan te spreken.
 
 ## Vakken
 ### Bachelor 1
