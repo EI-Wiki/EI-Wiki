@@ -1,7 +1,13 @@
 {% include head.html %}
 # EI-Wiki
-## EI-Wiki 4 Teamtrees
-<img src="teamtrees.jpg" height="100px">
+## :exclamation: EI-Wiki gaat verhuizen!! :exclamation:
+De EI-Wiki gaat binnenkort verhuizen naar een nieuwe url namelijk: [www.eiwiki.ga](https://www.eiwiki.ga).
+Deze website is al vrij operationeel maar draait nog op een oudere versie van de EI-Wiki.
+Toch nodigen we iedereen al uit om deze te gebruiken.
+
+De verhuisdag is nog niet bekend, maar op deze dag zal de wiki waarschijnlijk enkele uren niet meer werken.
+
+Alvast bedankt, voor jullie begrip en het gebruiken van de EI-Wiki :smile:
 
 ## Introductie
 Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten besloten om een wiki te maken. De wiki waarop u zich nu bevindt. Hier kan je alles vinden over onze specifieke vakken.
@@ -39,6 +45,9 @@ Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten be
 Als je een kleine opmerking hebt of een spelfout vond, kan je altijd een [issue](https://github.com/WatcherWhale/EI-Wiki/issues) openen.
 
 Voor meer uitleg ga naar de [Meewerken](Meewerken) pagina.
+
+## EI-Wiki 4 Teamtrees
+<img src="teamtrees.jpg" height="100px">
 
 ## Ter info
 Bouwkunde is stom! 
