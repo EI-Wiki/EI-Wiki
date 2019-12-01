@@ -1,16 +1,17 @@
 {% include head.html %}
 # EI-Wiki
-## :exclamation: EI-Wiki gaat verhuizen!! :exclamation:
+## ❗️ EI-Wiki gaat verhuizen!! ❗️
 De EI-Wiki gaat binnenkort verhuizen naar een nieuwe url namelijk: [www.eiwiki.ga](https://www.eiwiki.ga).
 Deze website is al vrij operationeel maar draait nog op een oudere versie van de EI-Wiki.
 Toch nodigen we iedereen al uit om deze te gebruiken.
 
 De verhuisdag is nog niet bekend, maar op deze dag zal de wiki waarschijnlijk enkele uren niet meer werken.
 
-Alvast bedankt, voor jullie begrip en het gebruiken van de EI-Wiki :smile:
+Alvast bedankt, voor jullie begrip en het gebruiken van de EI-Wiki 😄
 
 ## Introductie
 Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten besloten om een wiki te maken. De wiki waarop u zich nu bevindt. Hier kan je alles vinden over onze specifieke vakken.
+
 
 ## Vakken
 ### Bachelor 1
