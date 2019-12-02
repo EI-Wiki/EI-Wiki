@@ -89,7 +89,7 @@ map.remove("Leo", 123);
 // De waarde uit de map verwijderen (Key blijft bestaan)
 map.remove(456); 
 
-// krijg de waarde die achter ole staate
+// krijg de waarde die achter ole staat
 System.out.println(map.get("Ole")); // Output = "789"
 ```
 
