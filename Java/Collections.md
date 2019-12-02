@@ -46,7 +46,7 @@ Een arraylist is vergelijkbaar met een array het is ook een collectie van een sp
 Om een arraylist van het type `int` te definieeren gebruiken we volgende syntax:
 ```java
 ArrayList<Integer> intList = new ArrayList<Integer>(); 
-// Of orter en aangeraden manier
+// Of korter en aangeraden manier
 ArrayList<Integer> intList = new ArrayList<>();
 ```
 Om een element toe te voegen aan de list gebruik je de methode `add` en voor elementen te verwijderen gebruik je `remove`. We kunnen ook de waarde opvragen van een bepaald element, dit doen we met de `get` methode. Bijvoorbeeld:
