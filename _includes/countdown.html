@@ -5,7 +5,7 @@
     // Update the count down every 1 second
     var x = setInterval(DoCountdown, 1000);
 
-    window.onload = DoCountdown();
+    $(window).ready(DoCountdown());
 
     function DoCountdown() {
 
