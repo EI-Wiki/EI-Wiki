@@ -1,11 +1,11 @@
 {% include head.html %}
 # EI-Wiki
 ## ❗️ EI-Wiki gaat verhuizen!! ❗️
-De EI-Wiki gaat binnenkort verhuizen naar een nieuwe url namelijk: [www.eiwiki.ga](https://www.eiwiki.ga).
+De EI-Wiki gaat op woensdag 4 december verhuizen naar een nieuwe url namelijk: [www.eiwiki.ga](https://www.eiwiki.ga).
 Deze website is al vrij operationeel maar draait nog op een oudere versie van de EI-Wiki.
 Toch nodigen we iedereen al uit om deze te gebruiken.
 
-De verhuisdag is nog niet bekend, maar op deze dag zal de wiki waarschijnlijk enkele uren niet meer werken.
+Op 4 december zal de wiki offline gaan van 18:00 - 20:00 en zal daarna niet meer werken via de oude url.
 
 Alvast bedankt, voor jullie begrip en het gebruiken van de EI-Wiki 😄
 
