@@ -1,8 +1,8 @@
 {% include head.html %}
 # [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Collections
 ## Arrays
-### Definieren
-Een array is een verzameling van elementen van het zelfde type. Zo kunnen we arrays maken van ints, strings en van eender welk type. 
+### Definiëren
+Een array is een verzameling van elementen van hetzelfde type. Zo kunnen we arrays maken van ints, strings of eender welk type. 
 
 Om een array te maken, gebruiken we het volgende formaat:
 ```java
@@ -43,7 +43,7 @@ intArr[2] = 66;
 
 Een arraylist is vergelijkbaar met een array het is ook een collectie van een specifiek element. Het grootste verschil tussen de 2 is dat we bij de arraylist speciale methodes krijgen die sommige functionaliteit zeer makkelijk maken. Zoals het verwijderen van elementen of de lijst omdraaien.
 
-Om een arraylist van het type `int` te definieeren gebruiken we volgende syntax:
+Om een arraylist van het type `int` te definiëren gebruiken we volgende syntax:
 ```java
 ArrayList<Integer> intList = new ArrayList<Integer>(); 
 // Of korter en aangeraden manier
@@ -65,15 +65,15 @@ System.out.println(stringList.get(0)); // Output = "Test456"
 ```
 
 ## Hashmaps
-Een Hashmap kan je vergelijken als een lokker kast (voor elke lokker dus een sleutel). Een hashmap werkt ook met sleutels (``Keys``) en achter elke sleutel zit een waarde (of een object, ``value``). De Keys en values kunnen van eender welk type zijn. 
+Een Hashmap kan je vergelijken als een lokkerkast (voor elke lokker dus een sleutel). Een hashmap werkt ook met sleutels (``Keys``) en achter elke sleutel zit een waarde (of een object, ``value``). De Keys en values kunnen van eender welk type zijn. 
 
-Om een HashMap te defineren gebruiken we de volgende syntax:
+Om een HashMap te definiëren gebruiken we de volgende syntax:
 ```java
 HashMap<String, Integer> map = new HashMap<String, Integer>(); 
 //Of korter en aangeraden manier
 HashMap<String, Integer> map = new HashMap<>();
 ```
-Zoals bij de arraylist werkt de hashmap ook met methodes om values en keys te bewaren, te verkrijgen, te verwijderen.
+Zoals bij de arraylist werkt de hashmap ook met methodes om values en keys te bewaren, te verkrijgen en te verwijderen.
 
 ```java
 HashMap<String, Integer> map = new HashMap<>();
