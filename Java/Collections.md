@@ -125,7 +125,7 @@ for (Map.Entry<Integer, String> entry : person.entrySet()){
 }
 ```
 
-Java heeft ook een iterator die je kan gebruiken, vergeet niet dat je dit ook moet importeren om te kunnen gebruiken `import java.util.Iterator;`. De Iterator heeft niet veel methodes, om door de lijst te gaan ga je kijken of er een volgende waarde is in de iterator (`.hasNext()`). Om dan de volgende waarde te verkrijgen gebruik je `.next()` (Dit neemt de volgende waarde, niet de waarde waar je je bevind).
+Java heeft ook een iterator die je kan gebruiken, vergeet niet dat je deze moet importeren `import java.util.Iterator;`. De Iterator heeft niet veel methodes, om door de lijst te gaan ga je kijken of er een volgende waarde is in de iterator (`.hasNext()`). Om dan de volgende waarde te verkrijgen gebruik je `.next()` (Dit neemt de volgende waarde, niet de waarde waar je je bevind).
 ```java
 ArrayList<String> names = new ArrayList<>();
 
