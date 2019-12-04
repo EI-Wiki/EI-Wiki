@@ -1,4 +1,4 @@
-# Lab 1 - Searching
+# [AI](/ai)/Lab 1 - Searching
 
 ## Inhoudstafel
 

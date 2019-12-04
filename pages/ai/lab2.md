@@ -1,4 +1,4 @@
-# Lab 2 - Reinforcement Learning
+# [AI](/ai)/Lab 2 - Reinforcement Learning
 
 ## Inhoudstafel
 

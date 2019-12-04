@@ -1,4 +1,4 @@
-# Extra
+# [AI](/ai)/Extra
 
 ## Autograder
 
