@@ -1,5 +1,5 @@
-{% include head.html %}
-# [EI-Wiki](..)/[Datastructuren](Home)/Opgave 2
+
+# /[Datastructuren](/datastructuren)/Opgave 2
 
 ## 0. Project aanmaken
 In IntelliJ maak een nieuw project an gebruik als template (2de pagina) een 'Console Application'.

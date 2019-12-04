@@ -1,8 +1,8 @@
-{% include head.html %}
-# [EI-Wiki](..)/Netwerk Arhitectuur
+
+# /Netwerk Architectuur
 ## Inhoudsopgave
 * Linux
-    * [Mappen & Bestanden](Mappen-Bestanden.md)
+    * [Mappen & Bestanden](/mappen-bestanden)
     * [Commando's en Systeembeheer]()
     * [Gebruikers, groepen, permissies, backups en software]()
 * Theorie
