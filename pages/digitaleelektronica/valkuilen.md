@@ -1,5 +1,4 @@
-{% include head.html %}
-# [EI-Wiki](..)/[Digitale Elektronica](Home)/Valkuilen
+# [Digitale Elektronica](/digitaleelektronica/)/Valkuilen
 
 ## Valkuil 1: VHDL heeft GEEN variabelen
 In vhdl wordt de waarde van een signaal pas aangepast op het einde van een process.

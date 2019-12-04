@@ -1,5 +1,4 @@
-{% include head.html %}
-# [EI-Wiki](..)/[Digitale Elektronica](Home)/Testbenches
+# [Digitale Elektronica](/digitaleelektronica)/Testbenches
 ## Het nut van simuleren
 Simuleren lijkt in de ogen van veel studenten volstrekt nutteloos, maar kan soms echt goed van pas komen. Hier zijn enkele redenen waarom we beter simuleren dan implementeren:
 

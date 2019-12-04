@@ -1,5 +1,4 @@
-{% include head.html %}
-# [EI-Wiki](..)/[Digitale Elektronica](Home)/Packages
+# [Digitale Elektronica](Home)/Packages
 ## Packages
 
 Een package is een gewoon vhdl bestand waar we definities in kunnen plaatsen. We kunnen hier geen logica in schrijven (geen processen).
