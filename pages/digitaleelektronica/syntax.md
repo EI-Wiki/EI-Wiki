@@ -1,5 +1,4 @@
-{% include head.html %}
-# [EI-Wiki](..)/[Digitale Elektronica](Home)/Syntax
+# [Digitale Elektronica](/digitaleelektronica/)/Syntax
 ## Operators (Operatoren)
 ### Waarde Toekenning
 Om waardes toe te kennen in vhdl gebruiken we **niet** de standaard `=` zoals we gewoon zijn bij andere programeertalen. In vhdl zijn er hier 3 operatoren voor, namelijk : `<=`, `:=`, `=>`.

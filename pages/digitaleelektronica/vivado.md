@@ -1,5 +1,4 @@
-{% include head.html %}
-# [EI-Wiki](..)/[Digitale Elektronica](Home)/Vivado
+# [Digitale Elektronica](/digitaleelektronica/)/Vivado
 ## Waar vind ik wat?
 De sources bevinden zich in projectnaam/projectnaam.srcs  
 Er worden 3 soorten sources gebruikt:

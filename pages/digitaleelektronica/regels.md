@@ -1,5 +1,4 @@
-{% include head.html %}
-# [EI-Wiki](..)/[Digitale Elektronica](Home)/Regels
+# [Digitale Elektronica](/digitaleelektronica)/Regels
 ## Regels voor een combinatorisch proces
 1. Alle signalen die gelezen worden, moeten in de sensitivity list staan  
   voorbeeld:
