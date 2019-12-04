@@ -1,8 +1,8 @@
 
-# /Netwerk Arhitectuur
+# /Netwerk Architectuur
 ## Inhoudsopgave
 * Linux
-    * [Mappen & Bestanden](/Mappen-Bestanden)
+    * [Mappen & Bestanden](/mappen-bestanden)
     * [Commando's en Systeembeheer]()
     * [Gebruikers, groepen, permissies, backups en software]()
 * Theorie
