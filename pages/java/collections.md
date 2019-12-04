@@ -1,5 +1,5 @@
-{% include head.html %}
-# [EI-Wiki](..)/[Object Georiënteerd Programmeren](Home)/Collections
+# [Java](/java)/Collecties
+
 ## Arrays
 ### Definiëren
 Een array is een verzameling van elementen van hetzelfde type. Zo kunnen we arrays maken van ints, strings of eender welk type. 
