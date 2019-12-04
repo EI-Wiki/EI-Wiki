@@ -24,7 +24,7 @@ De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel 
 * [Analoge Elektronica 2]()
 * [Datastructuren (Java)](/datastructuren)
 * [Digitale Elektronica (vhdl)](/digitaleelektronica)
-* [Netwerk Architectuur (Linux)]()
+* [Netwerk Architectuur (Linux)](/netwerk-architectuur)
 
 ### Bachelor 3
 
