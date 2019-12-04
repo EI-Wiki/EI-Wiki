@@ -1,6 +1,4 @@
-{% include head.html %}
-{% include math.html %}
-# [EI-Wiki](..)/[Datastructuren](Home)/Opgave 1
+# /[Datastructuren](/datastructuren)/Opgave 1
 
 ## 0. Project aanmaken
 In IntelliJ maak een nieuw project an gebruik als template (2de pagina) een 'Console Application'.
@@ -8,7 +6,7 @@ In IntelliJ maak een nieuw project an gebruik als template (2de pagina) een 'Con
 ## 1. Bereken de Big O voor beide algoritmes
 * Bereken de tijdscomplexiteit voor elke instructie
 
-    <img height="200px" src="media/opgave1/numalgo.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <img height="200px" src="/media/datastructuren/media/opgave1/numalgo.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 * Daarna tel en vermenigvuldig je correct
 

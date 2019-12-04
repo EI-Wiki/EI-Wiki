@@ -1,2 +1,2 @@
-{% include head.html %}
-# [EI-Wiki](..)/[Datastructuren](Home)/IntelliJ
+
+# [Datastructuren](/datastructuren)/IntelliJ

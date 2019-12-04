@@ -29,4 +29,4 @@ Druk alle personen af met een achternaam die begint met de letter 'M' (argument)
 Maak een lijst aan met de indices van alle personen die in 'Antwerpen' (argument) wonen.
 Vervolgens loop je door deze nieuwe list en gebruik je de get methode van de oude list om de persoon af te drukken.
 
-<img height="125px" src="/media/datastructuren/media/opgave4/antwerpen.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="125px" src="/media/datastructuren/xmedia/opgave4/antwerpen.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
