@@ -1,8 +1,8 @@
 {% include head.html %}
 {% include countdown.html %}
 # EI-Wiki
-## ❗️ EI-Wiki gaat verhuizen!! ❗️
-### Nog <span id="countdown"></span> totdat we verhuizen.
+## ❗️ EI-Wiki is aan het verhuizen!! ❗️
+### Nog <span id="countdown"></span> totdat we terug online zijn op  de nieuwe URL.
 De EI-Wiki gaat op woensdag 4 december verhuizen naar een nieuwe url namelijk: [www.eiwiki.ga](https://www.eiwiki.ga).
 Deze website is al vrij operationeel maar draait nog op een oudere versie van de EI-Wiki.
 Toch nodigen we iedereen al uit om deze te gebruiken.
@@ -48,8 +48,9 @@ De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel 
 * [Hendrik Valcke](https://github.com/Hendrik-Valcke)
 * [Tijs Van Alphen](https://github.com/TissieVA)
 * [Pierre Franck](https://github.com/pixar02)
-* [Wout Van Uytsel](https://github.com/Wocco)
 * [Tom De bruyn](https://github.com/TomD011099)
+* [Wout Van Uytsel](https://github.com/Wocco)
+
 
 ## Zelf meewerken?
 Als je een kleine opmerking hebt of een spelfout vond, kan je altijd een [issue](https://github.com/WatcherWhale/EI-Wiki/issues) openen.
