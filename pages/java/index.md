@@ -8,7 +8,7 @@ Java wordt niet traditioneel gecompiled. Alle code wordt gecompiled tot bytecode
 ## Inhoudsopgave
 
 * Java
-    * [Syntax](/java/yntax)
+    * [Syntax](/java/syntax)
          * [Code syntax](/java/syntax##code-syntax)
          * [Contitions](/java/syntax#conditions)
          * [Loops](/java/syntax#loops)
