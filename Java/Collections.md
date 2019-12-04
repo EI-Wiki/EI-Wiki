@@ -93,3 +93,46 @@ map.remove(456);
 System.out.println(map.get("Ole")); // Output = "789"
 ```
 
+## Iterator
+Om een collectie volledig te doorlopen, gebruik je een vorm van een iterator.
+Met lijsten (Lists, ArraList, Set,...) kan je een `foreach` iterator gebruiken. Dit is de meest gebruikte iterator om door een lijst te gaan.
+
+```java
+ArrayList<String> names = new ArrayList<>();
+
+for (String name: names) {
+  System.out.println(name);
+}
+```
+
+Wil je deze soort ook toepassen op een Map collectie, dan kan je voor elke key of waarde de map door lopen of je kan een hele `entry` door lopen.
+```java
+HashMap<String, integer> person = new HashMap<>();
+
+//foreach key
+for (String name : person.values()) {
+  System.out.println(name);
+}
+
+//foreach value
+for (Integer age : person.keys()) {
+  System.out.println(age);
+}
+
+//foreach entry
+for (Map.Entry<Integer, String> entry : person.entrySet()){
+  System.out.println(entry.getKey() + entry.getValue());
+}
+```
+
+Java heeft ook een iterator die je kan gebruiken, vergeet niet dat je dit ook moet importeren om te kunnen gebruiken.
+```java
+ArrayList<String> names = new ArrayList<>();
+
+Iterator iterator = names.Iterator();
+while (iterator.hasNext()){
+  System.out.println(iterator.next());
+}
+```
+
+
