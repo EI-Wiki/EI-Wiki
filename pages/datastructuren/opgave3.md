@@ -13,12 +13,12 @@ Om dit te doen gebruiken we 2 methods `push` en `pop`.
 ### 1.1 Push
 `push` is de method om op het einde van de stack een nieuw element te pushen.
 
-<img height="200px" src="/media/datastructuren/media/opgave3/push.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="200px" src="/media/datastructuren/opgave3/push.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 ### 1.2 Pop
 `pop` is de method om een element van het einde van de stack te halen.
 
-<img height="200px" src="/media/datastructuren/media/opgave3/pop.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="200px" src="/media/datastructuren/opgave3/pop.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 ## 2. Parser
 

@@ -1,4 +1,3 @@
-{% include head.html %}
 # [Datastructuren](/datastructuren)/Opgave 4
 ## 0. Extra info
 ### 0.1 Project aanmaken
@@ -13,20 +12,20 @@ Lees het gegeven bestand in uw programma in. Maak daarna een ArrayList van dit b
 ## 2. Afdrukken alle personen
 We schrijven nu een method om alle personen af te drukken. We doen dit door gebruik te maken van een ListIterator (zie [0.2](#02-opgepast)). De afdruk moet er uitzien als volgt:
 
-<img height="250px" src="/media/datastructuren/media/opgave4/allepersonen.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="250px" src="/media/datastructuren/opgave4/allepersonen.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 ## 3. Afdrukken personen met voornaam XXX
 Druk nu alle personen in de list af die de voornaam 'Albert' hebben of een andere. We kunnen dit doen door een argument mee te geven met de method.
 
-<img height="100px" src="/media/datastructuren/media/opgave4/albert.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="100px" src="/media/datastructuren/opgave4/albert.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 ## 4. Afdrukken personen met achternaam X*
 Druk alle personen af met een achternaam die begint met de letter 'M' (argument). Je drukt deze namen af in omgekeerde volgorde waarin ze voorkomen.
 
-<img height="100px" src="/media/datastructuren/media/opgave4/m.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="100px" src="/media/datastructuren/opgave4/m.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
 ## 5. Afdrukken personen met woonplaats XXX
 Maak een lijst aan met de indices van alle personen die in 'Antwerpen' (argument) wonen.
 Vervolgens loop je door deze nieuwe list en gebruik je de get methode van de oude list om de persoon af te drukken.
 
-<img height="125px" src="/media/datastructuren/media/opgave4/antwerpen.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img height="125px" src="/media/datastructuren/opgave4/antwerpen.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
