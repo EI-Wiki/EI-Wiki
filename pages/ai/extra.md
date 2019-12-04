@@ -1,6 +1,5 @@
-{% include head.html %}
+# Extra
 
-# [EI-Wiki](..)/[AI](Home)/Extra
 ## Autograder
 
 De Berkley projecten die je gaat gebruiken bevatten een handig bestand, de autograder. Dit programma wordt gebruikt om te bepalen of je opdrachten goed geschreven zijn.

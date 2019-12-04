@@ -1,6 +1,4 @@
-{% include head.html %}
-
-# [EI-Wiki](..)/[AI](home)/Lab 1 - Searching
+# Lab 1 - Searching
 
 ## Inhoudstafel
 

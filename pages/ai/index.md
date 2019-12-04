@@ -1,6 +1,4 @@
-{% include head.html %}
-
-# [EI-Wiki](..)/AI
+# Artificial Intelligence
 
 ## Introductie
 
@@ -11,10 +9,10 @@ De cursus van de theorie kan je [hier](https://faculty.psau.edu.sa/filedownload/
 ## Inhoudsopgave
 ### Theorie
 
-* [Zoekalgoritmes](Search)
+* [Zoekalgoritmes](/ai/search)
 
 ### Practicum
 
-* [Extra info](Extra)
-* [Lab 1 - Searching](Lab1)
-* [Lab 2 - Reinforcement Learning](Lab2)
+* [Extra info](/ai/extra)
+* [Lab 1 - Searching](/ai/lab1)
+* [Lab 2 - Reinforcement Learning](/ai/lab2)

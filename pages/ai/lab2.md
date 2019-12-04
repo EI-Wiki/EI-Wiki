@@ -1,7 +1,4 @@
-{% include head.html %}
-{% include math.html %}
-
-# [EI-Wiki](..)/[AI](home)/Lab 2 - Reinforcement Learning
+# Lab 2 - Reinforcement Learning
 
 ## Inhoudstafel
 
