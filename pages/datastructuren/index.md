@@ -14,4 +14,3 @@ Bij vragen over java ga naar de pagina [Object Georiënteerd Programmeren (java)
 
 ## Handige Links
 * [Object Georiënteerd Programmeren (java)](/java/)
-* [Mathias' repo](https://github.com/WatcherWhale/DataStructures)

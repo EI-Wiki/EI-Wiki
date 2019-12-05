@@ -11,12 +11,3 @@
 * [Testbenches](/digitaleelektronica/testbenches)
     * [Zelftestende Testbenches](/digitaleelektronica/testbenches#zelftestende-testbenches-digitale-elektronica-2)
 * [Packages](/digitaleelektronica/packages)
-
-## Handige Links
-* [Hendrik Valcke zijn projecten](https://github.com/Hendrik-Valcke/1-Digitale-Elektronica)
-
-* [Mathias Maes zijn projecten](https://github.com/WatcherWhale/DigitalElectronics)
-
-* [Tijs Van Alphen zijn projecten](https://github.com/TissieVA/DigitaleElektronica-sem1-2)
-
-* [Willem Van der Elst](https://github.com/n00bhax/Digitiale-Elektronica)
