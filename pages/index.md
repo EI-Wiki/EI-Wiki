@@ -46,7 +46,7 @@ Als je een kleine opmerking hebt of een spelfout vond, kan je altijd een [issue]
 Voor meer uitleg ga naar de [Meewerken](/meewerken) pagina.
 
 ## EI-Wiki 4 Teamtrees
-<img src="/media/teamtrees.jpg" height="100px">
+<img src="/media/teamtrees.jpg" class="max-w-500 max-h-100">
 
 ## Ter info
 Bouwkunde is stom! 
