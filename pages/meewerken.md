@@ -1,4 +1,17 @@
 # Meewerken
+## Inhouds Opgave
+* [Fouten melden](#fouten-melden)
+* [Zelf pagina's schrijven](#zelf-pagina-39-s-schrijven)
+* [Forken van de wiki](#forken-van-de-wiki)
+* [Pull Request](#pull-request)
+* [Markdown](#markdown)
+    * [Pull Request](#syntax)
+    * [Algemene Regels](#algemene-regels)
+        * [1. Titels](#1-titels)
+        * [2. Foto's Toevoegen](#2-foto-39-s-toevoegen)
+        * [3. Links Toevoegen](#3-links-toevoegen)
+* [Latex](#latex)
+
 ## Fouten melden
 Fouten melden kan zeer simpel in de [issues pagina](https://github.com/WatcherWhale/EI-Wiki/issues).
 Uw issue wordt nagekeken en daarna verwerkt door de onderhouders of door een pull request.
