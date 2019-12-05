@@ -123,9 +123,12 @@ loop
 end loop;
 ```
 
-## Ports & Generics
-### Ports
-Ports zijn de in- en outputs van je component.
+## Components
+### Entities
+In elke vhdl file beschrijven we een entity en een architeture van onze entity. Deze zouden we kunnen vergelijken met klassen uit programmeertalen. Waarbij we in de architecture onze methods maken (processen) en erbuiten onze fields (signalen).
+### Ports & Generics
+#### Ports
+Ports zijn de in- en outputs van je entiteit/component.
 
 ```vhdl
 Port(
@@ -133,7 +136,7 @@ Port(
     stdOut : out std_logic_vector(3 downto 0));
 ```
 
-### Generics
+#### Generics
 
 Generics zijn gelijkaardig aan ports. Enkel zijn het constante waarden die voor compilatie gezet worden. Generics moeten **altijd** een standaardwaarde krijgen.
 
@@ -141,3 +144,32 @@ Generics zijn gelijkaardig aan ports. Enkel zijn het constante waarden die voor 
 Generic(
     stdGeneric : std_logic_vector(3 downto 0) := "1111");
 ```
+
+### Components & Port maps
+Een component is niet meer dan een link naar een andere entity uit ons project. Zo kunnen we deze entity één of meerdere keren gebruiken in de entity waar we op het moment in bezig zijn.
+
+Zo kunnen we een component aanmaken om hsyncs en vsyncs te maken om ons scherm aan te sturen, terwijl we in onze top level (bovenste entity) kunnen zeggen welke kleuren we moeten displayen op een coordinaat.
+
+Een component heeft meestal de volgende structuur:
+```vhdl
+<component name>:<entity>
+Port map(
+    port1 => <waarde/signaal>,
+    port2 => <waarde/signaal>
+);
+```
+
+Ook als we generics willen mappen gebruiken we dezelfde structuur als een port map alleen vervangen we het woord port door generic:
+```vhdl
+<component name>:<entity>
+Generic map(
+    generic1 => <waarde>,
+    generic2 => <waarde>
+);
+Port map(
+    port1 => <waarde/signaal>,
+    port2 => <waarde/signaal>
+);
+```
+### Handige link
+Hier is nog een informatieve link met een powerpoint die alles mooi demonstreert: [PPT VHDL Portmapping example](http://telescript.denayer.wenk.be/~kvb/Labo_Digitale_Synthese/vhdl_portmapping_example.pdf).
