@@ -13,7 +13,7 @@ De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel 
 ## Vakken
 ### Bachelor 1
 
-* [Analoge Elektronica 1]()
+* [Analoge Elektronica 1](/analoge1)
 * [Computer Netwerken (Windows)](/computer-netwerken)
 * [Digitale Elektronica (vhdl)](/digitaleelektronica)
 * [Informatica (Python)](/informatica)
@@ -21,7 +21,7 @@ De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel 
 
 ### Bachelor 2
     
-* [Analoge Elektronica 2]()
+* [Analoge Elektronica 2](/analoge2)
 * [Datastructuren (Java)](/datastructuren)
 * [Digitale Elektronica (vhdl)](/digitaleelektronica)
 * [Netwerk Architectuur (Linux)](/netwerk-architectuur)
