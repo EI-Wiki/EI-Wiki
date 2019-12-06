@@ -29,5 +29,3 @@ Voor meer uitleg ga naar de [Meewerken](Meewerken) pagina.
 ## EI-Wiki 4 Teamtrees
 <img src="teamtrees.jpg" height="100px">
 
-## Ter info
-Bouwkunde is stom! 
