@@ -5,6 +5,7 @@ Bij vragen over java ga naar de pagina [Object Georiënteerd Programmeren (java)
 
 * Java
     * [Random generator]()
+    * [JUnit](/datastructuren/junit)
 * Opdrachten
     * [Opgave1](/datastructuren/opgave1)
     * [Opgave2](/datastructuren/opgave2)
