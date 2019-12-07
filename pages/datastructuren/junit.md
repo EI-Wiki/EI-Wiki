@@ -36,8 +36,9 @@ public class TestClass
 Assert methods kijken zoals if statements of een conditie klopt. Enkel als asserts een valse conditie meekrijgen stoppen ze de test en verklaren ze de hele test vals.
 
 Er zijn verchillende assert methods hier zijn er een paar:
+
 | Assert method | Argumenten | Functie |
-|---------------------|-----------------------|-----------------------------------------------------|
+|---|---|---|
 | `assertEquals` | `expected`,`actual` | Kijkt of expected gelijk is aan actual. |
 | `assertNotEquals` | `unexpected`,`actual` | Kijkt of unexpected niet gelijk is aan actual. |
 | `assertArrayEquals` | `expecteds`,`actuals` | Kijkt of de array exprecteds gelijk is aan actuals. |
@@ -45,6 +46,7 @@ Er zijn verchillende assert methods hier zijn er een paar:
 | `assertNotNull` | `object` | Kijkt of het meegegeven object niet null is. |
 | `assertTrue` | `condition` | Kijkt of de meegegeven conditie waar is. |
 | `assertFalse` | `condition` | Kijkt of de meegegeven conditie vals is. |
+
 
 ```java
 import org.junit.Test;
