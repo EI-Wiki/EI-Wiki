@@ -1,6 +1,6 @@
 <!--
 {
-  "index": false
+  "noindex": true
 }
 -->
 # Oei dit vak is leeg!
