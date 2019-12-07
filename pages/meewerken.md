@@ -1,5 +1,5 @@
 # Meewerken
-## Inhouds Opgave
+## Inhoudsopgave
 * [Fouten melden](#fouten-melden)
 * [Zelf pagina's schrijven](#zelf-pagina-39-s-schrijven)
 * [Forken van de wiki](#forken-van-de-wiki)
