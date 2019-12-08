@@ -4,5 +4,3 @@ EI-Wiki is under [GNU General Public License v3.0](https://github.com/WatcherWha
 Powered by [EasyWiki](https://github.com/WatcherWhale/EasyWiki).
 
 &copy; 2019 EI-Wiki
-
-{{{footerNavbar}}}
