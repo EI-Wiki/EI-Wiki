@@ -1,3 +1,6 @@
+<!--
+{"indexdepth":1}
+-->
 # [AI](/ai)/Lab 1 - Searching
 
 ## Inhoudstafel
