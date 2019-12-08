@@ -7,7 +7,7 @@ System.out.println("Hello World!");
 ```
 
 Zoals in alle andere programmeertalen moet je alle haakjes die je open doet uiteindelijk ook terug sluiten. De functie van de haakjes is zoals bij wiskunde. Dingen in de haakjes zullen samengenomen/uitgewerkt worden.
-```
+```java
 int age = (
             25 - 5
                 + 10 
