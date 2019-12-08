@@ -1,16 +1,7 @@
+<!--
+{"indexdepth":1}
+-->
 # [AI](/ai)/Lab 2 - Reinforcement Learning
-
-## Inhoudstafel
-
-* [Intro](#introductie)
-* [Opgave 1](#opgave-1)
-* [Opgave 2](#opgave-2)
-* [Opgave 3](#opgave-3)
-* [Opgave 6](#opgave-6)
-* [Opgave 7](#opgave-7)
-* [Opgave 8](#opgave-8)
-* [Opgave 9](#opgave-9)
-* [Opgave 10](#opgave-10)
 
 ## Introductie
 
