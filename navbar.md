@@ -1,4 +1,4 @@
 [Home](/)
 [Meewerken](/Meewerken)
-[Themes](/themes)
+[Thema's](/themes)
 [Github](https://github.com/WatcherWhale/EI-Wiki)
