@@ -1,7 +1,7 @@
 <!--
 {"indexdepth": 1}
 -->
-# [Digitale Elektronica](Home)/Packages
+# [Digitale Elektronica](Home)/Algoritmes
 ## LFSR (Lineair-Feedback Shift Register)
 
 Lineair-Feedback Shift Register of kort LFSR is een algoritme dat gebruikt wordt om psuedo random waardes te genereren gebruik makende van een schuif register.
@@ -15,7 +15,7 @@ Hier is een afbeelding met wat verduidelijking:
 
 #### Taps
 Voor een 16-bit LFSR worden vaak de volgende taps gebruikt: [16, 14, 13, 11] dit wordt meestal mooier voor gesteld met een polynoom, die de feedback polynomial genoemd wordt:
-$$x^16 + x^14 + x^13 + x^11 + 1$$
+$$x^{16} + x^{14} + x^{13} + x^{11} + 1$$
 
 Om taps te maken voor een LFSR moeten we ons aan volgende voorwaarden houden:
 * Het aantal taps is even
