@@ -1,7 +1,4 @@
-<!--
-{"indexdepth": 1}
--->
-# [Digitale Elektronica](Home)/Algoritmes
+# Algoritmes
 ## LFSR (Lineair-Feedback Shift Register)
 
 Lineair-Feedback Shift Register of kort LFSR is een algoritme dat gebruikt wordt om psuedo random waardes te genereren gebruik makende van een schuif register.
@@ -31,3 +28,36 @@ Als de seed hetzelfde is voor 2 aparte schuifregisters zal hun output ook altijd
 * Digitale Elektronica 4de editie - Koen Lostrie (ISBN 978 90 382 2297 4)
 
 ## Bresenham
+Bresenham is een familie van line drawing algoritmes die gebasseerd zijn op het line drawing algoritme van Bresenham. Het is een algoritme dat nog veel gebruikt wordt in moderne graphische kaarten en graphische software libraries.
+
+Bresenham wordt gebruikt omdat we geen 'echte' lijnen kunnen teken op een computerscherm. Deze bestaan uit allemaal kleine virkantjes (pixels) en zijn dus niet oneindig klein.
+
+### Error based Bresenham
+Omdat we in de FPGA niet kunnen delen met alle getallen en al zeker niet makkelijk reëele getallen kunnen gebruiken, gebruiken we dus een error based Bresenham algoritme. Op wikipedia vinden we volgende pseudo code:
+
+```python
+plotLine(int x0, int y0, int x1, int y1)
+    dx =  abs(x1-x0);
+    sx = x0<x1 ? 1 : -1;
+    dy = -abs(y1-y0);
+    sy = y0<y1 ? 1 : -1;
+    err = dx+dy;  /* error value e_xy */
+    while (true)   /* loop */
+        if (x0==x1 && y0==y1) break;
+        e2 = 2*err;
+        if (e2 >= dy) 
+            err += dy; /* e_xy+e_x > 0 */
+            x0 += sx;
+        end if
+        if (e2 <= dx) /* e_xy+e_y < 0 */
+            err += dx;
+            y0 += sy;
+        end if
+    end while
+```
+
+Dit algoritme simuleert als het ware de richtings coefficient, deze kunnen we namelijk niet bepalen door het gebrek aan deling in de FPGA.
+We hebben een soort error (`err`) die zegt hoe hard we uitwijken van de lijn en we gaan dit dus daarna corrigeren.
+
+### Bronnen
+* [Wikipedia](https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm#All_cases)
