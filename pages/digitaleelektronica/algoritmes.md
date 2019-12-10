@@ -1,7 +1,7 @@
 # Algoritmes
 ## LFSR (Lineair-Feedback Shift Register)
 
-Lineair-Feedback Shift Register of kort LFSR is een algoritme dat gebruikt wordt om psuedo random waardes te genereren gebruik makende van een schuif register.
+Lineair-Feedback Shift Register of kort LFSR is een algoritme dat gebruikt wordt om psuedo random waardes te genereren gebruik makende van een schuifregister.
 
 ### Fibonacci LFSR
 Een LFSR is een schuifregister waarbij enkele uitgangen teruggekoppeld worden met een XOR port. We noemen deze uitgangen taps. De taps worden ook sequentieel ge-XOR'ed. De uitgang van a deze taps wordt teruggekoppeld naar de most significant bit of left most bit.
@@ -21,16 +21,16 @@ Om taps te maken voor een LFSR moeten we ons aan volgende voorwaarden houden:
 ### Genereren van getallen
 Om getallen te kunnen genereren hebben we eerst een seed nodig. Dit is een waarde die we initieel aanleggen op het schuifregister.
 
-Als de seed hetzelfde is voor 2 aparte schuifregisters zal hun output ook altijd hetzelfde zijn. Het is dus belangrijk dta we de seed ook vrij willekeurig kiezen.
+Als de seed hetzelfde is voor 2 aparte schuifregisters zal hun output ook altijd hetzelfde zijn. Het is dus belangrijk dat we de seed ook vrij willekeurig kiezen.
 
 ### Bronnen
 * [Wikipedia](https://en.wikipedia.org/wiki/Linear-feedback_shift_register)
 * Digitale Elektronica 4de editie - Koen Lostrie (ISBN 978 90 382 2297 4)
 
 ## Bresenham
-Bresenham is een familie van line drawing algoritmes die gebasseerd zijn op het line drawing algoritme van Bresenham. Het is een algoritme dat nog veel gebruikt wordt in moderne graphische kaarten en graphische software libraries.
+Bresenham is een verzamelnaam voor line drawing algoritmes die gebasseerd zijn op het line drawing algoritme van Bresenham. Het is een algoritme dat nog veel gebruikt wordt in moderne graphische kaarten en graphische software libraries.
 
-Bresenham wordt gebruikt omdat we geen 'echte' lijnen kunnen teken op een computerscherm. Deze bestaan uit allemaal kleine virkantjes (pixels) en zijn dus niet oneindig klein.
+Bresenham wordt gebruikt omdat we geen 'echte' lijnen kunnen teken op een computerscherm. Deze bestaan uit allemaal kleine vierkantjes (pixels) en zijn dus niet oneindig klein.
 
 ### Error based Bresenham
 Omdat we in de FPGA niet kunnen delen met alle getallen en al zeker niet makkelijk reëele getallen kunnen gebruiken, gebruiken we dus een error based Bresenham algoritme. Op wikipedia vinden we volgende pseudo code:
