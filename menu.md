@@ -3,6 +3,7 @@
 {{sitetitle}}
 * [Home](/)
 * [Meewerken](/meewerken)
+* [Contact](/contact)
 * [Privacy](/privacy)
 
 Bachelor 1
