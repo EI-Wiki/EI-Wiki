@@ -31,7 +31,7 @@ end process pNaam;
 1. Flip flops worden beschreven met een synchroon proces.
 2. De sensitivity list van dat proces moet exact bevatten:
    * Het kloksignaal
-   * Alle asynchrone ingangen (set, reset, clock enable)
+   * Eventueel asynchrone ingangen (set, reset, clock enable)
 
 Voorbeeld:
 
