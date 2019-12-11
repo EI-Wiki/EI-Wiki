@@ -33,7 +33,8 @@ public class TestClass
 ```
 
 ## Asserts
-Assert methods kijken zoals if statements of een conditie klopt. Enkel als asserts een valse conditie meekrijgen stoppen ze de test en verklaren ze de hele test vals.
+Assert methods kijken zoals if statements of een conditie klopt. Enkel als asserts een valse conditie meekrijgen stoppen ze de test en verklaren ze de hele test vals.  
+Om van de Asserts gebruikt te maken, moet de library eerst geïmport worden. In JUnit 4 is dit `org.junit.Assert.*` , in JUnit 5: `org.junit.jupiter.api.Assertions.*`
 
 Er zijn verchillende assert methods hier zijn er een paar:
 
