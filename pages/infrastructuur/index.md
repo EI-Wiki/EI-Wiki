@@ -8,7 +8,7 @@ Het doel van deze wiki voor infrastructuur is om de voorbereiding zo duidelijk m
 
 ### Voorbereidingen
 
-* [Lab 1 - Inleiding IOS, routing en switching](lab1)
+* [Lab 1 - Inleiding IOS, routing en switching](infrastructuur/lab1)
 * [Lab 2 - Layer 2 switching en layer 3 routering]()
 * [Lab 3 - Spanning tree protocol]()
 * [Lab 4 - VLAN's en VLAN trunking]()
@@ -19,4 +19,4 @@ Het doel van deze wiki voor infrastructuur is om de voorbereiding zo duidelijk m
 
 ### Cheatsheet
 
-* [Cheatsheet](cheatsheet)
+* [Cheatsheet](infrastructuur/cheatsheet)
