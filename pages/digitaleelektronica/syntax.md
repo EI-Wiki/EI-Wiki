@@ -126,6 +126,7 @@ end loop;
 ## Components
 ### Entities
 In elke vhdl file beschrijven we een entity en een architeture van onze entity. Deze zouden we kunnen vergelijken met klassen uit programmeertalen. Waarbij we in de architecture onze methods maken (processen) en erbuiten onze fields (signalen).
+
 ### Ports & Generics
 #### Ports
 Ports zijn de in- en outputs van je entiteit/component.
@@ -150,7 +151,18 @@ Een component is niet meer dan een link naar een andere entity uit ons project. 
 
 Zo kunnen we een component aanmaken om hsyncs en vsyncs te maken om ons scherm aan te sturen, terwijl we in onze top level (bovenste entity) kunnen zeggen welke kleuren we moeten displayen op een coordinaat.
 
-Een component heeft meestal de volgende structuur:
+Om een component te gebruiken moet je eerst de entiteit beschrijven (welke inputs, outputs en/of generics dit component heeft). Dit doe je op de volgende manier (dit bevind zich na de architecture van je overkoepelende component):
+
+```vhdl
+component <component name> 
+generic(generic1 : integer :=10,
+        generic2 : integer :=5);
+port( port1 : in STD_LOGIC;
+      port2 : out STD_LOGIC);
+end component;
+```
+
+Een component heeft meestal de volgende structuur (dit bevind zich na het ``begin`` van het overkoepelend component):
 ```vhdl
 <component name>:<entity>
 Port map(
@@ -171,5 +183,6 @@ Port map(
     port2 => <waarde/signaal>
 );
 ```
+
 ### Handige link
 Hier is nog een informatieve link met een powerpoint die alles mooi demonstreert: [PPT VHDL Portmapping example](http://telescript.denayer.wenk.be/~kvb/Labo_Digitale_Synthese/vhdl_portmapping_example.pdf).
