@@ -1,4 +1,4 @@
-# [Java](/java)/Syntax
+# Syntax
 
 ## Code syntax
 Java heeft een specifieke manier van code schrijven. In vergelijking met Python, moet je na elke lijn van code een `;` schrijven. Dit doe je om een lijn van code te beëindigen. Als je dit niet doet, zullen de meeste IDE's daar een error geven.

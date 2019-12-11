@@ -1,4 +1,4 @@
-# [Digitale Elektronica](/digitaleelektronica/)/Vivado
+# Vivado
 ## Waar vind ik wat?
 De sources bevinden zich in projectnaam/projectnaam.srcs  
 Er worden 3 soorten sources gebruikt:

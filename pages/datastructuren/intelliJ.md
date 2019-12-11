@@ -1,2 +1,1 @@
-
-# [Datastructuren](/datastructuren)/IntelliJ
+# IntelliJ

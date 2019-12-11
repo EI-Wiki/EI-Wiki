@@ -1,4 +1,4 @@
-# [Digitale Elektronica](/digitaleelektronica)/Regels
+# Regels
 ## Regels voor een combinatorisch proces
 1. Alle signalen die gelezen worden, moeten in de sensitivity list staan  
   voorbeeld:

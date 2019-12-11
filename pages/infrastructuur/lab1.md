@@ -1,4 +1,4 @@
-# [Infrastructuur](/infrastructuur)/Lab 1
+# Lab 1
 
 ## Voor te bereiden
 

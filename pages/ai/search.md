@@ -1,2 +1,2 @@
-# [AI](/ai)/Searching
+# Searching
 

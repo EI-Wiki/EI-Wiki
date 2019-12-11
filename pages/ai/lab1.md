@@ -1,7 +1,7 @@
 <!--
 {"indexdepth":1}
 -->
-# [AI](/ai)/Lab 1 - Searching
+# Lab 1 - Searching
 
 ## Introductie
 

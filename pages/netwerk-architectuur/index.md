@@ -1,5 +1,5 @@
 
-# /Netwerk Architectuur
+# Netwerk Architectuur
 ## Inhoudsopgave
 * Linux
     * [Mappen & Bestanden](/mappen-bestanden)

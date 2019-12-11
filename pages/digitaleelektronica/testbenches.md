@@ -1,4 +1,4 @@
-# [Digitale Elektronica](/digitaleelektronica)/Testbenches
+# Testbenches
 ## Het nut van simuleren
 Simuleren lijkt in de ogen van veel studenten volstrekt nutteloos, maar kan soms echt goed van pas komen. Hier zijn enkele redenen waarom we beter simuleren dan implementeren:
 

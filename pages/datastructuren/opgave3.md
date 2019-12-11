@@ -1,4 +1,4 @@
-# [Datastructuren](/datastructuren)/Opgave 3
+# Opgave 3
 
 ## 0. Project aanmaken
 In IntelliJ maak een nieuw project an gebruik als template (2de pagina) een 'Console Application'.

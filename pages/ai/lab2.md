@@ -1,7 +1,7 @@
 <!--
 {"indexdepth":1}
 -->
-# [AI](/ai)/Lab 2 - Reinforcement Learning
+# Lab 2 - Reinforcement Learning
 
 ## Introductie
 

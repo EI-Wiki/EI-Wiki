@@ -1,4 +1,4 @@
-# [Java](/java)/Collecties
+# Collecties
 
 ## Arrays
 ### Definiëren
