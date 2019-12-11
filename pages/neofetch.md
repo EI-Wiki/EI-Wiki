@@ -2,7 +2,7 @@
 {"noindex": true}
 -->
 
-# logo
+# Neofetch
 
 
 <font size="3">
