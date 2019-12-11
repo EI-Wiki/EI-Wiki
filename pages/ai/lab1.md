@@ -115,8 +115,7 @@ Functie | Input | Returnt | Uitleg
 `problem.isGoalSate(state)` | state = (x, y) | [Boolean] | Als de state die je meegeeft die goal is, zal je `True` krijgen, anders `False`
 `problem.getSuccessors(state)` | state = (x, y) | Een array van tuples: (successor, action, cost) | Hier wordt een array gereturnt. In deze array zitten tuples van alle legale moves die gedaan kunnen worden vanuit `state`. De tuple bevat 3 variabelen: de nieuwe state, de actie die uitgevoerd moet worden om daar te geraken en de kost.
 `problem.getCostOfActions(state, actions)` | state = (x, y) [Tuple], actions = array van acties | cost [int] | Je zal de kost van de acties die je meegeeft terugkrijgen als je start in `state`. Als je een illegale move maakt, zal 999999 gereturnt worden.
-
-
+<p/>
 #### Uiteindelijke pad
 
 Op het einde van je functie, als je de goal gevonden hebt, zal je een array van actions moeten returnen. Je kan de actions gebruiken die je krijgt van `problem.getSuccessors(state)`.
