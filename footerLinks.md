@@ -1,0 +1,7 @@
+* [Home](/)
+* [Contact](/contact)
+* [Privacy](/privacy)
+* [Meewerken](/meewerken)
+* [Thema's](/themes)
+* [Github](https://github.com/WatcherWhale/EI-Wiki)
+* [EasyWiki](https://github.com/EasyWiki)
