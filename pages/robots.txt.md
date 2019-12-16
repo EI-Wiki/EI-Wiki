@@ -2,7 +2,6 @@
 {"noindex": true}
 -->
 # <i class="fas fa-robot"></i> Beep Boop!
-## You are a noob.
 
                                                                                                     
                                                                                                     
