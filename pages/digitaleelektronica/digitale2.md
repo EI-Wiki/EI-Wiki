@@ -69,13 +69,16 @@ Clock domain crossing (cdc) is het het overzetten van data naar een blok met een
 ### Oplossingen
 Om metastabiele toestanden te vermijden zijn er enkele oplossingen:
 * Dubbel floppen
+
 Je kan de signalen 2 keer door een flip flop sturen die op de eind klok loopt. De eerste flip flop is meta stabiel en kunnen we van de waarde niet zeker zijn. De tweede weten we zeker dat deze de juist waarde geeft.
 
 * Signalen stretchen
+
 Soms zal ons trager domein de signalen van de sneller blok missen. 
 Om dit op te lossen kunnen we signalen stretchen, als we een signaal 2 keer zoalg als de lengte van de periode van het traag klok domein aanleggen, kunnen we zeker zijn dat het signaal ontvangen os door het traag klokdomein.
 
 * Tussen de klokdomeinen een fifo plaatsen
+
 Deze oplossing geldt in beide richtingen (traag <-> snel).
 
 ### Bronnen
