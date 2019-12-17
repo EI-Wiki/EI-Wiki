@@ -11,3 +11,6 @@
 * [Testbenches](/digitaleelektronica/testbenches)
     * [Zelftestende Testbenches](/digitaleelektronica/testbenches#zelftestende-testbenches-digitale-elektronica-2)
 * [Packages](/digitaleelektronica/packages)
+* Informatie Bronnen
+    * [Digitale 1]()
+    * [Digitale 2](/digitaleelektronica/digitale2)

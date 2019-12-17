@@ -1,4 +1,4 @@
-# Algoritmes
+# Digitale Elektronica 2 (Hulp bij opdrachten)
 ## LFSR (Lineair-Feedback Shift Register)
 
 Lineair-Feedback Shift Register of kort LFSR is een algoritme dat gebruikt wordt om psuedo random waardes te genereren gebruik makende van een schuifregister.
@@ -61,3 +61,22 @@ We hebben een soort error (`err`) die zegt hoe hard we uitwijken van de lijn en 
 
 ### Bronnen
 * [Wikipedia](https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm#All_cases)
+
+## Clock Domain Crossing
+
+Clock domain crossing (cdc) is het het overzetten van data naar een blok met een andere klokfrquentie. CDC is lastig want we kunnen setup en holdtimes niet verzekeren bij de overgang en dit kan leiden tot metastabiele toestanden.
+
+### Oplossingen
+Om metastabiele toestanden te vermijden zijn er enkele oplossingen:
+* Dubbel floppen
+Je kan de signalen 2 keer door een flip flop sturen die op de eind klok loopt. De eerste flip flop is meta stabiel en kunnen we van de waarde niet zeker zijn. De tweede weten we zeker dat deze de juist waarde geeft.
+
+* Signalen stretchen
+Soms zal ons trager domein de signalen van de sneller blok missen. 
+Om dit op te lossen kunnen we signalen stretchen, als we een signaal 2 keer zoalg als de lengte van de periode van het traag klok domein aanleggen, kunnen we zeker zijn dat het signaal ontvangen os door het traag klokdomein.
+
+* Tussen de klokdomeinen een fifo plaatsen
+Deze oplossing geldt in beide richtingen (traag <-> snel).
+
+### Bronnen
+* https://youtu.be/eyNU6mn_-7g
