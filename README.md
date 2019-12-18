@@ -19,6 +19,7 @@ De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel 
 * [Pierre Franck](https://github.com/pixar02)
 * [Tom De bruyn](https://github.com/TomD011099)
 * [Wout Van Uytsel](https://github.com/Wocco)
+* [Joos Van Esbroeck](https://github.com/JokerIsMyBae)
 
 
 ## Zelf meewerken?
