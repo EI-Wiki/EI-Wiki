@@ -4,3 +4,4 @@
 *.md linguist-documentation=false
 *.md linguist-detectable=true
 _includes/* linguist-vendored
+docker* linguist-vendored
