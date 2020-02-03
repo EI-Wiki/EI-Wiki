@@ -35,7 +35,7 @@ private void printInfo(String name, int age){
 ```
 
 #### Methode returns
-Je kan ook eem methode maken om een waarde te krijgen. Een methode kan maar 1 waarde terug geven. Maar omdat Java een Objectgeoriënteerd taal is kan je dus wel een object terug geven. (als er geen waarde wordt terug geven scrhijven we void)
+Je kan ook eem methode maken om een waarde te krijgen. Een methode kan maar 1 waarde teruggeven. Maar omdat Java een Objectgeoriënteerd taal is kan je dus wel een object teruggeven. (als er geen waarde wordt teruggegeven scrhijven we `void`)
 ```java
 public String getName(){
     return .... ;
@@ -54,7 +54,7 @@ public Integer calculate(int A, int B){
 
 ## Conditions
 ### if statement
-De `if` statement wordt gebruikt op te kijken of iets waar is. Als je wilt kijken of iemand ouder is dan 16 jaar, doe dan dit... Kan je dat met een if statement doen.
+De `if` statement wordt gebruikt op te kijken of een conditie waar is. Als je wilt kijken of iemand ouder is dan 16 jaar, doe dan dit... Kan je dat met een if statement doen.
 ```java
 if (age > 16) {
 ...
