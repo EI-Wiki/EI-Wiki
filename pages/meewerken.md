@@ -1,5 +1,9 @@
 # Meewerken
 
+## Onze vooruitgang volgen
+Als je onze vooruitgang wil volgen kan dit via [Trello](https://trello.com/b/uzsRJgon/ei-wiki).
+Bij het aanvragen van bepaalde vakken kan je misschien eerst hier kijken of we er al niet aan bezig zijn.
+
 ## Fouten melden
 Fouten melden kan zeer simpel in de [issues pagina](https://github.com/WatcherWhale/EI-Wiki/issues).
 Uw issue wordt nagekeken en daarna verwerkt door de onderhouders of door een pull request.
