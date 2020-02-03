@@ -14,13 +14,13 @@ Als je graag wiskundige formules of uitdrukkingen wilt typen op de wiki gaat dat
 ## Forken van de wiki
 Een fork is een git repository die alle code kopieert van de echte repository. Je kan hier dan je eigen wijzigen aanbrengen en daarna een [pull request](#pull-request) maken.
 
-Om de wiki te forken gebruik je deze link: [Fork EI-Wiki](https://github.com/WatcherWhale/EI-Wiki/fork). Je kan de EI-Wiki ook forken foor op de fork knop te drukken op [github](https://github.com/WatcherWhale/EI-Wiki/).
+Om de wiki te forken gebruik je deze link: [Fork EI-Wiki](https://github.com/WatcherWhale/EI-Wiki/fork). Je kan de EI-Wiki ook forken door op de fork knop te drukken op [github](https://github.com/WatcherWhale/EI-Wiki/).
 
 ## Pull Request
-Een pull request is een request om je gewijzigde code toe te voegen aan de orginele repository. Deze zal dan goedgekeurd worden door de onderhouders.
+Een pull request is een request om je gewijzigde code toe te voegen aan de orginele repository. Deze wordt dan goedgekeurd door de onderhouders.
 
 Elke pull request moet een logische naam bevatten en moet zeker te wijzigen zijn door de onderhouders, bij gebrek van één van deze voorwaarden, wordt de pull request automatisch geweigerd.
-Af en toe wordt de pull request niet aanvaard worden en zal een onderhouder een comment plaatsen over wat nog moet gebeuren of aangepast worden, zorg dat deze aanpassingen zo snel mogelijk worden toegepast.
+Af en toe wordt de pull request niet aanvaard en zal een onderhouder een comment plaatsen over wat nog moet gebeuren of aangepast worden, zorg dat deze aanpassingen zo snel mogelijk worden toegepast.
 
 Bij veelvuldig goede pull requests te maken wordt je een vertrouweling en zullen we je waarschijnlijk vragen om deel te worden van het team van onderhouders.
 
@@ -32,7 +32,7 @@ Makdown is een zeer simpele opmaaktaal die zeer leesbaar is. Makdown files hebbe
 
 ### Algemene Regels
 #### 1. Titels
-Elke pagina heeft een grote titel titel die volgende structuur heeft:
+Elke pagina heeft een grote titel die de volgende structuur heeft:
 ```md
 (Vak)[/vak]/Pagina Titel
 ```
@@ -57,12 +57,12 @@ Hier zijn enkele size classes om de grootte van de afbeelding te bepalen:
 Deze classes werken enkel op de wiki website.
 
 #### 3. Links toevoegen
-Elke link moet die naar een andere pagina op de wiki wijst moet met lowercase letters geschreven. Andere links moeten dit niet per noodzaak.
+Elke link moet die naar een andere pagina op de wiki wijst moet met lowercase letters geschreven worden. Andere links moeten dit niet per noodzaak.
 
 ## Latex
 Als je een wiskundige formule of uitdrukking wil noteren, kan je dit doen door middel van \\(\LaTeX\\). 
 
-Om een wiskundige formule midden in je regel wilt plaatsen type je eerst `\\(`
+Om een wiskundige formule midden in je regel wilt plaatsen typ je eerst `\\(`
 Om inline LaTex te typen gebruik je de volgend karakter om de latex formule te starten `\(` en om de formule eidigen `\)`. Voor een grote formule `$$` om te starten en te stoppen.
 
 $$Grote_{Formule}$$
