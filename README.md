@@ -1,6 +1,6 @@
 # EI-Wiki
-## ❗️ De EI-Wiki is verhuist ❗️
-**OPGEPAST**: We zijn verhuist. Je kan nu nog enkel naar de wiki surfen via [www.eiwiki.ga](https://www.eiwiki.ga).
+## ❗️ De EI-Wiki is verhuisd ❗️
+**OPGEPAST**: We zijn verhuisd. Je kan nu nog enkel naar de wiki surfen via [ei-wiki.uantwerpen.be](https://ei-wiki.uantwerpen.be).
 
 ## Introductie
 Na veel verwarring in het eerste jaar hebben een paar geëngageerde studenten besloten om een wiki te maken. De wiki waarop u zich nu bevindt. Hier kan je alles vinden over onze specifieke vakken.
