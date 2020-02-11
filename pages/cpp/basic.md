@@ -49,13 +49,91 @@ namespace namespaceName {
 
 ## Pointers en references
 
+## Functies
+
 ## Klasses
+
+C++ is een object georiënteerde taal en daarom is het maken van klasses een belangrijk onderdeel van de taal.
+
+Net als bij andere object georiënteerde taken bestaat een klasse uit velden en functies. Een object is een instantie van een klasse.
+
+Alle velden en functies hebben een bepaalde toegang die je bij het coderen van de klasse kan instellen. Er zijn drie niveaus:
+* Public: objecten van elke klasse kunnen aan deze velden/functies
+* Protected: enkel objecten van dezelfde klasse of subklassen
+* Private: enkel objecten van dezelfde klasse
+
+Als het niveau niet wordt gegeven, zal het automatich private gezet worden. Porbeer zo veel mogelijk te verstoppen om msbruik te voorkomen.
+
+### Structuur
+
+Een nieuwe klasse wordt als volgt gedefinieerd:
+
+```cpp
+class KlasseNaam {
+
+public:                     //Hier staan alle velden en functies die 'public' zijn
+    KlasseNaam();               //De constructor (bijna altijd public)
+    Klassenaam(int initNum);    //Meerdere constructors zijn mogelijk
+    int getNum();
+    virtual ~KlasseNaam();      //Dit is de destructor
+protected:                  //Hier staan alle velden en functies die 'protected' zijn
+    void setNum(int newNum);
+private:                    //Hier staan alle velden en functies die 'private' zijn (meestal staan alle velden hier en worden getters en setters gebruikt om ze te krijgen/aan te passen)
+    int num;
+}
+
+KlasseNaam::KlasseNaam() {
+    num = 0;
+}
+
+KlasseNaam::KlasseNaam(int initNum) {
+    num = initNum;
+}
+
+KlasseNaam::getNum() {
+    return num;
+}
+
+KlasseNaam::~KlasseNaam() {
+
+}
+
+KlasseNaam::setNum(int newNum) {
+    num = newNum;
+}
+```
+
+#### Constructor
+
+De constructor wordt gebruikt om de velden te initialiseren bij het maken van een object. Er kunnen meerdere constructors zijn in één klasse, deze worden dan uiteen gehaald door de data die meegegeven wordt.
+
+<!--
+Is er een verschil tussen a{} en a = KlasseNaam()?
+-->
+Gebruik:
+```cpp
+KlasseNaam a{};                         //Expliciete call naar de standaard constructor
+
+KlasseNaam b{5};                        //Expliciete call naar een andere constructor
+
+KlasseNaam c;                           //Impliciete call naar de standaard constructor
+
+KlasseNaam* d = new KlasseNaam(5);      //Expliciete call naar een andere constructor
+
+KlasseNaam* arr = new KlasseNaam[10];   //Impliciete call voor elk van de elementen
+```
+
+[//]: # (TODO: slide 45,46)
+
+#### Destructor
+
+[//]: # (TODO)
 
 ## Declaraties en definities
 
 In C++ wordt er met twee soorten bestanden gewerkt de .h (header) en de .cpp (code) bestanden.
-* In de .h bestanden wordt je klasse **gedeclareerd**, dwz elke variable en methode wordt opgelijst maar alleen met info over wat hun input en output is niet wat er gebeurt.
-* In de .cpp bestanden worden deze variabelen en methoden **gedefinieerd**. Hier wordt de werking van elke methode bestchreven.
+* In de .h bestanden wordt je klasse **gedeclareerd**, dwz elke variable en functie wordt opgelijst maar alleen met info over wat hun input en output is niet wat er gebeurt.
+* In de .cpp bestanden worden deze variabelen en functies **gedefinieerd**. Hier wordt de werking van elke functie bestchreven.
 
 Om deze declaratie in je code te krijgen, moet je de header bestanden includen in je bestand. Dit kan op twee manieren.
 ```cpp
