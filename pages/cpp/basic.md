@@ -33,6 +33,22 @@ In C++ zijn er al een hoop tools gemaakt om te gebruiken zonder dat je deze zelf
 
 Om deze tools te kunnen gebruiken moet je steeds `std::tool` (std::string, std::stack) gebruiken. Je kan ook gebruik maken van [namespaces](#namespaces) om dit niet te moeten doen.
 
+## Casting
+In C++ mogen we niet meer de standaard typecast maken (toch zeker in het vak 4-Geavanceerde Programmeertechnieken). We gebruiken de volgende casts in de plaats:
+
+* `const_cast<Type*>(expression)`: Veranderd het type van een expressie naar het hetzelfde type maar verwijderd of voegt de const flag toe.
+* `dynamic_cast<Type*>(expression)`: Veranderd het type van een expressie naar het gevraagde type.
+* `static_cast<Type*>(expression)`: Veranderd het type van een expressie naar het gevraagde type. (Verschil met dynamic is dat er geen runtime check wordt gemaakt)
+* `reinterpret_cast<Type*>(expression)`: Veranderd het type van een pointer naar dat van een andere pointer. Dit verzekerd enkel als je een expressie 2 keer reinterpret_cast (terug naar het zelfde type) dat je de zelfde waarde terugkrijgt.
+
+Voorbeeld deling van 2 int's.
+```cpp
+int a = 1;
+int b = 2;
+
+double divide = a / static_cast<double>(b);
+```
+
 ## Namespaces
 
 Namespaces kunnen gebruikt worden om logische groepen te maken. Ze worden vaak gebruikt om klasses in een groep te verzamelen. Bijvoorbeeld als je een game zou ontwikkeling ga je alles dat met audio verzamelen in een audio namespace etc.
@@ -74,8 +90,6 @@ std::cout << *aPtr;
 ```
 
 ### References
-
-## Functies
 
 ## Klasses
 
@@ -235,4 +249,5 @@ int Test::getNum() {
 }
 ```
 ## Bronnen
+* [Casting Operators](https://docs.microsoft.com/en-us/cpp/cpp/casting-operators?view=vs-2019)
 * [Inheritance in C++](https://www.geeksforgeeks.org/inheritance-in-c/)
