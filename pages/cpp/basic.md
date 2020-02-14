@@ -159,6 +159,25 @@ We moeten dit doen omdat C++ geen garbage collection heeft en gebruikt geheugen 
 
 Een destructor is best altijd virtual. Dit doen we omdat als we met overerving en polymorfisme gaan werken er hogere klasses zijn die meer geheugen gaan gebruiken dan de base klasse. Deze moet dan vrijgemaakt worden, maar als we virtual vergeten zijn in een base klasse gaat de compiler de destructor van de base klasse oproepen ipv de hogere klasse. Hierdoor zal er geheugen niet vrij gemaakt worden.
 
+### Overerving
+Net zoals in andere object geörienteerde programmeertalen bevat C++ ook overerving.
+
+Om een klasse te kunnen overerven gebruiken we volgende syntax:
+
+```cpp
+// Header file
+
+class Test : <public|protected|private> TestBase
+{
+    ...
+}
+```
+
+#### Access modes
+* `public`: Alle overgeërfde public velden blijven public in de child class. Private en protected overgeërfde velden blijven hetzelfde
+* `protected`: Alle overgeërfde public worden protected. Private en protected overgeërfde velden blijven hetzelfde
+* `private`: Alle overgeërfde velden worden nu private inde child klasse.
+
 ## Declaraties en definities
 
 In C++ wordt er met twee soorten bestanden gewerkt de .h (header) en de .cpp (code) bestanden.
@@ -215,4 +234,5 @@ int Test::getNum() {
     return num;
 }
 ```
-
+## Bronnen
+* [Inheritance in C++](https://www.geeksforgeeks.org/inheritance-in-c/)
