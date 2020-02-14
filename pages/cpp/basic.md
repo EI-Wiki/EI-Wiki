@@ -35,9 +35,9 @@ Om deze tools te kunnen gebruiken moet je steeds `std::tool` (std::string, std::
 
 ## Namespaces
 
-<!--Ik snap niet goed wat het nut is van namespaces vs klasses-->
+Namespaces kunnen gebruikt worden om logische groepen te maken. Ze worden vaak gebruikt om klasses in een groep te verzamelen. Bijvoorbeeld als je een game zou ontwikkeling ga je alles dat met audio verzamelen in een audio namespace etc.
 
-Namespaces kunnen gebruikt worden om logische groepen te maken. Ze kunnen als volgt gedefinieerd worden:
+Namespaces worden als volgt gedefinieerd:
 
 ```cpp
 namespace namespaceName {
