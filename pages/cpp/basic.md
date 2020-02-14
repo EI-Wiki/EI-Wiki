@@ -157,6 +157,8 @@ Een destructor wordt gebruikt om geïnitialiseerde velden te deinitialiseren. Di
 
 We moeten dit doen omdat C++ geen garbage collection heeft en gebruikt geheugen niet automatisch wordt verwijderd als het buiten gebruik valt zoals bij andere talen zoals java.
 
+Een destructor is best altijd virtual. Dit doen we omdat als we met overerving en polymorfisme gaan werken er hogere klasses zijn die meer geheugen gaan gebruiken dan de base klasse. Deze moet dan vrijgemaakt worden, maar als we virtual vergeten zijn in een base klasse gaat de compiler de destructor van de base klasse oproepen ipv de hogere klasse. Hierdoor zal er geheugen niet vrij gemaakt worden.
+
 ## Declaraties en definities
 
 In C++ wordt er met twee soorten bestanden gewerkt de .h (header) en de .cpp (code) bestanden.
