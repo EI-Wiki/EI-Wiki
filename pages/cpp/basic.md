@@ -45,9 +45,35 @@ namespace namespaceName {
 }
 ```
 
-[//]: # (TODO)
 
 ## Pointers en references
+### Pointers
+Pointers zijn variabelen die wijzen naar een geheugenplaats van een object.
+
+Om een pointer te definiëren voor een bepaald type gebruiken we de typenaam gevolgd door een `*`, bv. `int*` of `char*`.
+
+Als we de pointer van een variabele willen krijgen, zet je een `&` voor de variabele naam.
+
+```cpp
+int a = 500;
+
+// Dit is de pointer van a
+int* aPtr = &a;
+```
+
+Als we de waarde van het geheugen element willen krijgen zetten we een `*` voor de pointernaam:
+
+```cpp
+int a = 500;
+
+// Dit is de pointer van a
+int* aPtr = &a;
+
+// Dit print de waarde van a
+std::cout << *aPtr;
+```
+
+### References
 
 ## Functies
 
@@ -71,14 +97,14 @@ Een nieuwe klasse wordt als volgt gedefinieerd:
 ```cpp
 class KlasseNaam {
 
-public:                     //Hier staan alle velden en functies die 'public' zijn
+public:                         //Hier staan alle velden en functies die 'public' zijn
     KlasseNaam();               //De constructor (bijna altijd public)
     Klassenaam(int initNum);    //Meerdere constructors zijn mogelijk
     int getNum();
     virtual ~KlasseNaam();      //Dit is de destructor
-protected:                  //Hier staan alle velden en functies die 'protected' zijn
+protected:                      //Hier staan alle velden en functies die 'protected' zijn
     void setNum(int newNum);
-private:                    //Hier staan alle velden en functies die 'private' zijn (meestal staan alle velden hier en worden getters en setters gebruikt om ze te krijgen/aan te passen)
+private:                        //Hier staan alle velden en functies die 'private' zijn (meestal staan alle velden hier en worden getters en setters gebruikt om ze te krijgen/aan te passen)
     int num;
 }
 
@@ -127,7 +153,9 @@ KlasseNaam* arr = new KlasseNaam[10];   //Impliciete call voor elk van de elemen
 
 #### Destructor
 
-[//]: # (TODO)
+Een destructor wordt gebruikt om geïnitialiseerde velden te deinitialiseren. Dit betekend alle geheugen vrijmaken dat nog niet is vrijgemaakt.
+
+We moeten dit doen omdat C++ geen garbage collection heeft en gebruikt geheugen niet automatisch wordt verwijderd als het buiten gebruik valt zoals bij andere talen zoals java.
 
 ## Declaraties en definities
 
