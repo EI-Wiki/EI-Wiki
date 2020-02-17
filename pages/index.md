@@ -25,6 +25,7 @@ De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel 
 * [Datastructuren (Java)](/datastructuren)
 * [Digitale Elektronica (vhdl)](/digitaleelektronica)
 * [Netwerk Architectuur (Linux)](/netwerk-architectuur)
+* [Geavanceerde Programmeertechnieken](/cpp)
 
 ### Bachelor 3
 
