@@ -18,7 +18,7 @@ Functions
     Value return (30-31):
     Ref to functions (32): /
     Overloading (33): 
-Namespaces (34-40): ~
+Namespaces (34-40): 
 Classes (41-56):
 -->
 
