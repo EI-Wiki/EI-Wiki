@@ -1,7 +1,7 @@
 <!--
 Decl & Def (5, 24?): OK
-Pointers (6-7, 18):
-References (8-9):
+Pointers (6-7, 18): OK
+References (8-9): OK
 Variables and scope (12): /
 User defined types (13): /
 STL (14): OK
@@ -90,6 +90,21 @@ std::cout << *aPtr;
 ```
 
 ### References
+Een reference is een alias voor een bestaande variabele. Ze worden vaak verward met pointers, maar er zijn echter 3 grote verschillen:
+* Je kan geen NULL reference (een reference die naar niets wijst) hebben.
+* Je kan een reference niet naar een object verwijzen als het al is geïnitialseerd is.
+* Een reference moet geïnitialiseerd worden als het gecreerd wordt.
+
+**Voorbeeld**:
+```cpp
+int a;
+int& r = a;
+
+a = 5;
+
+// Output: '5=5'
+cout << a << "=" << r;
+```
 
 ## Klasses
 
@@ -249,5 +264,6 @@ int Test::getNum() {
 }
 ```
 ## Bronnen
-* [Casting Operators](https://docs.microsoft.com/en-us/cpp/cpp/casting-operators?view=vs-2019)
-* [Inheritance in C++](https://www.geeksforgeeks.org/inheritance-in-c/)
+* [Casting Operators](https://docs.microsoft.com/en-us/cpp/cpp/casting-operators?view=vs-2019) - Microsoft Docs
+* [Inheritance in C++](https://www.geeksforgeeks.org/inheritance-in-c/) - Geeks For Geeks
+* [C++ References](https://www.tutorialspoint.com/cplusplus/cpp_references.htm) - Tutorials Point
