@@ -18,10 +18,9 @@ Bachelor 2
 * [Datastructuren](/Datastructuren)
 * [Digitale Elektronica](/DigitaleElektronica)
 * [Netwerk Architectuur](/Netwerk-Architectuur)
+* [Geavanceerde Programmeertechnieken](/cpp)
 
 Bachelor 3
 
 * [AI](/AI)
 * [Netwerkinfrastructuur](/Infrastructuur)
-
-Master

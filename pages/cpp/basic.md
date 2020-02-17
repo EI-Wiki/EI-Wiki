@@ -12,10 +12,10 @@ Om deze tools te kunnen gebruiken moet je steeds `std::tool` (std::string, std::
 ## Casting
 In C++ mogen we niet meer de standaard typecast maken (toch zeker in het vak 4-Geavanceerde Programmeertechnieken). We gebruiken de volgende casts in de plaats:
 
-* `const_cast<Type*>(expression)`: Veranderd het type van een expressie naar het hetzelfde type maar verwijderd of voegt de const flag toe.
-* `dynamic_cast<Type*>(expression)`: Veranderd het type van een expressie naar het gevraagde type.
-* `static_cast<Type*>(expression)`: Veranderd het type van een expressie naar het gevraagde type. (Verschil met dynamic is dat er geen runtime check wordt gemaakt)
-* `reinterpret_cast<Type*>(expression)`: Veranderd het type van een pointer naar dat van een andere pointer. Dit verzekerd enkel als je een expressie 2 keer reinterpret_cast (terug naar het zelfde type) dat je de zelfde waarde terugkrijgt.
+* `const_cast<Type>(expression)`: Veranderd het type van een expressie naar het hetzelfde type maar verwijderd of voegt de const flag toe.
+* `dynamic_cast<Type>(expression)`: Veranderd het type van een expressie naar het gevraagde type.
+* `static_cast<Type>(expression)`: Veranderd het type van een expressie naar het gevraagde type. (Verschil met dynamic is dat er geen runtime check wordt gemaakt)
+* `reinterpret_cast<Type>(expression)`: Veranderd het type van een pointer naar dat van een andere pointer. Dit verzekerd enkel als je een expressie 2 keer reinterpret_cast (terug naar het zelfde type) dat je de zelfde waarde terugkrijgt.
 
 Voorbeeld deling van 2 int's.
 ```cpp
