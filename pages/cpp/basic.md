@@ -67,7 +67,7 @@ std::cout << *aPtr;
 ### References
 Een reference is een alias voor een bestaande variabele. Ze worden vaak verward met pointers, maar er zijn echter 3 grote verschillen:
 * Je kan geen NULL reference (een reference die naar niets wijst) hebben.
-* Je kan een reference niet naar een object verwijzen als het al is geïnitialseerd is.
+* Je kan een reference niet naar een object verwijzen als het al is geïnitialiseerd is.
 * Een reference moet geïnitialiseerd worden als het gecreerd wordt.
 
 ```cpp
@@ -174,7 +174,7 @@ class Test : <public|protected|private> TestBase
 #### Access modes
 * `public`: Alle overgeërfde public velden blijven public in de child class. Private en protected overgeërfde velden blijven hetzelfde
 * `protected`: Alle overgeërfde public worden protected. Private en protected overgeërfde velden blijven hetzelfde
-* `private`: Alle overgeërfde velden worden nu private inde child klasse.
+* `private`: Alle overgeërfde velden worden nu private in de child klasse.
 
 ## Declaraties en definities
 
