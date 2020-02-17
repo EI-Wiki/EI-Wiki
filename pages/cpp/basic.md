@@ -1,5 +1,5 @@
 <!--
-Decl & Def (5, 24?): OK
+Decl Def (5, 24?): OK
 Pointers (6-7, 18): OK
 References (8-9): OK
 Variables and scope (12): /
@@ -61,7 +61,6 @@ namespace namespaceName {
 }
 ```
 
-
 ## Pointers en references
 ### Pointers
 Pointers zijn variabelen die wijzen naar een geheugenplaats van een object.
@@ -95,7 +94,6 @@ Een reference is een alias voor een bestaande variabele. Ze worden vaak verward 
 * Je kan een reference niet naar een object verwijzen als het al is geïnitialseerd is.
 * Een reference moet geïnitialiseerd worden als het gecreerd wordt.
 
-**Voorbeeld**:
 ```cpp
 int a;
 int& r = a;
