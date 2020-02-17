@@ -1,32 +1,8 @@
-<!--
-Decl Def (5, 24?): OK
-Pointers (6-7, 18): OK
-References (8-9): OK
-Variables and scope (12): /
-User defined types (13): /
-STL (14): OK
-    Iterators (57-59):
-    Algorithms (60): /
-Expressions (15):
-    Operators (16-17):
-    Conversion (19-20):
-Statements (21-22):
-Iterations (23):
-Functions
-    Static vars (25-26):
-    Argument passing (27-29):
-    Value return (30-31):
-    Ref to functions (32): /
-    Overloading (33): 
-Namespaces (34-40): 
-Classes (41-56):
--->
-
 # Basic Concepts
 
 ## STL - The Standard Library
 
-In C++ zijn er al een hoop tools gemaakt om te gebruiken zonder dat je deze zelf moet coderen. Deze staan al standaard in de compiler <!--???--> en kunnen dus gewoon gebruikt worden. Hieronder een aantal handige tools:
+In C++ zijn er al een hoop tools gemaakt om te gebruiken zonder dat je deze zelf moet coderen. Deze staan al standaard in de compiler en kunnen dus gewoon gebruikt worden. Hieronder een aantal handige tools:
 * Containers zoals *vector*, *string*, *stack*, *queue*, *list*, *...*
 * Iteratoren
 * Algortimes om te sorteren, vergelijken, zoeken, ...
@@ -36,10 +12,10 @@ Om deze tools te kunnen gebruiken moet je steeds `std::tool` (std::string, std::
 ## Casting
 In C++ mogen we niet meer de standaard typecast maken (toch zeker in het vak 4-Geavanceerde Programmeertechnieken). We gebruiken de volgende casts in de plaats:
 
-* `const_cast<Type*>(expression)`: Veranderd het type van een expressie naar het hetzelfde type maar verwijderd of voegt de const flag toe.
-* `dynamic_cast<Type*>(expression)`: Veranderd het type van een expressie naar het gevraagde type.
-* `static_cast<Type*>(expression)`: Veranderd het type van een expressie naar het gevraagde type. (Verschil met dynamic is dat er geen runtime check wordt gemaakt)
-* `reinterpret_cast<Type*>(expression)`: Veranderd het type van een pointer naar dat van een andere pointer. Dit verzekerd enkel als je een expressie 2 keer reinterpret_cast (terug naar het zelfde type) dat je de zelfde waarde terugkrijgt.
+* `const_cast<Type>(expression)`: Veranderd het type van een expressie naar het hetzelfde type maar verwijderd of voegt de const flag toe.
+* `dynamic_cast<Type>(expression)`: Veranderd het type van een expressie naar het gevraagde type.
+* `static_cast<Type>(expression)`: Veranderd het type van een expressie naar het gevraagde type. (Verschil met dynamic is dat er geen runtime check wordt gemaakt)
+* `reinterpret_cast<Type>(expression)`: Veranderd het type van een pointer naar dat van een andere pointer. Dit verzekerd enkel als je een expressie 2 keer reinterpret_cast (terug naar het zelfde type) dat je de zelfde waarde terugkrijgt.
 
 Voorbeeld deling van 2 int's.
 ```cpp
@@ -160,9 +136,6 @@ KlasseNaam::setNum(int newNum) {
 
 De constructor wordt gebruikt om de velden te initialiseren bij het maken van een object. Er kunnen meerdere constructors zijn in één klasse, deze worden dan uiteen gehaald door de data die meegegeven wordt.
 
-<!--
-Is er een verschil tussen a{} en a = KlasseNaam()?
--->
 Gebruik:
 ```cpp
 KlasseNaam a{};                         //Expliciete call naar de standaard constructor
@@ -175,8 +148,6 @@ KlasseNaam* d = new KlasseNaam(5);      //Expliciete call naar een andere constr
 
 KlasseNaam* arr = new KlasseNaam[10];   //Impliciete call voor elk van de elementen
 ```
-
-[//]: # (TODO: slide 45,46)
 
 #### Destructor
 
