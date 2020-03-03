@@ -11,12 +11,18 @@ We doen dit zodat je niet verdwaalt in de over gecompliceerde antwoorden die op 
 De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel jij je geschikt om mee te werken, aarzel dan niet om iemand van de onderhouders aan te spreken.
 
 ## Vakken
+### Programmeertalen
+* [C++](/cpp)
+* [Java](/java)
+* [Python](/python)
+
 ### Bachelor 1
 
 * [Analoge Elektronica 1](/analoge1)
 * [Computer Netwerken (Windows)](/computer-netwerken)
 * [Digitale Elektronica (vhdl)](/digitaleelektronica)
-* [Informatica (Python)](/informatica)
+* [Informatica (Python)](/python)
+* [Object Georiënteerd Programmeren (C++)](/cpp)
 * [Object Georiënteerd Programmeren (Java)](/java)
 
 ### Bachelor 2
