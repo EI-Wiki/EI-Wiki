@@ -4,13 +4,16 @@
 * [Home](/)
 * [Meewerken](/meewerken)
 
+Programmeer talen
+* [C++](/cpp)
+* [Java](/java)
+* [Python](/python)
+
 Bachelor 1
 
 * [Analoge Elektronica 1](/analoge1)
 * [Computer Netwerken](/Computer-Netwerken)
 * [Digitale Elektronica](/DigitaleElektronica)
-* [Informatica](/Informatica)
-* [Java](/Java)
 
 Bachelor 2
 
@@ -18,7 +21,6 @@ Bachelor 2
 * [Datastructuren](/Datastructuren)
 * [Digitale Elektronica](/DigitaleElektronica)
 * [Netwerk Architectuur](/Netwerk-Architectuur)
-* [Geavanceerde Programmeertechnieken](/cpp)
 
 Bachelor 3
 

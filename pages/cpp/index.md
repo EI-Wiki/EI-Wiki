@@ -1,10 +1,10 @@
-# Geavanceerde programmeertechnieken
+# C++
 
 ## Inhoudsopgave
 
-* [Basic concepts](/cpp/basic)
+* [Syntax](/cpp/syntax)
 
-* [Coding conventions](/cpp/conventions)
+* [Coding conventions (4-Geavanceerde Programmeertechnieken)](/cpp/conventions)
 
 ## Handige Links
 
