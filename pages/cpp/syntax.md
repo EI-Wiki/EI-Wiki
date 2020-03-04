@@ -1,4 +1,4 @@
-# Basic Concepts
+# Syntax
 
 ## STL - The Standard Library
 
