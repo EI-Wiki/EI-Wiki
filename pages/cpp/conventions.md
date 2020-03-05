@@ -1,6 +1,7 @@
 # Coding conventions
 
-Om je code overzichtelijk te houden, zijn er een paar regels over hoe je sommige dingen moet schrijven. Hieronder worden de belangrijkste even opgenoemd voor C++.
+Om je code overzichtelijk te houden, zijn er naamgeving afspraken. Hieronder worden de belangrijkste voor C++ opgenoemd.
+(Hou ook rekening met het feit dat de compiler hoofdletter gevoelig / case-sensitieve is! )
 
 ## Taal
 

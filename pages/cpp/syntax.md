@@ -180,7 +180,7 @@ class Test : <public|protected|private> TestBase
 
 In C++ wordt er met twee soorten bestanden gewerkt de .h (header) en de .cpp (code) bestanden.
 * In de .h bestanden wordt je klasse **gedeclareerd**, dwz elke variable en functie wordt opgelijst maar alleen met info over wat hun input en output is niet wat er gebeurt.
-* In de .cpp bestanden worden deze variabelen en functies **gedefinieerd**. Hier wordt de werking van elke functie bestchreven.
+* In de .cpp bestanden worden deze variabelen en functies **gedefinieerd**. Hier wordt de werking van elke functie beschreven.
 
 Om deze declaratie in je code te krijgen, moet je de header bestanden includen in je bestand. Dit kan op twee manieren.
 ```cpp
