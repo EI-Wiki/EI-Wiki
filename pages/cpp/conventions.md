@@ -1,7 +1,7 @@
 # Coding conventions
 
 Om je code overzichtelijk te houden, zijn er naamgeving afspraken. Hieronder worden de belangrijkste voor C++ opgenoemd.
-(Hoe ook rekening met het feit dat de compiler hoofdletter gevoelig / case-sensitieve is! )
+(Hou ook rekening met het feit dat de compiler hoofdletter gevoelig / case-sensitieve is! )
 
 ## Taal
 
