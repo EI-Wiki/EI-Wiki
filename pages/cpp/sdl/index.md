@@ -8,8 +8,8 @@ De tutorials volgen een bepaalde volgorde maar zijn niet noodzakelijk om alles t
 
 ## Tutorials
 0. [C++ abstracties](/cpp/sdl/0-abtracties)
-    0.1. Abstract Factories
-    0.2. Singletons
+    1. Abstract Factories
+    2. Singletons
 1. [Windows & GameLoops](/cpp/sdl/1-gameloop)
 2. [Images, Textures & Renderers](/cpp/sdl/2-images)
 3. [Spritesheets](/cpp/sdl/3-spritesheets)
@@ -17,5 +17,5 @@ De tutorials volgen een bepaalde volgorde maar zijn niet noodzakelijk om alles t
 5. [Timers & Frame capping](/cpp/sdl/5-timers)
 6. [Object moving & Position Handling](/cpp/sdl/6-position)
 7. [C++ verdiepende abstracties](/cpp/sdl/7-abstracties2)
-    7.1. Lists & dynamic memory
-    7.2. Multi Threading
+    1. Lists & dynamic memory
+    2. Multi Threading
