@@ -7,7 +7,7 @@ In de volgende tutorials helpen we je door het doolhof van SDL en de toegevoegde
 De tutorials volgen een bepaalde volgorde maar zijn niet noodzakelijk om alles te kunnen begrijpen.
 
 ## Tutorials
-0. [C++ abstracties](/cpp/sdl/0-abtracties)
+0. [C++ abstracties](/cpp/sdl/0-abstracties)
     1. Abstract Factories
     2. Singletons
 1. [Windows & GameLoops](/cpp/sdl/1-gameloop)
