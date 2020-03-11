@@ -39,4 +39,4 @@ Download de voorbeeld code [hier](/media/cpp/sdl/code/0-2-singletons.zip).
 
 ## Bronnen
 * [Wikipedia - Software Design Patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
-*[Wikipedia - Singleton Pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
+* [Wikipedia - Singleton Pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
