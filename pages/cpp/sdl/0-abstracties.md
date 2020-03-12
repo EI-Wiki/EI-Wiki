@@ -25,7 +25,7 @@ In ons geval zullen we een abstracte factory maken om SDL specifieke klasses te 
 3. We roepen een method aan die gedefiniëerd staat in AObject, echter is deze method abstract (virtual). Doordat de method abstract is zal de method definitie van SDLObject gebrukt worden.
 
 ### Voorbeeld code:
-Download de voorbeeld code [hier](/media/cpp/sdl/code/0-1-abstractfactories.zip).
+Download de voorbeeld code [hier](https://github.com/EI-Wiki/SDL-Tutorials/tree/master/0-cpp-abstracties/0-1-abstract-factories).
 
 
 ## 0.2 Singletons
@@ -35,7 +35,7 @@ Een singleton is een software desing pattern dat het aantal instanties van een o
 
 ### Voorbeeld code
 
-Download de voorbeeld code [hier](/media/cpp/sdl/code/0-2-singletons.zip).
+Download de voorbeeld code [hier](https://github.com/EI-Wiki/SDL-Tutorials/tree/master/0-cpp-abstracties/0-2-singletons).
 
 ## Navigatie
 <a class="button is-info" href="1-gameloop">Volgende Tutorial</a>
