@@ -1,6 +1,6 @@
 # SDL
 ## Intro
-Tijdens de practica gaan we een videogame maken met de engine SDL. SDL is een abstractie bovenop de betergekende OpenGL is voornamelijk bedoeld voor het maken van 2D games.
+Tijdens de practica gaan we een videogame maken met de engine SDL. SDL is een abstractie bovenop de betergekende OpenGL en wordt voornamelijk gebruikt voor het maken van 2D games.
 
 In de volgende tutorials helpen we je door het doolhof van SDL en de toegevoegde moeilijkheid van abstracte factories en andere nuttige design patterns.
 
@@ -8,8 +8,9 @@ De tutorials volgen een bepaalde volgorde maar zijn niet noodzakelijk om alles t
 
 ## Tutorials
 0. [C++ abstracties](/cpp/sdl/0-abstracties)
-    1. Abstract Factories
-    2. Singletons
+    1. [Abstract Factories](/cpp/sdl/0-abstracties#0-1-abstract-factories)
+    2. [Singletons](/cpp/sdl/0-abstracties#0-2-singletons)
+
 1. [Windows & GameLoops](/cpp/sdl/1-gameloop)
 2. [Images, Textures & Renderers](/cpp/sdl/2-images)
 3. [Spritesheets](/cpp/sdl/3-spritesheets)
