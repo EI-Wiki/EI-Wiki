@@ -8,8 +8,9 @@ De tutorials volgen een bepaalde volgorde maar zijn niet noodzakelijk om alles t
 
 ## Tutorials
 0. [C++ abstracties](/cpp/sdl/0-abstracties)
-    1. Abstract Factories
-    2. Singletons
+    1. [Abstract Factories](/cpp/sdl/0-abstracties#0-1-abstract-factories)
+    2. [Singletons](/cpp/sdl/0-abstracties#0-2-singletons)
+
 1. [Windows & GameLoops](/cpp/sdl/1-gameloop)
 2. [Images, Textures & Renderers](/cpp/sdl/2-images)
 3. [Spritesheets](/cpp/sdl/3-spritesheets)
