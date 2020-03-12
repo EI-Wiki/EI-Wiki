@@ -14,6 +14,7 @@ Het praktijkdeel verloopt zelfstandig. De studenten krijgen een digitale cursus 
 Naast de verplichte labo's worden er ook 'open' labo's georganiseerd. Deze komen van pas als het deel van de vorige sessie niet binnen de tijd is afgeraakt of om uitbreidingen hierop te maken.  
 De inhoud van het praktijdeel is ook nog eens verdeeld in twee: [Windows Client](/computernetwerken/windows_client) en [Windows Server](/computernetwerken/windows_server). Op het einde van elk deel vindt er een geplande test plaats waarvan de punten meetellen voor het totaal voor dit vak.
 *  [Wat heb ik nodig?](/computernetwerken/benodigdheden)
+*  [Virtual Machines](/computernetwerken/virtual_machines)
 *  [Windows Client](/computernetwerken/windows_client)
 *  [Windows Server](/computernetwerken/windows_server)
 *  [Tips om vlotter te werken](/computernetwerken/tips)
