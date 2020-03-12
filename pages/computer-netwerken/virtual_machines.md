@@ -53,7 +53,7 @@ TIP: zorg dat je steeds een 'clean copy' VM hebt zodat je deze kan kopiëren en 
 Deze stap is zeer belangrijk want anders heeft de nieuwe VM hetzelde MAC-adres als de oude.
 
 ## VM network adapter instellingen
-* Bridged: de VM gedraagt zich als een aparte PC op het netwerk met een eigen IP etc. De VM kan dus net als een normale PC op het internet als het netwerk hieraan verbonden ligt en de VM een IP binnen het netwerk of een automatisch IP gebruikt.
+* Bridged: De VM gedraagt zich als een aparte PC op het netwerk met een eigen IP etc. De VM kan dus net als een normale PC op het internet als het netwerk hieraan verbonden ligt en de VM een IP binnen het netwerk of een automatisch IP gebruikt.
 * NAT: De VM deelt de netwerk instellingen van de host. In feite wordt er een virtueel privaat netwerk met de host als router opgezet waaraan de VM hangt. Langs buiten zien de host en de VM er uit als 1 identiteit.  
 De VM kan met het externe netwerk verbinden en dus internet gebruiken met de juiste IP instellingen. Bij default kunnen sytemen op het externe netwerk geen directe verbinding initiëren met de VM (bv. webpaginas hosten vanop de VM gaat dan niet).
 * Host-only: De host maakt binnenin een virtueel privaat netwerk (VPN) aan waarmee de VM's met Host-only setting verbonden zijn. VM's op deze VPN zijn normaal onzichtbaar voor systemen op de buitenwereld en kunnen hiermee dus standaard niet communiceren.
