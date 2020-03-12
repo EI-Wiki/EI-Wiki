@@ -1,6 +1,6 @@
 # SDL
 ## Intro
-Tijdens de practica gaan we een videogame maken met de engine SDL. SDL is een abstractie bovenop de betergekende OpenGL is voornamelijk bedoeld voor het maken van 2D games.
+Tijdens de practica gaan we een videogame maken met de engine SDL. SDL is een abstractie bovenop de betergekende OpenGL en wordt voornamelijk gebruikt voor het maken van 2D games.
 
 In de volgende tutorials helpen we je door het doolhof van SDL en de toegevoegde moeilijkheid van abstracte factories en andere nuttige design patterns.
 
