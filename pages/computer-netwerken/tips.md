@@ -9,6 +9,7 @@ Het hebben van een ready-to-go VM is zeer handig. Deze VM bevat al alle belangri
 * Google Chrome
 * WireShark
 * (Enkele voorgemaakte users)
+* firewalls uitgeschakeld
 
 ## Handige shortcuts
 ### In VmWare Player
