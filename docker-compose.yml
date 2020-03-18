@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    eiwiki:
+      image: watcherwhale/eiwiki
+      restart: always
+      ports: 
+        - "80:80"
+        - "443:443"
+      volumes: 
+        - ./logs:/var/easywiki/logs
+        - ./ssl:/var/easywiki/ssl
