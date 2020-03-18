@@ -1,9 +1,7 @@
-# Windows Client
-
 ## Er wordt nog aan dit vak gewerkt!
 De inhoud van dit vak wordt nog aangevuld en is dus niet compleet.  
 Meehelpen kan, ga naar [Meewerken](/meewerken) voor meer informatie.
-
+# Windows Client
 ## Disk Management
 * Partitie verkleinen: shrink volume
 * Partitie uibreiden: extend volume
