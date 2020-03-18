@@ -1,5 +1,8 @@
-# Practicum
-## Wat heb ik nodig?
+## Er wordt nog aan dit vak gewerkt!
+De inhoud van dit vak wordt nog aangevuld en is dus niet compleet.  
+Meehelpen kan, ga naar [Meewerken](/meewerken) voor meer informatie.
+
+# Wat heb ik nodig?
 ### Hardware
 Laptop: ondanks het feit dat er PC's aanwezig zijn in het labo, wordt aangeraden een eigen laptop mee te nemen. Degenen die toch geen laptop gebruiken kunnen een draagbare harde schijf (SSD) meenemen om hierop te werken met de voorziene PC's. 
 
