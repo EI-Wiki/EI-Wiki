@@ -12,7 +12,7 @@ Programmeer talen
 Bachelor 1
 
 * [Analoge Elektronica 1](/analoge1)
-* [Computer Netwerken](/Computer-Netwerken)
+* [Computernetwerken](/Computernetwerken)
 * [Digitale Elektronica](/DigitaleElektronica)
 
 Bachelor 2
@@ -20,7 +20,7 @@ Bachelor 2
 * [Analoge Elektronica 2](/analoge2)
 * [Datastructuren](/Datastructuren)
 * [Digitale Elektronica](/DigitaleElektronica)
-* [Netwerk Architectuur](/Netwerk-Architectuur)
+* [Netwerkarchitectuur](/Netwerkarchitectuur)
 
 Bachelor 3
 

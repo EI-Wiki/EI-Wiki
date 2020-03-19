@@ -19,7 +19,7 @@ De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel 
 ### Bachelor 1
 
 * [Analoge Elektronica 1](/analoge1)
-* [Computer Netwerken (Windows)](/computer-netwerken)
+* [Computernetwerken (Windows)](/computernetwerken)
 * [Digitale Elektronica (vhdl)](/digitaleelektronica)
 * [Informatica (Python)](/python)
 * [Object Georiënteerd Programmeren (C++)](/cpp)
@@ -30,7 +30,7 @@ De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel 
 * [Analoge Elektronica 2](/analoge2)
 * [Datastructuren (Java)](/datastructuren)
 * [Digitale Elektronica (vhdl)](/digitaleelektronica)
-* [Netwerk Architectuur (Linux)](/netwerk-architectuur)
+* [Netwerkarchitectuur (Linux)](/netwerkarchitectuur)
 * [Geavanceerde Programmeertechnieken (C++)](/cpp)
 
 ### Bachelor 3
