@@ -9,7 +9,7 @@ Het hebben van een ready-to-go VM is zeer handig. Deze VM bevat al alle belangri
 * Google Chrome
 * WireShark
 * (Enkele voorgemaakte users)
-* firewalls uitgeschakeld
+* Firewalls uitgeschakeld
 
 ## Handige shortcuts
 ### In VmWare Player
@@ -24,6 +24,6 @@ Het hebben van een ready-to-go VM is zeer handig. Deze VM bevat al alle belangri
 * ⊞+spatie: verander keyboard-layout (azerty<->qwerty)
 
 ## Nuttige taakbalk iconen
-Gooi alle programma's die niet vaak worden gebruikt (Edge, Windows Store...) van de taakbalk en bind veelgebruikte programma's (cmd, wireshark...) in de plaats.  
+Gooi alle programma's die niet vaak worden gebruikt (Edge, Windows Store...) van de taakbalk en bind veelgebruikte programma's (cmd, Wireshark...) in de plaats.  
  Dit kan via rechterklik op het icoon van het programma in de taakbalk > pin/unpin to taskbar.  
  Minimaliseer eventueel ook de zoekbalk: rechterklik op taakbalk > Search > Hidden.

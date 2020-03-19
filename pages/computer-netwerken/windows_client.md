@@ -4,7 +4,7 @@ Meehelpen kan, ga naar [Meewerken](/meewerken) voor meer informatie.
 # Windows Client
 ## Disk Management
 * Partitie verkleinen: shrink volume
-* Partitie uibreiden: extend volume
+* Partitie uitbreiden: extend volume
 * Partitie toevoegen: new simple volume  
 Als een partitie corrupted is kan deze gecontroleerd worden in cmd, bv:
 `chkdsk d: /r` voor de d schijf.
@@ -35,7 +35,7 @@ Kijk na dat de hosts in 'Bridged' staan.
 ### Virtueel met VM monowall router
 Download de 'monowall router 1 lab' van Blackboard.  
 Open ze als VM via VMware Player.  
-De router heeft standaard een netwerkaart in VMnet2. Gebruikt voor dit netwerk DGW 192.168.1.1 en voor de host een IP dat tot dit netwerk behoort. Stel de VM in op VMnet2.  
+De router heeft standaard een netwerkkaart in VMnet2. Gebruikt voor dit netwerk DGW 192.168.1.1 en voor de host een IP dat tot dit netwerk behoort. Stel de VM in op VMnet2.  
 De andere netwerkkaart van de router hangt in VMnet3 en vormt 192.168.3.1 als DGW. Pas hier dus het IP van de 2de host aan aan en steek ze in VMnet3.
 
 Problemen? Check firewalls, controleer IP via cmd.  
