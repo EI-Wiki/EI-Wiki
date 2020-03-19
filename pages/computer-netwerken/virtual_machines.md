@@ -14,7 +14,7 @@ Meehelpen kan, ga naar [Meewerken](/meewerken) voor meer informatie.
 4. Verander de max. grootte van de vm's harde schijf: 10-20GB.  
     Kies: "store virtual disk as single file"  
 5. Klik op finish.
-6. Rechterklik in MwPlayer op de VM, kies settings.
+6. Rechterklik in VMware Player op de VM, kies settings.
 7. Bij CD/DVD/SATA, kies: "use iso image file".
     Verwijs hiervoor naar de locatie van je w10 90d iso-file (online zijn er 90 dagen trial versies van windows 10 te vinden)
 8. Start de VM op.  
@@ -48,7 +48,7 @@ TIP: zorg dat je steeds een 'clean copy' VM hebt zodat je deze kan kopiëren en 
 ## Kopiëren van een virtual machine
 1. Kopieer de map van de VM.
 2. Verander de naam van de map.
-3. Klik in MwPlayer op "Open Virtual Machine" en navigeer naar de (nieuwe) map waar de gekopiëerde VM staat en selecteer de VM (naam.vmx).
+3. Klik in VMware Player op "Open Virtual Machine" en navigeer naar de (nieuwe) map waar de gekopiëerde VM staat en selecteer de VM (naam.vmx).
 4. BELANGRIJK: Start dan de VM op en selecteer "I copied it" wanneer men vraagt waar deze VM vandaan komt.  
 Deze stap is zeer belangrijk want anders heeft de nieuwe VM hetzelde MAC-adres als de oude.
 
