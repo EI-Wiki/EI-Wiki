@@ -7,9 +7,6 @@ Natuurlijk ga je hier niet de oplossingen voorgekauwd krijgen. Je zal dus nooit 
 Op de EI-Wiki is enkel informatie beschikbaar over dingen die we kunnen googlen of vinden op ons opgave blad.
 We doen dit zodat je niet verdwaalt in de over gecompliceerde antwoorden die op het internet te vinden zijn.
 
-## Corona vs EI-Wiki
-Als je problemen hebt met een vak of je wilt gezellig samen les volgen kom dan zeker naar onze discord [discord.gg/7XrhbBV](https://discord.gg/7XrhbBV).
-
 ## Onderhouders Gezocht
 De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel jij je geschikt om mee te werken, aarzel dan niet om iemand van de onderhouders aan te spreken.
 
@@ -22,7 +19,7 @@ De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel 
 ### Bachelor 1
 
 * [Analoge Elektronica 1](/analoge1)
-* [Computer Netwerken (Windows)](/computer-netwerken)
+* [Computernetwerken (Windows)](/computernetwerken)
 * [Digitale Elektronica (vhdl)](/digitaleelektronica)
 * [Informatica (Python)](/python)
 * [Object Georiënteerd Programmeren (C++)](/cpp)
@@ -33,7 +30,7 @@ De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel 
 * [Analoge Elektronica 2](/analoge2)
 * [Datastructuren (Java)](/datastructuren)
 * [Digitale Elektronica (vhdl)](/digitaleelektronica)
-* [Netwerk Architectuur (Linux)](/netwerk-architectuur)
+* [Netwerkarchitectuur (Linux)](/netwerkarchitectuur)
 * [Geavanceerde Programmeertechnieken (C++)](/cpp)
 
 ### Bachelor 3

@@ -3,7 +3,7 @@ De inhoud van dit vak wordt nog aangevuld en is dus niet compleet.
 Meehelpen kan, ga naar [Meewerken](/meewerken) voor meer informatie.
 # Virtual Machines
 ## Creëren van een virtual machine
-1. VmWare Player: klik op "Create New Virtual Machine". 
+1. VMware Player: klik op "Create New Virtual Machine". 
 2. Kies: "I will install OS later".  
     Kies: "microsoft Windows" en "Windows 10 x64".
 3. Geef een logische naam op, bv.: vm1feb2020.   
@@ -14,12 +14,12 @@ Meehelpen kan, ga naar [Meewerken](/meewerken) voor meer informatie.
 4. Verander de max. grootte van de vm's harde schijf: 10-20GB.  
     Kies: "store virtual disk as single file"  
 5. Klik op finish.
-6. Rechterklik in VmWare Player op de VM, kies settings.
+6. Rechterklik in VMware Player op de VM, kies settings.
 7. Bij CD/DVD/SATA, kies: "use iso image file".
     Verwijs hiervoor naar de locatie van je w10 90d iso-file (online zijn er 90 dagen trial versies van windows 10 te vinden)
 8. Start de VM op.  
     Druk op een toets als dit wordt gevraagd.  
-    Als dit niet wordt gevraagd, start de VM opnieuw op en spam tijdens het opstarten op een toets (dit kan meerdere pogingen vragen).
+    Als dit niet wordt gevraagd, start je de VM opnieuw op en spam tijdens het opstarten op een toets (dit kan meerdere pogingen vragen).
 9. Volg dan de windows installatie.  
     Taal: english-US  
     Keyboard: 'belgian period' = azerty, 'US internat.' = qwerty.  
@@ -46,9 +46,9 @@ Meehelpen kan, ga naar [Meewerken](/meewerken) voor meer informatie.
 TIP: zorg dat je steeds een 'clean copy' VM hebt zodat je deze kan kopiëren en niet steeds heel dit proces moet herhalen
 
 ## Kopiëren van een virtual machine
-1. Kopiëer de map van de VM.
+1. Kopieer de map van de VM.
 2. Verander de naam van de map.
-3. Klik in VmWare Player op "Open Virtual Machine" en navigeer naar de (nieuwe) map waar de gekopiëerde VM staat en selecteer de VM (naam.vmx).
+3. Klik in VMware Player op "Open Virtual Machine" en navigeer naar de (nieuwe) map waar de gekopiëerde VM staat en selecteer de VM (naam.vmx).
 4. BELANGRIJK: Start dan de VM op en selecteer "I copied it" wanneer men vraagt waar deze VM vandaan komt.  
 Deze stap is zeer belangrijk want anders heeft de nieuwe VM hetzelde MAC-adres als de oude.
 

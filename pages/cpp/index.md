@@ -4,10 +4,7 @@
 
 * [Syntax](/cpp/syntax)
 
-## 4-Geavanceerde Programmeertechnieken
-* [Coding conventions](/cpp/conventions)
-* [Sdl Tutorials (WIP)](/cpp/sdl)
-
+* [Coding conventions (4-Geavanceerde Programmeertechnieken)](/cpp/conventions)
 
 ## Handige Links
 
