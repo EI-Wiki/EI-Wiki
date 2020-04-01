@@ -7,6 +7,11 @@ Natuurlijk ga je hier niet de oplossingen voorgekauwd krijgen. Je zal dus nooit 
 Op de EI-Wiki is enkel informatie beschikbaar over dingen die we kunnen googlen of vinden op ons opgave blad.
 We doen dit zodat je niet verdwaalt in de over gecompliceerde antwoorden die op het internet te vinden zijn.
 
+## EI-Wiki vs. COVID-19
+In deze moeilijke tijden is contact houden met klasgenoten soms moeilijk. Kom zeker een kijkje nemen in onze discord met je vrienden om gezellig samen les te volgen, vragen te stellen aan elkaar en nog veel meer.
+
+Join hier: [discord.gg/7XrhbBV](https://discord.gg/7XrhbBV).
+
 ## Onderhouders Gezocht
 De EI-Wiki zoekt nog onderhouders voor de 1ste, 3de bachelor en de master. Voel jij je geschikt om mee te werken, aarzel dan niet om iemand van de onderhouders aan te spreken.
 
