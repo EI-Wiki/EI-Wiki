@@ -27,7 +27,7 @@ Je kan dit zeer simpel installeren op volgende manier:
 
 Voor een aangepaste versie meer gedoeld op snelle taken (zoals kleine portfolio's) is er ook nog een alternatieve versie van de uantwerpendocs course text versie. Deze maakt gebruik van de assets van het vorige pakket en deze moet dus ook geinstalleerd worden voordat deze werkt. 
 
-Je kan deze hier terugvinden.
+Je kan deze [hier](/media/templates/uantwerpenassignment.cls) terugvinden.
 
 Om deze stijl te installeren plaats je deze in je [texmf folder](https://miktex.org/kb/texmf-roots).
 
