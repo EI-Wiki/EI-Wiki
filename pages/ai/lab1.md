@@ -86,7 +86,7 @@ Functies:
 
 In deze opgave moet je `depthFirstSearch` implementeren in `search.py`.
 
-Meer info over depthFirstSearch vind je [hier]().
+<!--Meer info over depthFirstSearch vind je [hier]().-->
 
 [//]: # (TODO: add link)
 
@@ -105,6 +105,8 @@ python autograder.py -q q1
 
 ### Een aantal tips
 
+* Veel algoritmes die je online vindt returnen geen actions, maar enkel de eind state. Je kan dit misschien mee in je stack steken.
+
 #### Problem
 
 Je krijgt `problem` mee in de functie. Deze variabele is van de klasse `SearchProblem`. De functies die je kan toepassen op `problem` staan bovenaan in `search.py`. Voor de gemakkelijkheid heb ik de uitleg ook hier gezet, zo kan je onderstaande tabel ook gebruiken.
@@ -116,6 +118,7 @@ Functie | Input | Returnt | Uitleg
 `problem.getSuccessors(state)` | state = (x, y) | Een array van tuples: (successor, action, cost) | Hier wordt een array gereturnt. In deze array zitten tuples van alle legale moves die gedaan kunnen worden vanuit `state`. De tuple bevat 3 variabelen: de nieuwe state, de actie die uitgevoerd moet worden om daar te geraken en de kost.
 `problem.getCostOfActions(state, actions)` | state = (x, y) [Tuple], actions = array van acties | cost [int] | Je zal de kost van de acties die je meegeeft terugkrijgen als je start in `state`. Als je een illegale move maakt, zal 999999 gereturnt worden.
 <p/>
+
 #### Uiteindelijke pad
 
 Op het einde van je functie, als je de goal gevonden hebt, zal je een array van actions moeten returnen. Je kan de actions gebruiken die je krijgt van `problem.getSuccessors(state)`.
@@ -240,7 +243,7 @@ Je kan het grootste deel van `getStartState`, `isGoalState` en `getSuccessors` u
 
 Nu ga je een heuristiek moeten schrijven voor het `CornersProblem` in `cornersHeuristic`.
 
-Meer info over heuristieken vind je [hier]().
+<!--Meer info over heuristieken vind je [hier]().-->
 
 [//]: # (TODO: add link)
 
@@ -255,7 +258,10 @@ De hoeveelheid punten die je krijgt van de autograder hangen af van hoe efficië
 
 ### Een aantal tips
 
-...
+* Een goede heuristiek functie benaderd de afstand tot aan het eind doel op 2 manieren:
+    * Zo goed mogelijk
+    * Zo optimistisch mogelijk
+    * Bedenk dus een functie die zich aan die twee voorwaarden voldoet.
 
 [//]: # (TODO: add tips)
 
@@ -272,9 +278,9 @@ python autograder.py -q q7
 
 ### Een aantal tips
 
-...
-
-[//]: # (TODO: add tips)
+* De tip van opgave 7 geld nog steeds.
+* Zie dat je heuristiek functie niet heel het veld onderzoekt.
+* Het beste pad is van dicht naar ver.
 
 ## Opgave 8
 
