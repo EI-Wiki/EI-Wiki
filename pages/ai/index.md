@@ -14,4 +14,6 @@ Deze wiki is vooral bedoeld om jullie te helpen met het maken van de practica. O
 
 * [Extra info](/ai/extra)
 * [Lab 1 - Searching](/ai/lab1)
-* [Lab 2 - Reinforcement Learning](/ai/lab2)
+* [Lab 2 - Deep Learning](/ai/lab2)
+* [Lab 3 - Reinforcement Learning](/ai/lab3)
+* [Chess project](/ai/chess)
